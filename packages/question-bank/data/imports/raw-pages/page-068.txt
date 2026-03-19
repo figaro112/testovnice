@@ -1,0 +1,115 @@
+Zoznam otázok z oblasti: LF - Biológia / 
+69
+. strana
+617. Aký zákon sa uplatňuje v dedičnosti veľkých panmiktických populácií?
+A.
+Hardy-Weinbergov zákon
+B.
+Morganov zákon
+C.
+zákon Watsona a Cricka
+D.
+zákon o populačnej rovnováhe
+618. Populácia je z hľadiska prenosu genetickej informácie v rovnováhe:
+A.
+ak sa nemení frekvencia jednotlivých genotypov
+B.
+ak sa zachováva frekvencia jednotlivých alel
+C.
+keď ide o autogamnú populáciu
+D.
+keď nastane genetická izolácia populácie
+619. Aký je pravdepodobný počet dominantných homozygotov v panmiktickej populácii?
+A.
+p x p
+B.
+p
+2
+C.
+2pq
+D.
+q
+2
+620. Aký je pravdepodobný počet recesívnych homozygotov v panmiktickej populácii?
+A.
+p x p
+B.
+p
+2
+C.
+2pq
+D.
+q
+2
+621. Aký je pravdepodobný počet heterozygotov v panmiktickej populácii?
+A.
+p q
+2
+B.
+p + q
+C.
+(p x q) + (p x q)
+D.
+2pq
+622. Zastúpenie jednotlivých genotypov v panmiktickej populácii vyjadruje vzorec:
+A.
+p
+2 
++2pq + q
+2 
+=1
+B.
+p + q =1
+C.
+p
+2 
++ q
+2 
+=1
+D.
+p
+2 
+x q
+2  
+=1
+623. Ak má gén iba dve alternatívne formy, zastúpenie alel v panmiktickej populácii vyjadruje
+vzorec:
+A.
+p
+2 
++2pq + q
+2 
+=1
+B.
+p + q =1
+C.
+p
+2 
++ q
+2 
+=1
+D.
+p
+2 
+x q
+2  
+=1
+624. Platnosť Hardy-Weinbergovho zákona môže narušiť:
+A.
+výrazný pokles počtu plodných jedincov
+B.
+objavenie sa mutácií
+C.
+panmixia pri párení
+D.
+selekcia a migrácia
+625. V sledovanej populácii je frekvencia dominantnej alely „A“ 50% a recesívnej alely „a“ tiež 50%.
+Aké bude zastúpenie homozygotov recesívnych „aa“ v tejto populácii?
+A.
+25%
+B.
+50%
+C.
+0,5
+D.
+0,25

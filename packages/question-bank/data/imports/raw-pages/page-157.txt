@@ -1,0 +1,145 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+36
+. strana
+315. Mierou rozpustnosti látky je:
+A.
+koncentrácia jej nasýteného roztoku pri daných podmienkach
+B.
+dosiahnutie maximálneho osmotického tlaku roztoku
+C.
+hodnota rozpúšťacieho tepla danej látky (vo vode)
+D.
+množstvo tepla, ktoré sa uvoľní pri jej rozpúšťaní
+316. Nasýtený roztok soli vznikne ak:
+A.
+súčin koncentrácií voľných iónov soli v roztoku sa v rovnovážnom stave rovná jednej
+B.
+sa súčin rovnovážnych molárnych koncentrácií voľných iónov soli v roztoku umocnených ich
+stechiometrickými koeficientami rovná súčinu rozpustnosti danej látky
+C.
+v rovnovážnom stave je v roztoku koncentrácia rozpustenej soli a nerozpustenej látky vždy
+rovnaká
+D.
+za daných podmienok je v roztoku rozpustené maximálne množstvo látky dané hodnotou Ks
+317. Rozpustnosť AgCl v roztoku NaCl v porovnaní s destilovanou vodou:
+A.
+je znížená
+B.
+je zvýšená
+C.
+sa nezmení, NaCl rozpustnosť neovplyvní
+D.
+sa zmenší ak pridáme katióny Ag
++
+318. Pri určovaní množstva chloridov v moči možno použiť roztok:
+A.
+dusičnanu strieborného
+B.
+síranu sodného
+C.
+dusičnanu draselného
+D.
+Ag(NO
+3
+)
+2
+319. Z uvedených reakcií vyberte zrážacie reakcie:
+A.
+NaOH + HCl → NaCl + H
+2
+O
+B.
+Pb(NO
+3
+)
+2
+ + 2 KI → PbI
+2
+ + 2 KNO
+3
+C.
+Zn + CuSO
+4
+ → ZnSO
+4
+ + Cu
+D.
+2 NaHCO
+3
+ → Na
+2
+CO
+3
+ + H
+2
+O + CO
+2
+320. Pre hodnotu súčinu rozpustnosti K
+s
+ platí:
+A.
+K
+s
+ závisí len od teploty a typu rozpúšťanej látky
+B.
+čím je pri danej teplote hodnota K
+s
+ väčšia, tým je látka nerozpustnejšia
+C.
+charakterizuje rozpustnosť tuhých elektrolytov
+D.
+je konštanta, ktorá charakterizuje iónovú rovnováhu v roztokoch málo rozpustných
+elektrolytov
+321. Na základe známych hodnôt K
+s
+ pri teplote 25
+o
+C vyberte najlepšie rozpustnú látku:
+A.
+CaF
+2
+: Ks = 3,4.10
+-11
+B.
+AgCl: Ks = 8,3.10
+-17
+C.
+CaCO
+3
+: Ks = 4,5.10
+-9
+D.
+BaSO
+4
+: Ks = 1,4.10
+-10
+322. Vyberte správne výroky:
+A.
+v roztoku sa začne vylučovať zrazenina, ak súčin koncentrácií voľných iónov v roztoku bude
+rovný jednej
+B.
+čím je hodnota súčinu rozpustnosti menšia, tým je látka menej rozpustná
+C.
+látka sa vo vode rozpúšťa dovtedy, kým hodnota súčinu jej iónov v roztoku nedosiahne
+hodnotu iónového súčinu vody
+D.
+rozpustnosť danej látky môžeme ovplyvniť pridaním jedného z jej iónov do roztoku
+323. Pri danej teplote je najmenej rozpustná zlúčenina:
+A.
+AgBr:  ak Ks = 3,6 . 10
+-13
+B.
+Ag
+2
+CrO
+4
+: ak za daných podmienok je jeho rozpustnosť 3,32 . 10
+-2
+ g/l
+C.
+Ag
+2
+SO
+4
+: ak Ks = 7 . 10
+-5

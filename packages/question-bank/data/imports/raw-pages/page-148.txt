@@ -1,0 +1,120 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+27
+. strana
+234. Rovnovážny stav reakcie:
+A.
+je stav reakčnej sústavy, keď sa všetky reaktanty premenili na produkty
+B.
+je stav, pri ktorom je rýchlosť priamej a spätnej reakcie rovnaká
+C.
+charakterizuje rovnovážna konštanta K
+D.
+charakterizuje rýchlostná konštanta
+235. Hodnota rovnovážnej konštanty reakcie 4 KClO
+3
+ ↔ KCl + 3 KClO
+4  
+je daná vzťahom:
+A.
+K = 4 [ KClO
+3
+ ] / ( [ KCl ] + 3 [ KClO
+4
+] )
+B.
+K = ( [ KCl ].[ KClO
+4
+ ]
+3
+ ) / [ KClO
+3 
+]
+4
+C.
+K = ( [ KCl ] + [ KClO
+4
+ ]
+3
+ ) / [ KClO
+3
+]
+D.
+K = [ KClO
+3
+ ]
+4
+/ ( [ KCl ] . [KClO
+4
+ ]
+3 
+)
+236. Rovnovážna konštanta:
+A.
+sa vypočíta pomocou I. termochemického zákona
+B.
+závisí od typu reakcie a od teploty reakčného systému
+C.
+závisí vždy od tlaku v reakčnej zmesi
+D.
+ak je väčšia ako 10
+-2
+ udáva, že rovnováha je posunutá na stranu produktov
+237. Hodnota rovnovážnej konštanty K:
+A.
+sa vypočíta z Hessovho zákona
+B.
+sa vypočíta pomocou 1. kinetického zákona
+C.
+je podiel rýchlostnej konštanty priamej a spätnej reakcie
+D.
+závisí len od typu reakcie a od teploty
+238. Hodnota rovnovážnej konštanty K pre danú reakciu:
+A.
+sa mení vplyvom koncentrácie reaktantov
+B.
+sa mení zmenou tlaku pri reakcii plynných látok
+C.
+sa mení len vplyvom zmeny teploty
+D.
+sa nemôže meniť
+239. Posun chemickej rovnováhy:
+A.
+môžeme ovplyvňovať na základe le Chatelierovho princípu akcie a reakcie
+B.
+nemôže ovplyvniť zmena vonkajších faktorov, pretože rovnovážna konštanta K je konštantná
+C.
+môžeme vyvolať pridaním katalyzátora
+D.
+môžeme ovplyvniť na základe Arrheniovho princípu
+240. Vyberte, ktoré faktory môžu ovplyvňovať chemickú rovnováhu:
+A.
+tlak, teplota, katalyzátor, koncentrácia
+B.
+pH, teplota, koncentrácia
+C.
+veľkosť povrchu reaktantov, teplota, koncentrácia
+D.
+tlak, teplota, koncentrácia
+241. Vyberte faktory, ktoré v reakcii CaCO
+3 
+(s) ↔ CaO (s) + CO
+2 
+(g)  ∆Q > 0 posunú rovnovážny stav
+na stranu produktov:
+A.
+znížime teplotu
+B.
+odoberáme oxid uhličitý a CaO
+C.
+zvýšime teplotu
+D.
+pridáme produkty
+242. Ak sa z rovnovážnej zmesi odoberie produkt:
+A.
+zmení sa rovnovážna konštanta
+B.
+zníži sa rýchlosť priamej reakcie
+C.
+zvýši sa rýchlosť spätnej reakcie
+D.
+posunie sa rovnováha na stranu produktov

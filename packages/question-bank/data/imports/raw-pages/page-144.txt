@@ -1,0 +1,89 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+23
+. strana
+199. Oxidačné aj redukčné účinky má:
+A.
+HNO
+3
+B.
+H
+2
+S
+C.
+HClO
+D.
+HCl
+200. Reakčné teplo:
+A.
+je teplo, ktoré si sústava pri reakcii vymieňa s okolím
+B.
+vyjadrujeme v kJ/mol
+C.
+závisí od skupenstva reagujúcich látok a od teploty
+D.
+je teplo, ktoré treba dodať, aby látky mohli reagovať
+201. Reakčné teplo:
+A.
+závisí od aktivačnej energie
+B.
+súvisí s rýchlosťou chemickej reakcie
+C.
+je teplo, ktoré si reakčná sústava vymieňa s okolím
+D.
+závisí od spôsobu, akým prebieha chemická reakcia
+202. Hodnota reakčného tepla závisí:
+A.
+len od typu reagujúcich látok
+B.
+od veľkosti styčnej plochy reaktantov
+C.
+od aktivačnej energie
+D.
+od počiatočného a koncového energetického stavu reakcie
+203. Podľa 1. termochemického zákona pre reakčné teplo platí:
+A.
+reakčné teplo priamej a spätnej reakcie je podľa zákona zachovania energie vždy rovnaké
+B.
+reakčné teplo priamej a spätnej reakcie je až na znamienko rovnaké
+C.
+reakčné teplo priamej reakcie je rovnaké ako reakčné teplo čiastkových reakcií
+D.
+reakčné teplo vypočítame z rozdielu energií
+204. Podľa Hessovho zákona platí:
+A.
+reakčné teplo nezávisí od mechanizmu chemickej reakcie
+B.
+reakčné teplo priamej reakcie sa rovná súčtu reakčných tepiel čiastkových reakcií, ktorými
+daný produkt vzniká
+C.
+reakčné teplo nezávisí od teploty reaktantov
+D.
+reakčné teplo priamej a čiastkovej reakcie sa líši len znamienkom
+205. Entropia:
+A.
+je kvantitatívnou mierou nevratnosti, resp. samovoľnosti chemického deja
+B.
+je mierou neusporiadanosti systému
+C.
+izolovaného systému pri spontánnych chemických reakciách narastá, ∆S > 0
+D.
+chemický dej sa uskutoční spontánne v prípade keď ∆ S < 0
+206. Ak pre danú reakciu je ∆H > 0, potom platí:
+A.
+hodnota aktivačnej energie je nízka
+B.
+produkty reakcie sú stabilnejšie
+C.
+reaktanty sú stabilnejšie
+D.
+produkty majú slabšie väzby ako reaktanty
+207. Pri exotermických reakciách:
+A.
+reakčné teplo píšeme so znamienkom mínus, pretože reaktanty majú nižšiu energiu ako
+produkty
+B.
+píšeme ∆Q < 0, pretože produkty majú nižšiu energiu ako reaktanty
+C.
+produkty sú stabilnejšie
+D.
+stabilita reaktantov a produktov je rovnaká, líšia sa len energiou

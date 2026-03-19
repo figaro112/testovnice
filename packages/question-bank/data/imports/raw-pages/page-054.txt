@@ -1,0 +1,84 @@
+Zoznam otázok z oblasti: LF - Biológia / 
+55
+. strana
+D.
+v DNA je adenín komplementárny s  uracilom a v RNA s tymínom
+488. Pri syntéze DNA alebo RNA sa nové vlákno tvorí podľa princípu:
+A.
+komplementarity
+B.
+kombinatoriky
+C.
+doplnkovosti
+D.
+štatistiky
+489. Ktoré dusíkaté bázy sú v DNA aj RNA?
+A.
+tymín, guanín, adenín
+B.
+guanín, adenín, cytozín
+C.
+adenín, cytozín, uracil
+D.
+uracil, guanín, cytozín
+490. Ktorými dusíkatými bázami sa DNA a RNA odlišujú?
+A.
+adenínom a guanínom
+B.
+tymínom a cytozínom
+C.
+cytozínom a uracilom
+D.
+tymínom a uracilom
+491. Podľa akej matrice vznikla časť vlákna m-RNA tvorená nukleotidmi s bázami C-U-U-A-G-A?
+A.
+G-T-T-U-C-U
+B.
+G-A-A-T-C-T
+C.
+G-A-A-U-C-U
+D.
+G-A-A-T-C-U
+492. Ak je poradie nukleotidov v antikodóne U-C-A, potom poradie nukleotidov v kodóne je:
+A.
+A-G-U
+B.
+T-G-U
+C.
+A-G-T
+D.
+A-C-U
+493. Časť vlákna molekuly DNA tvoria nukleotidy s poradím báz  C-G-A-T-A-T. Aké je poradie
+nukleotidov v zodpovedajúcej časti komplementárneho vlákna?
+A.
+A-G-U-A-U-A
+B.
+G-C-T-A-T-A
+C.
+G-C-U-A-U-A
+D.
+T-C-U-C-U-C
+494. Aké je poradie nukleotidov v časti vlákna DNA, replikovaného podľa časti vlákna s nukleotidmi
+T-T-A-G-C-A
+A.
+A-A-U-C-G-U
+B.
+U-U-T-C-G-T
+C.
+A-A-T-C-G-T
+D.
+U-U-A-C-G-A
+495. Aké je poradie nukleotidov v časti vlákna DNA, ktoré vzniklo v S-fáze bunkového cyklu podľa
+časti vlákna s nukleotidmi G-C-A-T-T-A
+A.
+C-G-U-A-A-U
+B.
+C-G-T-U-U-T
+C.
+C-G-T-A-A-T
+D.
+C-G-A-U-U-A
+496. Aké poradie nukleotidov vznikne v m-RNA transkribovanej podľa časti vlákna s nukleotidmi A-
+T-T-G-C-A
+A.
+U-A-A-C-G-U

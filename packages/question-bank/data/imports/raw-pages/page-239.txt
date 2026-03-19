@@ -1,0 +1,90 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+118
+. strana
+994. Pri nekompetitívnej inhibícii enzýmu:
+A.
+ťažkými kovmi sa inhibítor viaže nevratne
+B.
+ťažkými kovmi dochádza k denaturácii enzýmu
+C.
+sa inhibítor viaže len na alosterické centrum
+D.
+ťažkými kovmi sa inhibítor viaže vratne
+995. Pre inhibíciu enzýmov neplatí:
+A.
+inhibítory spomaľujú alebo úplne zastavujú enzýmovú reakciu
+B.
+alosterický inhibítor sa viaže vždy na aktívne centrum enzýmu
+C.
+pri kompetitívnej inhibícii dochádza vždy k denaturácii enzýmu
+D.
+pri biochemických procesoch produkt jednej reakcie môže pôsobiť ako inhibítor
+predchádzajúcej reakcie
+996. O klasifikácii enzýmov platí:
+A.
+hydrolázy katalyzujú štiepenie peptidových, esterových a O-glykozidových väzieb
+B.
+oxidoreduktázy katalyzujú prenos fosfátovej skupiny z ATP na glukózu
+C.
+transferázy katalyzujú prenos aminoskupiny pri transaminácii alebo prenos fosfátovej skupiny
+z ATP na glukózu
+D.
+lyázy katalyzujú hydrolytické štiepenie väzby C–H
+997. Hydrolázy štiepia:
+A.
+nekovalentné väzby v proteínoch
+B.
+O-glykozidové väzby
+C.
+esterové väzby v lipidoch
+D.
+vodíkové väzby
+998. Hydroláza:
+A.
+katalyzuje dehydratáciu substrátu
+B.
+jej koenzýmom je FAD
+C.
+je napríklad lipáza
+D.
+katalyzuje štiepenie peptidovej väzby
+999. Oxidoreduktázy:
+A.
+katalyzujú len oxidácie substrátu
+B.
+katalyzujú všetky redoxné deje
+C.
+majú ako koenzýmy FAD, NAD
++
+D.
+umožňujú oxidáciu aldehydu na etanol
+1000. Izomerázy katalyzujú:
+A.
+vzájomné premeny izomérov
+B.
+napríklad premenu glukóza-6-fosfátu na fruktóza-6-fosfát
+C.
+napríklad premenu ribózy na deoxyribózu
+D.
+nielen izomerizačné ale aj polymerizačné reakcie
+1001. O ligázach a lyázach platí:
+A.
+ligázy katalyzujú syntézu dvoch substrátov v prítomnosti ATP
+B.
+ligázy katalyzujú syntézu dvoch substrátov v prítomnosti NAD
++
+C.
+lyázy nehydrolyticky štiepia väzbu medzi atómami uhlíka
+D.
+lyázy a ligázy môžu katalyzovať rovnaké typy reakcií
+1002. V oboch daných koenzýmoch oxidoreduktáz: NAD
++
+, FAD sa nachádza:
+A.
+pyridín
+B.
+purín
+C.
+vitamín PP
+D.
+ribóza

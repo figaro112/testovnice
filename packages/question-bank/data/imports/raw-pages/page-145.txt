@@ -1,0 +1,102 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+24
+. strana
+208. Pre entropiu kryštalického KCl a roztoku KCl platí:
+A.
+entropia kryštálov KCl je nižšia ako entropia roztoku KCl
+B.
+entropia roztoku KCl je rovnaká ako entropia KCl v roztoku
+C.
+entropia KCl v roztoku je nižšia ako entropia kryštálov KCl
+D.
+nedá sa určiť
+209. Vyberte exotermické rovnice:
+A.
+4 NH
+3 
+(g) + 5 O
+2 
+(g) → 4 NO (g) + 6 H
+2
+O (g)         ∆H = -906 kJ/mol
+B.
+2 CO + O (g) → 2 CO
+2 
+(g) + 566 kJ
+C.
+CaCO
+3 
+(g) + 178 kJ  →  CaO (g) + CO
+2 
+(g)
+D.
+2 H
+2 
+(g) + O
+2 
+(g)  →  2 H
+2
+O (l) + 571,6 kJ
+210. Pre endotermické reakcie platí:
+A.
+reaktanty chemických reakcií sú nestabilnejšie ako produkty
+B.
+produkty endotermických reakcií sú nestabilnejšie ako reaktanty
+C.
+pri endotermických reakciách musíme energiu dodávať
+D.
+energia väzieb v produktoch endotermických reakcií je menšia ako v reaktantoch
+211. Pre endotermické reakcie platí:
+A.
+všetky endotermické reakcie prebiehajú samovoľne
+B.
+sú to len protolytické reakcie
+C.
+produkty endotermických reakcií majú nižšiu potenciálnu energiu ako reaktanty
+D.
+produkty endotermických reakcií majú vyššiu potenciálnu energiu ako reaktanty
+212. Pri exotermickej reakcii:
+A.
+je potenciálna energia reaktantov vyššia ako potenciálna energia produktov
+B.
+je potrebná vysoká hodnota aktivačnej energie
+C.
+je potenciálna energia reaktantov nižšia ako potenciálna energia produktov
+D.
+sa reakčné teplo vypočíta ako rozdiel potenciálnych energií produktov a reaktantov
+213. Pre entropiu kryštalického KCl a roztoku KCl platí:
+A.
+entropia kryštálov KCl je nižšia ako entropia roztoku KCl
+B.
+entropia kryštalického KCl je rovnaká ako entropia KCl v roztoku
+C.
+entropia KCl v roztoku je nižšia ako entropia kryštálov KCl
+D.
+kryštál KCl má väčšiu usporiadanosť, preto má nižšiu hodnotu entropie
+214. Samovoľne môže prebiehať reakcia, v ktorej:
+A.
+stúpa entropia (∆S > 0 ) a Gibbsova energia má záporné znamienko (∆G < 0)
+B.
+klesá entropia a Gibbsova energia má kladné znamienko
+C.
+pôsobí enzým s využitím energie ATP
+D.
+aktivačná energia má veľmi vysokú hodnotu
+215. Predpokladom priebehu chemickej reakcie je:
+A.
+aktívna zrážka medzi časticami reaktantov
+B.
+primeraná kinetická energia reagujúcich častíc
+C.
+veľkosť častíc do 100 nm
+D.
+vhodná orientácia častíc pri zrážke
+216. Aktivačná energia:
+A.
+je daná rozdielom potenciálnej energie reaktantov a produktov
+B.
+je daná rozdielom potenciálnej energie prechodového komplexu a reaktantov
+C.
+je daná rozdielom potenciálnej energie prechodového komplexu a produktov
+D.
+závisí od reakčného tepla

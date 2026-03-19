@@ -1,0 +1,90 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+5
+. strana
+37. Molová hmotnosť:
+A.
+je hmotnosť 1 mol látky
+B.
+vyjadruje sa v kg . dm
+3
+C.
+vyjadruje sa v g . mol
+-1
+D.
+vyjadruje sa v g . mol
+38. Počet atómov kyslíka v dihydrogénarzenitane sodnom je:
+A.
+2
+B.
+1
+C.
+3
+D.
+0
+39. Počet atómov kyslíka v molekule disiričitanu draselného je:
+A.
+3
+B.
+5
+C.
+6
+D.
+4
+40. Počet atómov vodíka v molekule síranu amónneho je:
+A.
+3
+B.
+4
+C.
+6
+D.
+8
+41. V molekule kyseliny dichrómovej je počet atómov kyslíka:
+A.
+4
+B.
+5
+C.
+6
+D.
+7
+42. Podľa kvantovo-mechanického modelu atómu:
+A.
+elektróny sa pohybujú okolo atómového jadra v určitom priestore, orbitále, s
+pravdepodobnosťou 95 až 99 %
+B.
+kvantové čísla charakterizujú energiu a veľkosť jadra atómu (energia, stav, orientácia,
+rotácia)
+C.
+elektróny sa pohybujú po kruhových dráhach ( Bohr, Rutherford )
+D.
+elektróny sa pohybujú po kruhových dráhach s pravdepodobnosťou 95 až 99 % ( Bohr,
+Rutherford )
+43. Pre hlavné kvantové číslo platí:
+A.
+možno použiť na výpočet energie elektrónu v danej energetickej hladine
+B.
+jeho hodnota je celé kladné číslo od 0 po 7
+C.
+označujeme písmenami K, L, M, N, O, P, Q
+D.
+teoreticky môže nadobúdať hodnoty celých kladných čísel od 1 po nekonečno
+44. Pre kvantové čísla platí:
+A.
+hlavné súhlasí s číslom hladiny elektrónov
+B.
+hlavné má vplyv na veľkosť, vedľajšie na tvar hraničnej plochy orbitálov
+C.
+vedľajšie určuje počet elektrónových vrstiev v atóme
+D.
+magnetické určuje maximálny počet elektrónov vo valenčnej vrstve
+45. Ak n = 3, potom platí, že:
+A.
+l môže mať tiež hodnotu 3
+B.
+maximálny počet elektrónov v elektrónovom obale je 10
+C.
+celkový počet elektrónov je 2
+2
+D.
+vedľajšie kvantové číslo má hodnotu 0, 1, 2

@@ -1,0 +1,104 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+6
+. strana
+46. Vedľajšie kvantové číslo:
+A.
+charakterizuje tvar orbitálu a čiastočne energiu
+B.
+pre n = 2 môže nadobúdať hodnoty 1, 2, 3
+C.
+môže nadobúdať hodnotu od 0 po n-1
+D.
+určuje orientáciu orbitálu v priestore
+47. Ak je vedľajšie kvantové číslo 
+l
+ = 2, potom pre magnetické kvantové číslo platí:
+A.
+m = 0, 1, 2
+B.
+m = -2, - 1, 0, 1, 2
+C.
+m = 0
+D.
+m = - 1, -2, 1, 2
+48. Vyberte správne hodnoty kvantových čísel:
+A.
+n = 1, l = 0, m = 0
+B.
+n = 3, l = 2, m = -2, -1, 0, 1, 2
+C.
+n = 4, l = 3, m = -3, -2, - 1, 0, 1, 3
+D.
+n = 2, l = 2, m = -1, -2, 0, 1, 2
+49. Vyberte správne hodnoty kvantových čísel:
+A.
+n = 2, l = 1, m = -1, 0, 1
+B.
+n = 2, l = 3, m = -3, -2, -1, 0, 1, 2, 3
+C.
+n = 1, m = 0
+D.
+druhá elektrónová vrstva môže mať orbitály s, p, d
+50. Vyberte správny výrok:
+A.
+elektróny obsadzujú orbitály podľa klesajúcej hodnoty energie
+B.
+elektróny obsadzujú orbitály podľa klesajúcej hodnoty elektronegativity
+C.
+elektróny obsadzujú orbitály podľa stúpajúcej hodnoty energie
+D.
+elektróny obsadzujú orbitály podľa stúpajúcej hodnoty ionizačnej energie
+51. Podľa Hundovho pravidla platí, že:
+A.
+elektróny obsadzujú orbitály s rovnakou hodnotou energie najprv po jednom, potom sa
+spárujú
+B.
+v jednom orbitále nemôžu existovať dva elektróny, ktoré by mali všetky štyri kvantové čísla
+rovnaké
+C.
+elektróny obsadzujú orbitály podľa stúpajúcej hodnoty energie
+D.
+elektróny vo valenčnej vrstve vždy vytvoria oktet
+52. Hundovo pravidlo:
+A.
+udáva maximálny počet elektrónov na valenčnej vrstve
+B.
+hovorí, že stavy s rovnakou energiou sa všetky obsadzujú najskôr po jednom elektróne
+C.
+umožňuje vypočítať energiu elektrónu
+D.
+je výstavbový princíp
+53. Pre elektróny v jednom orbitále platí, že:
+A.
+majú rovnakú hodnotu energie
+B.
+majú rovnakú hodnotu spinového kvantového čísla
+C.
+majú rovnaké hodnoty 
+n
+, 
+l
+, 
+m
+; líšia sa iba hodnotou spinu
+D.
+ich počet je daný Hundovým pravidlom
+54. Elektrónovú konfiguráciu 1s
+2
+, 2s
+1
+, 2px
+1
+, 2py
+1
+, 2pz
+1
+ má:
+A.
+atóm uhlíka v základnom stave
+B.
+excitovaný atóm uhlíka
+C.
+atóm dusíka v excitovanom stave
+D.
+katión uhlíka

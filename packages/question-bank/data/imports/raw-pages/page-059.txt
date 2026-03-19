@@ -1,0 +1,84 @@
+Zoznam otázok z oblasti: LF - Biológia / 
+60
+. strana
+532. Ak gén kóduje viac alel, napr. 3, označujeme ich:
+A.
+A,B,C
+B.
+A1, A2, A3
+C.
+gén má vždy iba dve alely
+D.
+AA, aa, Aa
+533. Aký je fenotyp heterozygota v prípade úplnej dominancie?
+A.
+rovnaký ako fenotyp homozygota dominantného
+B.
+rovnaký ako fenotyp homozygota recesívneho
+C.
+odlišný od oboch homozygotov
+D.
+Aa
+534. Aký je fenotyp heterozygota v prípade neúplnej dominancie?
+A.
+Aa
+B.
+odlišný od oboch homozygotov
+C.
+zhodný s fenotypom homozygota dominantného
+D.
+zhodný s fenotypom homozygota recesívneho
+535. Aký genotyp môžu mať potomkovia dvoch rozdielnych homozygotov?
+A.
+Aa
+B.
+AA,Aa alebo aa
+C.
+AA alebo aa
+D.
+AB, Ab, aB alebo ab
+536. Aký genotyp môžu mať potomkovia dvoch heterozygotov
+A.
+AA, Aa alebo aa
+B.
+AA, Ab, aB alebo ab
+C.
+iba Aa
+D.
+iba AA alebo aa
+537. Pri krížení dvoch heterozygotov sa genotyp potomkov štiepi v pomere:
+A.
+2:1
+B.
+1:2:1
+C.
+3:1
+D.
+1:1
+538. Pri krížení homozygota s heterozygotom sa genotyp potomkov štiepi v pomere:
+A.
+3:1
+B.
+1:2:1
+C.
+1:1
+D.
+1:2
+539. Generácia potomkov bude uniformná vtedy, ak sú rodičia:
+A.
+obaja homozygoti recesívni
+B.
+obaja homozygoti dominantní
+C.
+obaja homozygoti, jeden recesívny a druhý dominantný
+D.
+obaja heterozygoti
+540. Genotypový a fenotypový štiepny pomer sa líšia vtedy, keď:
+A.
+ide o dedičnosť s úplnou dominanciou
+B.
+ide o dedičnosť s neúplnou dominanciou
+C.
+ide o intermediaritu
+D.
+líšia sa vždy

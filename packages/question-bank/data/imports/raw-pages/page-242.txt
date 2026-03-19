@@ -1,0 +1,83 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+121
+. strana
+C.
+pri translácii má aminokyselinu naviazanú esterovou väzbou na antikodón
+D.
+pri translácii má aminokyselinu naviazanú esterovou väzbou na prvom uhlíku ribózy
+adenínového nukleotidu koncového tripletu CCA
+1021. Transkripcia:
+A.
+je preklad poradia nukleotidov do poradia aminokyselín
+B.
+je prepis genetickej informácie z DNA na mRNA na základe komplementarity báz
+C.
+prebieha v bunkovom jadre
+D.
+prebieha aj v cytoplazme
+1022. Aminoacyl-tRNA vzniká:
+A.
+tak, že na dlhšom konci tRNA sa aktivovaná aminokyselina naviaže na posledný adenínový
+nukleotid esterovou väzbou na tretí uhlík ribózy
+B.
+naviazaním aktivovanej aminokyseliny na antikodón
+C.
+naviazaním aminokyseliny amidovou väzbou na kyselinu fosforečnú posledného nukleotidu
+D.
+naviazaním aminokyseliny N-glykozidovou väzbou na adenín posledného nukleotidu
+dlhšieho ramienka
+1023. Translácia:
+A.
+je preklad poradia nukleotidov do poradia aminokyselín peptidového reťazca
+B.
+začína vždy na štart kodóne AUG
+C.
+na začiatku translácie sa metionyl-tRNA nachádza na peptidylovom mieste ribozómu
+D.
+medzi iniciátorom a štart kodónom sa vytvorí peptidová väzba
+1024. O peptidylovom (P) a aminoacylovom (A) mieste ribozómu môžeme povedať:
+A.
+peptidylové miesto P je miesto, kde sa nachádza iniciátor alebo tRNA s narastajúcim
+peptidovým reťazcom
+B.
+acylové miesto A obsadzuje vždy nový aminoacyl-tRNA
+C.
+pri elongácii musí byť v ribozóme obsadené len P miesto
+D.
+P miesto sa v priebehu elongácie mení na A miesto
+1025. O elongácii platí:
+A.
+je predlžovanie peptidového reťazca
+B.
+je predlžovanie mRNA
+C.
+pri elongácii musí byť obsadené P aj A miesto ribozómu
+D.
+je časť transkripcie
+1026. Terminácia je:
+A.
+ukončenie transkripcie
+B.
+daná prítomnosťou stop kodónov, ku ktorým nie je komplementárny žiadny antikodón
+C.
+dej, pri ktrorom terminačné faktory uvoľnia vzniknutý peptidový reťazec
+D.
+záverečná fáza tvorby mRNA
+1027. Štart kodón je:
+A.
+UAA
+B.
+UGA
+C.
+AUG
+D.
+GUA
+1028. Štart kodón:
+A.
+je iniciačný kodón
+B.
+určuje naviazanie metionyl-tRNA na mRNA
+C.
+určuje naviazanie metionyl-tRNA na rRNA
+D.
+nie je komplementárny k žiadnemu kodónu, len dodáva energiu na transláciu

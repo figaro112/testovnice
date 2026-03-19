@@ -1,0 +1,271 @@
+!"#
+atantu tejto reakcie a zistite počiatočné koncentrácie dusíka a
+$%"
+díka.
+$
+!"#$#%#&'&(\#
+*"#$#%#+&#
+,"#-.
+)
+/#%#(#012#"#30
+45
+6#-7
+)
+/#%#8'9#012#"#30
+45
+#
+:"#-.
+)
+/#%#+;#012#"#<0
+45
+6#-7
+)
+/#%#='9#012#"#<0
+45
+#
+&&'()$
+V rovnová~nom stave
+$*+,!-.+$/$0
+/
+$1$2$3
+/$
+↔
+$/$0
+/
+3
+2
+$4,$5.46.7,$!
+oncentrácia dusíka
+$$
+/829$:"7$\7
+;&
+; kyslíka 1,05 mol . l
+;&
+$,$"<.=>$
+dusitého 3,42 mol . l
+;&
+)$
+Vypočítajte rovnová~nu 
+$
+konatantu
+$*+,!-.+$$
+a počiatočné koncent
+rá
+-.
+e dusíka a
+$
+kyslíka.
+$
+!"#-7
+)
+/#%#9'>\12#"#<0
+45
+6#-?
+)
+/#%#='+(#012#"#<0
+45
+#
+*"#-7
+)
+/#%#;'&+#012#"#<0
+45
+6#-?
+)
+/#%#\012#"#<0
+45
+#
+,"#$#%#&'9\#
+:"#$#%#+'8+&#
+&&''\.$*+,!-..$
+5 mol kyseliny octovej a 5 mol metanolu vzniká octan metylový. Vypočítajte 
+$
+rovnová~ne kon
+-+
+ntrácie jednotlivých látok v reakčnej zmesi, ak viete,
+$
+~e K = 4.
+$
+!"#-,.
+5
+,??,.
+5
+/#%#+'=>#012#"#<0
+45
+6#-.
+)
+?/#%#+'=>#012#"#<0
+45
+$
+*"#-,.
+5
+,??./#%#+'=>#012#"#<0
+45
+6#-,.
+5
+?./#%#+'=>#012#"#<0
+45
+#
+,"#-,.
+5
+,??,.
+5
+/#%#5'55#012#"#<0
+45
+6#-.
+)
+?/#%#+'=>#012#"#<0
+45
+#
+:"#-,.
+5
+,??,.
+5
+/#%#5'55#012#"#<0
+45
+6#-.
+)
+?/#%#5'55#012#"#<0
+45
+#
+&&'@\"%#"%
+á~na konatanta syntézy HI z I
+/
+$,$B
+/
+$
+má hodnotu K = 9. Vypočítajte rovnová~ne 
+$
+koncentrácie jednotlivých látok v reakčnej zmesi, ak východiskové koncentrácie vodíka a 
+C
+ódu boli 
+/$:"7$\
+;&
+)$
+!"#-.
+)
+/#%#+'9#012#"#<0
+45
+6#-@
+)
+/#%#+'9#012#"#<0
+45
+$
+*"#-.@/#%#\012#"#<0
+45
+#
+,"#-.
+)
+/#%#&'(#012#"#<0
+45
+6#-@
+)
+/#%#&'(#012#"#<0
+45
+#
+:"#-.@/#%#&'9#012#"#<0
+45
+#
+&&@9)$
+Vyberte izotonické roztoky
+$!$*"56"!>$0.D7
+/
+$
+s koncentráciou 0,3 mol . dm
+;2$
+E$
+!"#A2
+ukóza, c = 0,1 mol . dm
+45
+#
+*"#BC,2
+5
+'#3#%#&'+#012#"#<0
+45
+#
+,"#7D
+)
+E?
+;
+'#3#%#&'5#012#"#<0
+45
+#
+:"#FG@
+)
+'#3#%#&'\012#"#<0
+45
+#
+&&@&\.$*"%#,!
+ej koncentrácii látkového mno~stva má najvyaaiu osmotickú účinnosť rozt
+"!E$
+!"#
+síranu amónneho
+#
+*"#
+chloridu draselného
+#
+,"#
+glukóz
+H#
+:"#
+sacharózy
+#
+&&@/)$
+O vodných ro
+56
+okoch sacharó
+5F8$-$G$98/$:"7$\7
+;&$
+H$$0,D78$-$G$98&$:"7$\
+;&
+$,$$
+I7D7
+2
+8$$-$G$98/$:"7$\7
+;&
+$J*.$
+rovnakej teplote platí:
+$
+!"#
+roztoky sacharózy a
+#
+chloridu hlinitého sú izotonické
+#
+*"#
+roztok sacharózy je hypertonický voči roztoku chloridu sodného
+#
+,"#I1JK1L#MD3NDI
+ózy je izotonický voči roztoku chloridu sodného
+#
+:"#
+roztok chloridu hlinitého je hypertonický voči roztoku sacharózy
+#
+&&@2\3$
+vodných roztokoch fruktózy, c = 0,3 mol 
+\7
+;&
+$H$0.D7
+/
+8$-$G$98&$:"7$\$7
+;&
+$,$KD78$-$G$98&L$:"7$\
+;&
+$
+za rovnakých podmienok platí:
+$
+!"#I1JK1L#OIPLK
+ózy je hypertonický voči roztoku chloridu nikelnatého aj voči roztoku chloridu 
+draselného
+#
+*"#
+všetky roztoky sú navzájom voči sebe izotonické
+#
+,"#I1JK1L#7Q,2
+)
+#
+je hypotonický voči roztoku KCl
+#
+:"#I1JK1L#7Q,2
+)
+#
+je izotonický voči roztoku KCl
+#

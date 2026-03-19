@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.next/
+.expo/
+dist/
+build/
+coverage/
+.turbo/
+pnpm-lock.yaml
+*.log
+

@@ -1,0 +1,84 @@
+Zoznam otázok z oblasti: LF - Biológia / 
+59
+. strana
+523. O dedičnosti s neúplnou dominanciou hovoríme, keď:
+A.
+sa v populácii neobjavujú recesívne znaky
+B.
+sa v genotype heterozygota stretne recesívna a dominantná alela
+C.
+sa vo fenotype heterozygota prejaví aj recesívna alela
+D.
+sa vo fenotype heterozygota prejavia obidve alely
+524. Ak sa vo fenotype u heterozygota prejavia obidve alely pre daný znak, ide o dedičnosť:
+A.
+dvojnásobnú
+B.
+zmiešanú
+C.
+s neúplnou dominanciou
+D.
+intermediárnu
+525. Symbolické označenie kríženia homozygota dominantného s heterozygotom je:
+A.
+aa x Aa
+B.
+AA x AB
+C.
+AA x Aa
+D.
+AA x ab
+526. Symbolické označenie kríženia homozygota recesívneho s heterozygotom je:
+A.
+aa x ab
+B.
+aa x Aa
+C.
+AA x Aa
+D.
+AA x AB
+527. Vyberte schému, ktorá platí pre kríženie homozygota dominantného s heterozygotom
+A.
+AA x Aa
+B.
+AA x AB
+C.
+Aa x ab
+D.
+AABB x AaBb
+528. Vyberte schému, ktorá platí pre kríženie heterozygota s homozygotom recesívnym
+A.
+AB x aa
+B.
+Aa x ab
+C.
+Aa x aa
+D.
+AaBb x aabb
+529. Vyberte schému, ktorá platí pre kríženie dvoch heterozygotov
+A.
+AA x BB
+B.
+Aa x Aa
+C.
+Aa x Bb
+D.
+AaBb x AaBb
+530. Kodominancia znamená:
+A.
+že sa obidve alely prejavia vo fenotype s rovnakou intenzitou
+B.
+špecifický prípad neúplnej dominancie
+C.
+špecifický prípad úplnej dominancie
+D.
+úplné potlačenie prejavu recesívnej alely vo fenotype
+531. Ako sa prejaví vzťah alel vo fenotype heterozygota v prípade neúplnej dominancie?
+A.
+heterozygot má vlastný fenotyp, odlišný od oboch homozygotov
+B.
+fenotyp heterozygota je zhodný s fenotypom homozygota dominantného
+C.
+dominantná alela sa vo fenotype neprejaví vôbec
+D.
+v prípade úplnej dominancie heterozygot nevzniká

@@ -1,0 +1,89 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+122
+. strana
+1029. Stop kodóny sú:
+A.
+UAA, AUG, UGA
+B.
+UAA, UAG, UGA
+C.
+nie sú komplementárne k žiadnemu antikodónu
+D.
+komplementárne len k metionyl-tRNA
+1030. Genetická informácia bunky človeka je zakódovaná v:
+A.
+histónoch
+B.
+chromozómoch
+C.
+tRNA
+D.
+DNA
+1031. O antikodóne platí:
+A.
+nenachádza sa v DNA ale v mRNA
+B.
+skladá sa z troch pyrimidínových alebo dvoch purínových nukleotidov
+C.
+určuje poradie aminokyselín v mRNA
+D.
+vodíkovými väzbami sa viaže na kodón v mRNA
+1032. Metabolická dráha:
+A.
+je súbor biochemických reakcií, ktoré na seba nadväzujú
+B.
+je súbor reakcií, pričom produkt jednej reakcie je východiskovou látkou nasledujúcej reakcie
+C.
+je napríklad reakcia neutralizácie alebo komplexotvornej reakcie
+D.
+je vždy vratná
+1033. Metabolické dráhy môžu byť:
+A.
+len anabolické, pri ktorých z jednoduchých látok vznikajú látky zložité, napríklad
+proteosyntéza
+B.
+len katabolické, pri ktorých sa zložité látky v organizme rozkladajú za vzniku energie
+C.
+anabolické, katabolické a amfibolické
+D.
+redoxné a hydrolytické
+1034. Medzi amfibolické reakcie zaraďujeme:
+A.
+tvorbu glykogénu
+B.
+glykolýzu
+C.
+β-oxidáciu mastných kyselín
+D.
+transamináciu
+1035. Vyberte správne tvrdenie:
+A.
+Gibbsova energia je energia využiteľná aj na mechanickú prácu
+B.
+prenos voľnej energie zabezpečujú makroergické zlúčeniny, napríklad ATP, NAD, GTP
+C.
+amfibolické reakcie nemajú výraznejší energetický prínos pre organizmus
+D.
+katabolický rozklad prebieha vždy až po aktivácii substrátu a takto je regulovaná premena
+substrátu na produkt
+1036. Mechanizmus redoxných dejov je založený na prenose:
+A.
+atómov vodíka na pyridínovom jadre NAD
++
+B.
+atómov vodíka na purínovom jadre NAD
++
+C.
+atómov vodíka na pyrimidínovom jadre NAD
++
+D.
+atómov vodíka na purínovom jadre NADP
+1037. Endergonické procesy:
+A.
+prebiehajú len v anaeróbnych podmienkach
+B.
+prebiehajú len pri zníženej teplote
+C.
+sú napríklad anabolické metabolické dráhy
+D.
+získavajú energiu štiepením makroergických väzieb

@@ -1,0 +1,26 @@
+import type { MetadataRoute } from "next";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "MedTest",
+    short_name: "MedTest",
+    description: "Testovnice z medicíny pre iPhone a web.",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#f5faf8",
+    theme_color: "#1d9b7c",
+    lang: "sk",
+    icons: [
+      {
+        src: "/icon.svg",
+        sizes: "any",
+        type: "image/svg+xml",
+      },
+      {
+        src: "/apple-icon.svg",
+        sizes: "180x180",
+        type: "image/svg+xml",
+      },
+    ],
+  };
+}

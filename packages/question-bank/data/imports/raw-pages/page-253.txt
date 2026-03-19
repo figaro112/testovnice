@@ -1,0 +1,148 @@
+!"#$%#&#'(#\&#*(#+%#&#,#
+-"#\#'(#01#&#*(#\\&#,#
+!!!"#$
+Vypočítajte hmotnostné percentuálne zastúpenie jednotlivých prvkov v
+$
+molekule glukózy.
+$
+2"#\#,(#+/+3#&#*(#.4/44#&#!#
+5"#\#!(#+/+3#&#*(#.4/44#&#,#
+!"#\#!(#%/11#&#*(#\1#&#,#
+-"#\#,(#%/11#&#*(#\1#&#!#
+!!!%#$
+Koľko gramov dusíka sa nachádza v
+$
+20 g pyrimidínu?
+$
+2"#6#7#
+5"#0/\#
+!"#3#7#
+-"#.#7
+$
+!!!&#$
+Vypočítajte, koľko tepla sa spotrebuje pri výrobe 100 kg páleného vápna z
+$
+uhličitanu
+$
+vápenatého, ak ΔH = 
+'!(\.
+/!
+#$
+2"#403/%+#89#"#:;<
+=0
+#
+5"#03/%#>9#
+!"#403/%+#>9#
+-"#03/%#89#"#:;<
+=0
+#
+!!!0#$
+Pri reakcii CO (g) + ½ O
+1
+$
+(g) → CO
+1
+$
+(g) sa uvoľní 283 kJ . mol
+/!
+. Vypočítajte, koľko tepla
+$23$
+uvoľní pri reakcii 20 l oxidu uhoľnatého
+$
+za normálnych podmienok
+#$
+2"#$.$/+%#>9#"#:;<
+=0
+#
+5"#$.$/.#89#
+!"#0$+/4\9#
+-"#0$+/4\#"#:;<
+=0
+#
+!!!(#$
+Pri horení metánu za normálnych podmienok sa uvoľní 802 kJ . mol
+/!
+. Koľko metánu sa
+$
+musí
+$
+spáliť aby sa uvoľnilo 20 MJ?
+$
+2"#$6/6\:;<#
+5"#466#87#
+!"#466#7#
+-"#..6#<#
+!!!)#$
+Pri spálení 50 l plynného etanolu 
+43$5-6
+mál
+5789$:-;,<=5-*$23$>?
+oľní
+$"@AB1$C+#$
+Vypočítajte 
+reakčné teplo tejto reakcie.
+$$
+2"#$%+$/6+#89#
+5"#04%+/..#89#
+!"#04%+/..#89#"#:;<
+=0
+#
+-"#$%+$/6+#89#"#:;<
+=0
+#
+!!!B#$
+Rýchlosť chemickej reakcie A + 3
+$
+B → C vypočítame zo vzťahu v = k . c
+3$
+#$8
+D
+"$
+#$E*-$23$
+zmení
+$
+rýchlosť 
+6=3*8<=@$3*$23$*-58=5F6
+ácia látky A zmenaí o polovicu a koncentrácia látky B sa
+$
+zvýai 
+;
+vojnásobne?
+$
+2"#
+rýchlosť reakcie sa zvýši osemkrát
+$
+5"#
+rýchlosť reakcie sa zvýši štyrikrát
+#
+!"#
+rýchlosť reakcie sa zvýši dvakrát
+#
+-"#
+nedá sa vypočítať, lebo nepoznáme kon
+?@A
+trácie
+#
+látok
+#
+!!1A#$E*$
+pre rýchlosť danej reakcie platí: v = k. c
+E
+1
+#8
+D
+"
+, potom ak zvýaime koncentráciu látky A 
+dvojnásobne a koncentráciu látky B trojnásobne bude platiť:
+$
+2"#
+rýchlosť chemickej reakcie sa nezmení
+#
+5"#
+rýchlosť chemickej reakcie sa zvýši šesťná
+B;CA@#
+!"#
+rýchlosť
+#?D@:
+ickej reakcie bude päťkrát väčšia
+#

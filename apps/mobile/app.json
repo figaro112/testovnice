@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Testovnice Medicina",
+    "slug": "testovnice-medicina",
+    "scheme": "testovnice",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"]
+  }
+}
+

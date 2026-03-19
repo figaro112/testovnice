@@ -1,0 +1,96 @@
+Zoznam otázok z oblasti: LF - Chémia / 
+25
+. strana
+217. Rýchlosť chemickej reakcie:
+A.
+vypočítame pomocou energetickej bilancie chemického deja
+B.
+v = Δt/Δc
+C.
+v = Δc/Δt
+D.
+má jednotku mol . dm
+-3
+ . s
+-1
+218. Podľa Guldbergovho – Waageho zákona:
+A.
+rýchlosť chemickej rekcie je priamo úmerná súčtu molárnych koncentrácii reaktantov a
+produktov
+B.
+rýchlosť chemickej reakcie je pri stálej teplote priamo úmerná súčinu koncentrácií dosiaľ
+nezreagovaných reaktantov
+C.
+sa rýchlosť v priebehu chemickej reakcie nemení, je konštantná
+D.
+rýchlosť pre všeobecnú reakciu vypočítame podľa rovnice v = k . c(A)
+α
+. c(B)
+β
+219. Rýchlostná konštanta k:
+A.
+je konštanta pre daný typ chemickej reakcie
+B.
+závisí od teploty
+C.
+závisí od skupenstva reagujúcich látok
+D.
+závisí len od koncentrácie produktov
+220. Podľa Arrhenia:
+A.
+rýchlosť chemickej reakcie závisí od teploty
+B.
+ak sa teplota reakčnej sústavy zvýši o 10
+o
+C, rýchlosť každej reakcie sa zvýši štvornásobne
+C.
+ak sa teplota reakcie zvýši o 2-4
+o
+C, rýchlosť chemickej reakcie bude desaťkrát väčšia
+D.
+ak sa teplota reakčnej sústavy zvýši o 10
+o
+C, rýchlosť chemickej reakcie sa zvýši 2-4 krát
+221. Rýchlosť chemickej reakcie môže ovplyvniť:
+A.
+len teplota, lebo rýchlostná konštanta závisí len od teploty
+B.
+len koncentrácia reaktantov, ako vyplýva z I. kinetického zákona
+C.
+veľkosť povrchu reagujúcich látok
+D.
+prítomnosť katalyzátora
+222. Teplota ovplyvňuje rýchlosť chemickej reakcie:
+A.
+podľa Arrheniovho zákona
+B.
+pretože čím vyššia bude teplota, tým vyššia bude hodnota aktivačnej energie, a tým rýchlejšia
+bude chemická reakcia
+C.
+pretože čím vyššia bude teplota, tým väčší počet častíc dosiahne hodnotu aktivačnej energie
+D.
+pretože pri vyššej teplote sa častice pohybujú pomalšie
+223. Teplota ovplyvňuje rýchlosť chemickej reakcie, pretože:
+A.
+vplyvom nižšej teploty budú mať častice vyššiu kinetickú energiu, preto sa budú pohybovať
+rýchlejšie a častejšie bude dochádzať k aktívnej zrážke
+B.
+sa zvyšuje aktivačná energia
+C.
+vplyvom vyššej teploty sa zvyšuje počet častíc, ktoré dosiahli aktivačnú energiu
+D.
+všetky chemické reakcie prebiehajú pri zvýšenej teplote rýchlejšie
+224. Rýchlosť chemickej reakcie plynného vodíka s plynným chlórom sa zvýši ak:
+A.
+znížime koncentráciu plynného chlorovodíka
+B.
+zvýšime koncentráciu vodíka
+C.
+znížime koncentráciu chlóru
+D.
+zvýšime koncentráciu reaktantov
+225. Ak v dvoch reakčných sústavách rovnakého objemu, jednej guľovej a druhej v tvare úzkej
+trubice, reaguje plyn A s plynom B (koncentrácia oboch plynov je rovnaká v oboch sústavách), potom
+rýchlosť reakcie:
+A.
+bude v oboch nádobách rovnaká, pretože majú rovnaký objem

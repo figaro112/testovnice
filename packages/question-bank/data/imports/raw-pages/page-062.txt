@@ -1,0 +1,85 @@
+Zoznam otázok z oblasti: LF - Biológia / 
+63
+. strana
+D.
+áno, môžu mať len deti so skupinou AB
+558. Môžu mať rodičia s krvnými skupinami A a 0 dieťa so skupinou 0?
+A.
+áno, ale len v prípade ak je rodič so skupinou A heterozygot
+B.
+áno, a to aj v prípade homozygotného rodiča so skupinou A
+C.
+nie, môžu mať len deti so skupinou A, lebo je dominantná
+D.
+nie, rodič so skupinou 0 je recesívny
+559. Môžu mať rodičia s krvnou skupinou B dieťa so skupinou 0?
+A.
+áno, lebo skupina 0 je všeobecný darca
+B.
+áno, ale len v prípade ak sú obaja rodičia heterozygoti
+C.
+nie, lebo alela pre skupinu B je vždy dominantná
+D.
+nie, dvaja rodičia so skupinou B môžu mať iba deti so skupinou B
+560. Môže mať dieťa s krvnou skupinou 0 rodičov, ktorí majú krvné skupiny AxB?
+A.
+áno, ale len v prípade ak sú obaja rodičia heterozygoti
+B.
+áno, ak aspoň jeden z nich je heterozygot
+C.
+nie, alely pre obe tieto krvné skupiny sú domninantné
+D.
+nie, v tomto prípade môže mať dieťa iba rodičov 0x0
+561. Môže mať dieťa s krvnou skupinou A rodičov, ktorí majú krvné skupiny ABx0?
+A.
+nie, pretože 0 je homozygot recesívny
+B.
+áno, takíto rodičia môžu mať deti so skupinami A alebo B
+C.
+áno, lebo alela pre skupinu A je dominantná voči 0
+D.
+nie, takíto rodičia môžu mať iba deti so skupinami 0 alebo AB
+562. Aká je pravdepodobnosť, že rodičia s krvnými skupinami AB a 0 budú mať dieťa s krvnou
+skupinou A?
+A.
+50%
+B.
+25%
+C.
+75%
+D.
+0%
+563. Aká je pravdepodobnosť, že rodičia s krvnými skupinami AB a 0 budú mať dieťa s krvnou
+skupinou 0?
+A.
+50%
+B.
+25%
+C.
+75%
+D.
+0%
+564. Aká je pravdepodobnosť, že rodičia s krvnými skupinami AB a 0 budú mať dieťa s krvnou
+skupinou AB?
+A.
+0%
+B.
+25%
+C.
+50%
+D.
+75%
+565. Ak sledujeme kríženie rodičov v dvoch znakoch, ide o:
+A.
+dihybridné kríženie
+B.
+spätné kríženie
+C.
+testovacie kríženie
+D.
+filiálne kríženie
+566. Zákon o voľnej kombinovateľnosti alel rôznych alelických párov sa uplatňuje pri:
+A.
+monohybridizme
+B.
+väzbe génov

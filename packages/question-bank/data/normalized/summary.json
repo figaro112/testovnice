@@ -1,0 +1,13 @@
+{
+  "subjects": {
+    "biology": {
+      "questionCount": 1081,
+      "questionsWithAnswers": 1072
+    },
+    "chemistry": {
+      "questionCount": 1093,
+      "questionsWithAnswers": 1093
+    }
+  },
+  "totalQuestions": 2174
+}

@@ -1,0 +1,452 @@
+:root {
+  --bg: #f5faf8;
+  --surface: #ffffff;
+  --surface-soft: #f2f8f5;
+  --text: #14222b;
+  --muted: #68808f;
+  --line: #d8e5df;
+  --accent: #1d9b7c;
+  --accent-soft: #e5f6f1;
+  --danger: #cc5b5b;
+  --danger-soft: #fff1f1;
+  --success: #2b8a62;
+  --success-soft: #eef9f3;
+  --shadow: 0 18px 50px rgba(20, 34, 43, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button {
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.appShell {
+  min-height: 100vh;
+}
+
+.topbar {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid var(--line);
+}
+
+.topbarInner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: calc(18px + env(safe-area-inset-top, 0px)) 20px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brandButton,
+.backButton {
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.brandButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.brandIcon {
+  font-size: 1.4rem;
+}
+
+.brandName {
+  font-size: 1rem;
+}
+
+.backButton {
+  color: var(--muted);
+}
+
+.pageWrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 46px 20px calc(72px + env(safe-area-inset-bottom, 0px));
+}
+
+.homeView,
+.subjectView,
+.sessionView,
+.resultsView {
+  display: grid;
+  gap: 28px;
+}
+
+.heroBlock {
+  text-align: center;
+  display: grid;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.heroBlock h1 {
+  margin: 0;
+  font-size: clamp(2.3rem, 6vw, 4rem);
+  line-height: 1.02;
+  font-weight: 800;
+}
+
+.heroBlock h1 span {
+  color: var(--accent);
+}
+
+.heroBlock p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.subjectGrid,
+.featureList,
+.subjectStats,
+.homeStats {
+  display: grid;
+  gap: 18px;
+}
+
+.subjectGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.homeStats,
+.subjectStats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.subjectCard,
+.featureCard,
+.statCard,
+.questionSurface {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.subjectCard,
+.featureCard {
+  width: 100%;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: 72px 1fr auto;
+  gap: 18px;
+  align-items: center;
+  text-align: left;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.subjectCard {
+  grid-template-columns: 72px 1fr;
+}
+
+.subjectIcon,
+.subjectHeaderIcon,
+.featureIcon {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  background: var(--surface-soft);
+  border-radius: 18px;
+}
+
+.subjectContent,
+.featureContent {
+  display: grid;
+  gap: 6px;
+}
+
+.subjectContent strong,
+.featureContent strong,
+.subjectHeader h2,
+.sessionHeader h2,
+.resultsView h2,
+.questionSurface h3 {
+  margin: 0;
+}
+
+.subjectContent strong,
+.featureContent strong {
+  font-size: 1.1rem;
+}
+
+.subjectContent span,
+.featureContent span,
+.subjectHeader p,
+.heroBlock p,
+.sessionMeta,
+.sessionEyebrow,
+.statCard span,
+.statCard small,
+.feedbackBox span,
+.pill.mutedPill,
+.featureArrow,
+.backButton {
+  color: var(--muted);
+}
+
+.subjectContent small {
+  width: fit-content;
+  margin-top: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #eaf4fb;
+  color: #2f5670;
+}
+
+.statCard {
+  padding: 22px;
+  display: grid;
+  gap: 8px;
+}
+
+.statCard strong {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.subjectHeader,
+.sessionHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+}
+
+.subjectHeader {
+  align-items: flex-start;
+}
+
+.sessionHeader {
+  margin-bottom: -8px;
+}
+
+.progressTrack {
+  height: 12px;
+  background: #e7f1ed;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressTrack span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent) 0%, #49c6a6 100%);
+}
+
+.questionSurface {
+  padding: 28px;
+  display: grid;
+  gap: 22px;
+}
+
+.questionTop,
+.pillRow,
+.sessionActions,
+.bottomActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pill {
+  display: inline-flex;
+  width: fit-content;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.mutedPill {
+  background: #f1f5f3;
+}
+
+.starButton,
+.primaryAction,
+.secondaryAction,
+.ghostAction {
+  border-radius: 999px;
+  padding: 12px 18px;
+  cursor: pointer;
+}
+
+.starButton,
+.secondaryAction,
+.ghostAction {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.starButton.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: #b6e8da;
+}
+
+.primaryAction {
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
+.secondaryAction:disabled,
+.primaryAction:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.answersList {
+  display: grid;
+  gap: 12px;
+}
+
+.answerCard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 14px;
+  align-items: start;
+  text-align: left;
+  padding: 18px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.answerCard.selected {
+  border-color: #b8e8db;
+  box-shadow: 0 0 0 3px rgba(29, 155, 124, 0.08);
+}
+
+.answerCard.correct {
+  border-color: #a9dcc5;
+  background: var(--success-soft);
+}
+
+.answerCard.wrong {
+  border-color: #efc1c1;
+  background: var(--danger-soft);
+}
+
+.answerKey {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.feedbackBox {
+  display: grid;
+  gap: 6px;
+  padding: 18px;
+  border-radius: 18px;
+}
+
+.feedbackBox.ok {
+  background: var(--success-soft);
+  border: 1px solid #badeca;
+}
+
+.feedbackBox.bad {
+  background: var(--danger-soft);
+  border: 1px solid #efc1c1;
+}
+
+.featureArrow {
+  font-size: 2rem;
+}
+
+.resultHero p,
+.sessionEyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 900px) {
+  .subjectGrid,
+  .homeStats,
+  .subjectStats {
+    grid-template-columns: 1fr;
+  }
+
+  .subjectCard,
+  .featureCard {
+    grid-template-columns: 56px 1fr;
+  }
+
+  .featureArrow {
+    display: none;
+  }
+
+  .subjectHeader,
+  .sessionHeader,
+  .questionTop,
+  .sessionActions,
+  .bottomActions {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .topbarInner,
+  .pageWrap {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .pageWrap {
+    padding-top: 28px;
+  }
+
+  .heroBlock h1 {
+    font-size: 2.3rem;
+  }
+
+  .questionSurface,
+  .subjectCard,
+  .featureCard,
+  .statCard {
+    padding: 18px;
+  }
+
+  .answerCard {
+    grid-template-columns: 34px 1fr;
+    padding: 14px;
+  }
+}
