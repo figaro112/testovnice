@@ -7,6 +7,5 @@ dist/
 build/
 coverage/
 .turbo/
-pnpm-lock.yaml
 *.log
 
