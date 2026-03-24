@@ -1,18 +1,19 @@
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
+import { withBasePath } from "../lib/site";
 
 export const metadata: Metadata = {
   title: "MedTest",
-  description: "Testovnice z medicíny pre web a iPhone.",
-  manifest: "/manifest.webmanifest",
+  description: "Testovnice z mediciny pre web a iPhone.",
+  manifest: withBasePath("/manifest.webmanifest"),
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
     title: "MedTest",
   },
   icons: {
-    icon: "/icon.svg",
-    apple: "/apple-icon.svg",
+    icon: withBasePath("/icon.svg"),
+    apple: withBasePath("/apple-icon.svg"),
   },
 };
 
