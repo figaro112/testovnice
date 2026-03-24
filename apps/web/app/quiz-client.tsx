@@ -1,20 +1,13 @@
 "use client";
 
 import { startTransition, useEffect, useMemo, useState } from "react";
+import type { ChoiceKey, QuestionItem, SubjectCode } from "@testovnice/question-bank/src/types";
 
-type ChoiceKey = "A" | "B" | "C" | "D";
-type Subject = "biology" | "chemistry";
+type Subject = SubjectCode;
 type Mode = "practice" | "exam50" | "mistakes" | "favorites";
 type View = "home" | "subject" | "session" | "results";
 
-type Question = {
-  id: string;
-  sourceQuestionNumber: number;
-  subject: Subject;
-  prompt: string;
-  choices: { key: ChoiceKey; text: string }[];
-  correctChoices: ChoiceKey[];
-};
+type Question = QuestionItem;
 
 type QuestionStats = {
   attempts: number;
