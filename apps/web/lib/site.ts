@@ -1,6 +1,6 @@
-const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
+const [owner = "", repoName = ""] = process.env.GITHUB_REPOSITORY?.split("/") ?? [];
 const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-const isUserSite = repoName.endsWith(".github.io");
+const isUserSite = repoName === `${owner}.github.io`;
 
 export const githubPagesBasePath =
   isGithubActions && repoName && !isUserSite ? `/${repoName}` : "";
