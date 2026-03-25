@@ -172,9 +172,54 @@ def normalize_answer_page(text: str) -> str:
     return re.sub(r"\s+", "", text)
 
 
-def parse_answer_page_sequences(text: str, title: str) -> list[dict[str, object]]:
+def parse_columnar_biology_answer_page(compact: str, page_index: int) -> list[dict[str, object]]:
+    if page_index == 268:
+        starts = [901, 946, 991, 1036, 1081]
+        lengths = [45, 45, 45, 45, 20]
+    else:
+        base_question = 1 + ((page_index - 264) * 225)
+        starts = [base_question + (column * 45) for column in range(5)]
+        lengths = [45, 45, 45, 45, 45]
+
+    entries: list[dict[str, object]] = []
+    index = 0
+
+    for row in range(max(lengths)):
+        for start, length in zip(starts, lengths):
+            if row >= length:
+                continue
+            question_number = start + row
+            question_text = str(question_number)
+            if not compact.startswith(question_text, index):
+                continue
+
+            index += len(question_text)
+            letters_end = index
+            while letters_end < len(compact) and compact[letters_end] in "ABCD":
+                letters_end += 1
+
+            answer_text = compact[index:letters_end]
+            if not answer_text:
+                continue
+
+            entries.append(
+                {
+                    "questionNumber": question_number,
+                    "correctChoices": list(answer_text),
+                }
+            )
+            index = letters_end
+
+    return entries
+
+
+def parse_answer_page_sequences(text: str, title: str, subject: str, page_index: int) -> list[dict[str, object]]:
     compact = normalize_answer_page(text)
     compact = compact.replace(title.replace(" ", ""), "")
+
+    if subject == "biology":
+        return parse_columnar_biology_answer_page(compact, page_index)
+
     entries: list[dict[str, object]] = []
 
     index = 0
@@ -270,7 +315,7 @@ def main() -> int:
 
     for subject, page in answer_pages:
         title = TITLE_BIOLOGY if subject == "biology" else TITLE_CHEMISTRY
-        entries = parse_answer_page_sequences(page.text, title)
+        entries = parse_answer_page_sequences(page.text, title, subject, page.index)
         write_json(
             output_root / "answer-keys" / f"{subject}-page-{page.index:03d}.json",
             {

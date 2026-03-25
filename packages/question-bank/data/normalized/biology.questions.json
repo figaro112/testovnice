@@ -255,7 +255,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "L.Pasteura Leeuwenhoeka"
+        "text": "L.Pasteura"
       },
       {
         "key": "B",
@@ -263,7 +263,7 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "A. Leeuwenhoeka"
       },
       {
         "key": "D",
@@ -390,7 +390,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "J.E. Purkyně Vesalius"
+        "text": "J.E. Purkyně"
       },
       {
         "key": "B",
@@ -402,7 +402,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "A. Vesalius"
       }
     ],
     "correctChoices": [
@@ -474,7 +474,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "I.P.Pavlov I. Oparin"
+        "text": "I.P.Pavlov"
       },
       {
         "key": "B",
@@ -482,7 +482,7 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "A.I. Oparin"
       },
       {
         "key": "D",
@@ -1219,7 +1219,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "množstvo O spotrebovaného pri oxidácii glukózy"
+        "text": "množstvo O 2 spotrebovaného pri oxidácii glukózy"
       },
       {
         "key": "B",
@@ -1227,11 +1227,11 @@
       },
       {
         "key": "C",
-        "text": "pomer vyprodukovaného CO k spotrebovanému O"
+        "text": "pomer vyprodukovaného CO 2 k spotrebovanému O 2"
       },
       {
         "key": "D",
-        "text": "závislosť uvoľnenej energie od spotrebovaného O pri dýchaní"
+        "text": "závislosť uvoľnenej energie od spotrebovaného O 2 pri dýchaní"
       }
     ],
     "correctChoices": [
@@ -1255,11 +1255,11 @@
       },
       {
         "key": "C",
-        "text": "CO a O"
+        "text": "CO 2 a O 2"
       },
       {
         "key": "D",
-        "text": "CO a H O"
+        "text": "CO 2 a H 2 O"
       }
     ],
     "correctChoices": [
@@ -2608,7 +2608,7 @@
       },
       {
         "key": "D",
-        "text": "CO , O , H O"
+        "text": "CO 2 , O 2 , H 2 O"
       }
     ],
     "correctChoices": [
@@ -2718,7 +2718,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "súbor všetkých jedincov jedného druhu organizmov na Zemi"
       }
     ],
     "correctChoices": [
@@ -4402,7 +4402,7 @@
       },
       {
         "key": "C",
-        "text": "uhlík získavajú z CO"
+        "text": "uhlík získavajú z CO 2"
       },
       {
         "key": "D",
@@ -4450,7 +4450,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "z CO v procese fotosyntézy"
+        "text": "z CO 2 v procese fotosyntézy"
       },
       {
         "key": "B",
@@ -6011,19 +6011,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "5"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "10"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "15"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "20"
       }
     ],
     "correctChoices": [
@@ -7005,11 +7005,11 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "1"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "C",
@@ -7742,7 +7742,7 @@
       },
       {
         "key": "D",
-        "text": "prechod CO z buniek do krvi"
+        "text": "prechod CO 2 z buniek do krvi"
       }
     ],
     "correctChoices": [
@@ -8225,19 +8225,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "4"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "6"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "8"
       }
     ],
     "correctChoices": [
@@ -9312,7 +9312,11 @@
         "text": "koreňové vlásky"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "A",
+      "B",
+      "C"
+    ]
   },
   {
     "id": "biology-348",
@@ -10432,7 +10436,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "gametofyt aj sporofyt sú haploidné generácie"
       }
     ],
     "correctChoices": [
@@ -12543,7 +12547,7 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "46"
       },
       {
         "key": "B",
@@ -12572,7 +12576,7 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "23"
       },
       {
         "key": "B",
@@ -12580,7 +12584,7 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "48"
       },
       {
         "key": "D",
@@ -12908,11 +12912,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "adenín"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "uracil"
       }
     ],
     "correctChoices": [
@@ -12954,19 +12958,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "4"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "5"
       }
     ],
     "correctChoices": [
@@ -12981,19 +12985,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "1"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "4"
       }
     ],
     "correctChoices": [
@@ -13008,19 +13012,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "1"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "4"
       }
     ],
     "correctChoices": [
@@ -13155,7 +13159,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "v DNA je adenín komplementárny s uracilom a v RNA s tymínom"
       }
     ],
     "correctChoices": [
@@ -13392,15 +13396,15 @@
       },
       {
         "key": "B",
-        "text": ""
+        "text": "T-A-A-C-G-T"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "C-U-U-G-A-C"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "U-T-T-G-C-U"
       }
     ],
     "correctChoices": [
@@ -15071,7 +15075,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "áno, môžu mať len deti so skupinou AB"
       }
     ],
     "correctChoices": [
@@ -15311,11 +15315,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "dihybridizme"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "viacnásobných hybridoch"
       }
     ],
     "correctChoices": [
@@ -15561,7 +15565,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "zdravý bude iba syn – 25%"
       }
     ],
     "correctChoices": [
@@ -16632,7 +16636,7 @@
       },
       {
         "key": "B",
-        "text": "p"
+        "text": "p 2"
       },
       {
         "key": "C",
@@ -16640,7 +16644,7 @@
       },
       {
         "key": "D",
-        "text": "q"
+        "text": "q 2"
       }
     ],
     "correctChoices": [
@@ -16660,7 +16664,7 @@
       },
       {
         "key": "B",
-        "text": "p"
+        "text": "p 2"
       },
       {
         "key": "C",
@@ -16668,10 +16672,12 @@
       },
       {
         "key": "D",
-        "text": "q"
+        "text": "q 2"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "D"
+    ]
   },
   {
     "id": "biology-621",
@@ -16681,7 +16687,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "p q"
+        "text": "p q 2"
       },
       {
         "key": "B",
@@ -16696,7 +16702,10 @@
         "text": "2pq"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "C",
+      "D"
+    ]
   },
   {
     "id": "biology-622",
@@ -16706,7 +16715,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "p +2pq + q =1"
+        "text": "p 2 +2pq + q 2 =1"
       },
       {
         "key": "B",
@@ -16714,14 +16723,16 @@
       },
       {
         "key": "C",
-        "text": "p + q =1"
+        "text": "p 2 + q 2 =1"
       },
       {
         "key": "D",
-        "text": "p x q =1"
+        "text": "p 2 x q 2 =1"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "A"
+    ]
   },
   {
     "id": "biology-623",
@@ -16731,7 +16742,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "p +2pq + q =1"
+        "text": "p 2 +2pq + q 2 =1"
       },
       {
         "key": "B",
@@ -16739,14 +16750,16 @@
       },
       {
         "key": "C",
-        "text": "p + q =1"
+        "text": "p 2 + q 2 =1"
       },
       {
         "key": "D",
-        "text": "p x q =1"
+        "text": "p 2 x q 2 =1"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "B"
+    ]
   },
   {
     "id": "biology-624",
@@ -17021,7 +17034,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "0,75"
       }
     ],
     "correctChoices": [
@@ -17163,7 +17176,10 @@
         "text": "súčtu neutrálnych a aktívnych alel s prostredím"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "A",
+      "D"
+    ]
   },
   {
     "id": "biology-639",
@@ -17196,7 +17212,7 @@
     "id": "biology-640",
     "sourceQuestionNumber": 640,
     "subject": "biology",
-    "prompt": "Ak je koeficient dedivosti pre výšku človeka h = 0,7, znamená to, že:",
+    "prompt": "Ak je koeficient dedivosti pre výšku človeka h 2 = 0,7, znamená to, že:",
     "choices": [
       {
         "key": "A",
@@ -17229,11 +17245,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "dedivosť má koeficient h = 0,25"
+        "text": "dedivosť má koeficient h 2 = 0,25"
       },
       {
         "key": "B",
-        "text": "dedivosť má koeficient h = 0,75"
+        "text": "dedivosť má koeficient h 2 = 0,75"
       },
       {
         "key": "C",
@@ -17254,7 +17270,7 @@
     "id": "biology-642",
     "sourceQuestionNumber": 642,
     "subject": "biology",
-    "prompt": "Ak je hodnota koeficientu dedivosti h = 0, znamená to, že:",
+    "prompt": "Ak je hodnota koeficientu dedivosti h 2 = 0, znamená to, že:",
     "choices": [
       {
         "key": "A",
@@ -17266,11 +17282,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "znak je určený výlučne prostredím"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "znak je podmienený výlučne dedičnosťou"
       }
     ],
     "correctChoices": [
@@ -17282,7 +17298,7 @@
     "id": "biology-643",
     "sourceQuestionNumber": 643,
     "subject": "biology",
-    "prompt": "Ak je hodnota koeficientu dedivosti h = 1, znamená to, že:",
+    "prompt": "Ak je hodnota koeficientu dedivosti h 2 = 1, znamená to, že:",
     "choices": [
       {
         "key": "A",
@@ -20924,19 +20940,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "21"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "12"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "8"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "6"
       }
     ],
     "correctChoices": [
@@ -21919,19 +21935,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "103"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "206"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "312"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "316"
       }
     ],
     "correctChoices": [
@@ -22496,19 +22512,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "300"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "400"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "600"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "800"
       }
     ],
     "correctChoices": [
@@ -23131,19 +23147,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "32"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "20"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "14"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "24"
       }
     ],
     "correctChoices": [
@@ -23642,7 +23658,9 @@
         "text": "rozklad žlče"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "C"
+    ]
   },
   {
     "id": "biology-877",
@@ -24027,7 +24045,9 @@
         "text": "aktivuje pepsinogén"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "A"
+    ]
   },
   {
     "id": "biology-891",
@@ -24106,7 +24126,9 @@
         "text": "v tenkom čreve"
       }
     ],
-    "correctChoices": []
+    "correctChoices": [
+      "A"
+    ]
   },
   {
     "id": "biology-894",
@@ -24939,7 +24961,7 @@
     "id": "biology-924",
     "sourceQuestionNumber": 924,
     "subject": "biology",
-    "prompt": "Ktoré zložky krvi zabezpečujú transport CO z tkanív do pľúc?",
+    "prompt": "Ktoré zložky krvi zabezpečujú transport CO 2 z tkanív do pľúc?",
     "choices": [
       {
         "key": "A",
@@ -25854,19 +25876,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "4"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "5"
       }
     ],
     "correctChoices": [
@@ -25916,7 +25938,7 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "0"
       },
       {
         "key": "D",
@@ -25943,7 +25965,7 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "0"
       },
       {
         "key": "D",
@@ -25997,7 +26019,7 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "0"
       },
       {
         "key": "D",
@@ -26024,7 +26046,7 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "0"
       },
       {
         "key": "D",
@@ -26054,7 +26076,7 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "0"
       },
       {
         "key": "D",
@@ -26430,19 +26452,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "50"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "70"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "90"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "100"
       }
     ],
     "correctChoices": [
@@ -26513,19 +26535,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "100 m"
+        "text": "100 m 2"
       },
       {
         "key": "B",
-        "text": "1000 m"
+        "text": "1000 m 2"
       },
       {
         "key": "C",
-        "text": "10 000 m"
+        "text": "10 000 m 2"
       },
       {
         "key": "D",
-        "text": "100 000 m"
+        "text": "100 000 m 2"
       }
     ],
     "correctChoices": [
@@ -27037,19 +27059,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "100 – 150 cm"
+        "text": "100 – 150 cm 3"
       },
       {
         "key": "B",
-        "text": "200 – 300 cm"
+        "text": "200 – 300 cm 3"
       },
       {
         "key": "C",
-        "text": "250 – 450 cm"
+        "text": "250 – 450 cm 3"
       },
       {
         "key": "D",
-        "text": "500 – 600 cm"
+        "text": "500 – 600 cm 3"
       }
     ],
     "correctChoices": [
@@ -27452,11 +27474,11 @@
       },
       {
         "key": "B",
-        "text": ""
+        "text": "14"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "20"
       },
       {
         "key": "D",
@@ -27479,11 +27501,11 @@
       },
       {
         "key": "B",
-        "text": ""
+        "text": "10"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "12"
       },
       {
         "key": "D",
@@ -27692,19 +27714,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "4"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "6"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "3"
       }
     ],
     "correctChoices": [
@@ -29121,7 +29143,7 @@
     "id": "biology-1076",
     "sourceQuestionNumber": 1076,
     "subject": "biology",
-    "prompt": "Koľko receptorov bolesti sa nachádza v priemere na 1 cm kože?",
+    "prompt": "Koľko receptorov bolesti sa nachádza v priemere na 1 cm 2 kože?",
     "choices": [
       {
         "key": "A",
@@ -29233,19 +29255,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "4"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "5"
       }
     ],
     "correctChoices": [

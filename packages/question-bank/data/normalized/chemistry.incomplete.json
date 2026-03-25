@@ -1,0 +1,675 @@
+[
+  {
+    "id": "chemistry-411",
+    "sourceQuestionNumber": 411,
+    "subject": "chemistry",
+    "prompt": "Vyberte konštitučné izoméry :",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": "o-krezol a p-xylén"
+      }
+    ],
+    "correctChoices": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-433",
+    "sourceQuestionNumber": 433,
+    "subject": "chemistry",
+    "prompt": "Asymetrický uhlík sa nachádza v molekule:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-456",
+    "sourceQuestionNumber": 456,
+    "subject": "chemistry",
+    "prompt": "Vyberte reakcie, v ktorých prevažne vzniká daný produkt:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-457",
+    "sourceQuestionNumber": 457,
+    "subject": "chemistry",
+    "prompt": "Vyberte reakciu prípravy 1,2-dichlórbutánu:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "B"
+    ]
+  },
+  {
+    "id": "chemistry-463",
+    "sourceQuestionNumber": 463,
+    "subject": "chemistry",
+    "prompt": "Alkíny reagujú podľa reakčnej schémy:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-505",
+    "sourceQuestionNumber": 505,
+    "subject": "chemistry",
+    "prompt": "Benzén reaguje podľa reakčnej schémy:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-513",
+    "sourceQuestionNumber": 513,
+    "subject": "chemistry",
+    "prompt": "Vyberte správne reakcie:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-524",
+    "sourceQuestionNumber": 524,
+    "subject": "chemistry",
+    "prompt": "Vyberte správne reakčné schémy:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-548",
+    "sourceQuestionNumber": 548,
+    "subject": "chemistry",
+    "prompt": "Medzi nukleofilné substitúcie patrí reakcia:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-549",
+    "sourceQuestionNumber": 549,
+    "subject": "chemistry",
+    "prompt": "Vyberte správne reakčné schémy:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-595",
+    "sourceQuestionNumber": 595,
+    "subject": "chemistry",
+    "prompt": "Vyberte aromatické alkoholy:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-596",
+    "sourceQuestionNumber": 596,
+    "subject": "chemistry",
+    "prompt": "Vyberte sekundárne alkoholy:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "chemistry-597",
+    "sourceQuestionNumber": 597,
+    "subject": "chemistry",
+    "prompt": "Vyberte viacsýtne stabilné hydroxyderiváty:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-656",
+    "sourceQuestionNumber": 656,
+    "subject": "chemistry",
+    "prompt": "Z uvedených zlúčenín vyberte acetály :",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-657",
+    "sourceQuestionNumber": 657,
+    "subject": "chemistry",
+    "prompt": "Poloacetál alebo acetál vzniká podľa reakčnej schémy:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-658",
+    "sourceQuestionNumber": 658,
+    "subject": "chemistry",
+    "prompt": "Vyberte reakcie, v ktorých ketóny reagujú podľa reakčnej schémy:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-670",
+    "sourceQuestionNumber": 670,
+    "subject": "chemistry",
+    "prompt": "Vyberte správnu aldolovú reakciu:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "B"
+    ]
+  },
+  {
+    "id": "chemistry-676",
+    "sourceQuestionNumber": 676,
+    "subject": "chemistry",
+    "prompt": "Vyberte zlúčeninu, ktorá je vhodná na prípravu aldolu:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-678",
+    "sourceQuestionNumber": 678,
+    "subject": "chemistry",
+    "prompt": "Vyberte reakcie, ktorými sa dokazuje prítomnosť aldehydu:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-679",
+    "sourceQuestionNumber": 679,
+    "subject": "chemistry",
+    "prompt": "Priebeh jodoformovej reakcie vyjadruje reakčná schéma:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-680",
+    "sourceQuestionNumber": 680,
+    "subject": "chemistry",
+    "prompt": "Vyberte zlúčeninu, ktorá dáva pozitívnu jodoformovú reakciu:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-747",
+    "sourceQuestionNumber": 747,
+    "subject": "chemistry",
+    "prompt": "Vyberte správne reakcie, pri ktorých vznikajú funkčné deriváty karboxylových kyselín:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": "chemistry-749",
+    "sourceQuestionNumber": 749,
+    "subject": "chemistry",
+    "prompt": "Opticky aktívna zlúčenina je:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "id": "chemistry-910",
+    "sourceQuestionNumber": 910,
+    "subject": "chemistry",
+    "prompt": "Označte zmiešané acylglyceroly mastných kyselín:",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correctChoices": [
+      "A",
+      "B"
+    ]
+  }
+]

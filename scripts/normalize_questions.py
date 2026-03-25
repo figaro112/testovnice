@@ -44,6 +44,7 @@ def parse_questions_from_text(text: str, subject: str) -> list[dict[str, object]
     questions: list[dict[str, object]] = []
     current_question: dict[str, object] | None = None
     current_choice: str | None = None
+    expecting_page_number = False
 
     def append_to_prompt(value: str) -> None:
         nonlocal current_question
@@ -61,10 +62,12 @@ def parse_questions_from_text(text: str, subject: str) -> list[dict[str, object]
 
     for raw_line in lines:
         if raw_line.startswith("Zoznam otázok z oblasti:"):
+            expecting_page_number = True
             continue
         if raw_line == ". strana":
+            expecting_page_number = False
             continue
-        if raw_line.isdigit():
+        if expecting_page_number and raw_line.isdigit():
             continue
 
         subject_match = SUBJECT_RE.search(raw_line)
@@ -84,14 +87,18 @@ def parse_questions_from_text(text: str, subject: str) -> list[dict[str, object]
             current_choice = None
             continue
 
+        if raw_line in {"A.", "B.", "C.", "D."} and current_question:
+            current_choice = raw_line[0]
+            continue
+
+        if current_question and current_choice and not str(current_question["choices"][current_choice]).strip():
+            append_to_choice(raw_line)
+            continue
+
         choice_inline_match = CHOICE_INLINE_RE.match(raw_line)
         if choice_inline_match and current_question:
             current_choice = choice_inline_match.group(1)
             append_to_choice(choice_inline_match.group(2))
-            continue
-
-        if raw_line in {"A.", "B.", "C.", "D."} and current_question:
-            current_choice = raw_line[0]
             continue
 
         if current_choice:
@@ -136,7 +143,7 @@ def main() -> int:
         return 1
 
     answer_keys = load_answer_keys(answer_key_dir)
-    by_subject: dict[str, list[dict[str, object]]] = {"biology": [], "chemistry": []}
+    subject_chunks: dict[str, list[str]] = {"biology": [], "chemistry": []}
 
     for path in sorted(raw_pages_dir.glob("page-*.txt")):
         text = path.read_text(encoding="utf-8")
@@ -155,7 +162,12 @@ def main() -> int:
         if not subject:
             continue
 
-        by_subject[subject].extend(parse_questions_from_text(text, subject))
+        subject_chunks[subject].append(text)
+
+    by_subject = {
+        subject: parse_questions_from_text("\n".join(chunks), subject)
+        for subject, chunks in subject_chunks.items()
+    }
 
     combined_questions: list[dict[str, object]] = []
     stats: dict[str, dict[str, int]] = {}
@@ -167,14 +179,27 @@ def main() -> int:
         for question in questions:
             question["correctChoices"] = answer_map.get(int(question["sourceQuestionNumber"]), [])
 
-        write_json(normalized_root / f"{subject}.questions.json", questions)
+        complete_questions = [
+            question
+            for question in questions
+            if all(str(choice["text"]).strip() for choice in question["choices"])
+        ]
+        incomplete_questions = [
+            question
+            for question in questions
+            if any(not str(choice["text"]).strip() for choice in question["choices"])
+        ]
 
-        matched = sum(1 for question in questions if question["correctChoices"])
+        write_json(normalized_root / f"{subject}.questions.json", complete_questions)
+        write_json(normalized_root / f"{subject}.incomplete.json", incomplete_questions)
+
+        matched = sum(1 for question in complete_questions if question["correctChoices"])
         stats[subject] = {
-            "questionCount": len(questions),
+            "questionCount": len(complete_questions),
             "questionsWithAnswers": matched,
+            "incompleteQuestionCount": len(incomplete_questions),
         }
-        combined_questions.extend(questions)
+        combined_questions.extend(complete_questions)
 
     combined_questions.sort(key=lambda item: (str(item["subject"]), int(item["sourceQuestionNumber"])))
     write_json(normalized_root / "all.questions.json", combined_questions)

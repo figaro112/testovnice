@@ -2,12 +2,14 @@
   "subjects": {
     "biology": {
       "questionCount": 1081,
-      "questionsWithAnswers": 1072
+      "questionsWithAnswers": 1081,
+      "incompleteQuestionCount": 0
     },
     "chemistry": {
-      "questionCount": 1093,
-      "questionsWithAnswers": 1093
+      "questionCount": 1069,
+      "questionsWithAnswers": 1069,
+      "incompleteQuestionCount": 24
     }
   },
-  "totalQuestions": 2174
+  "totalQuestions": 2150
 }

@@ -230,15 +230,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "O, O"
+        "text": "16 8 O, 17 8 O"
       },
       {
         "key": "B",
-        "text": "H, H, H"
+        "text": "1 1 H, 1 2 H, 1 3 H"
       },
       {
         "key": "C",
-        "text": "Ar, K"
+        "text": "40 18 Ar, 40 19 K"
       },
       {
         "key": "D",
@@ -297,7 +297,7 @@
       },
       {
         "key": "D",
-        "text": "môže byť napríklad N , F , HCl"
+        "text": "môže byť napríklad N 2 , F 2 , HCl"
       }
     ],
     "correctChoices": [
@@ -649,19 +649,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "25 g CaSO v 100 g roztoku"
+        "text": "25 g CaSO 4 v 100 g roztoku"
       },
       {
         "key": "B",
-        "text": "25 g Ca SO v 100 g roztoku"
+        "text": "25 g Ca 2 SO 4 v 100 g roztoku"
       },
       {
         "key": "C",
-        "text": "25 g CaSO v 100 g vody"
+        "text": "25 g CaSO 4 v 100 g vody"
       },
       {
         "key": "D",
-        "text": "25 g CaSO a 75 g vody"
+        "text": "25 g CaSO 4 a 75 g vody"
       }
     ],
     "correctChoices": [
@@ -877,7 +877,7 @@
       },
       {
         "key": "B",
-        "text": "má hodnotu 6,023 . 10"
+        "text": "má hodnotu 6,023 . 10 23"
       },
       {
         "key": "C",
@@ -885,7 +885,7 @@
       },
       {
         "key": "D",
-        "text": "je hmotnosť 1 ⁄ 12 hmotnosti atómu nuklidu uhlíka C (m u )"
+        "text": "je hmotnosť 1 ⁄ 12 hmotnosti atómu nuklidu uhlíka 12 C (m u )"
       }
     ],
     "correctChoices": [
@@ -962,7 +962,7 @@
       },
       {
         "key": "B",
-        "text": "koncentráciu látkového množstva látky A, čo je počet molov látky A v 1 dm roztoku"
+        "text": "koncentráciu látkového množstva látky A, čo je počet molov látky A v 1 dm 3 roztoku"
       },
       {
         "key": "C",
@@ -986,19 +986,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "je množstvo látky, ktoré obsahuje rovnaký počet častíc aký sa nachádza v 12 g nuklidu C"
+        "text": "je množstvo látky, ktoré obsahuje rovnaký počet častíc aký sa nachádza v 12 g nuklidu 12 C"
       },
       {
         "key": "B",
-        "text": "je množstvo látky, ktoré obsahuje 6,022 . 10 častíc"
+        "text": "je množstvo látky, ktoré obsahuje 6,022 . 10 23 častíc"
       },
       {
         "key": "C",
-        "text": "obsahuje 1,66 . 10 častíc"
+        "text": "obsahuje 1,66 . 10 27 častíc"
       },
       {
         "key": "D",
-        "text": "je 6,022 . 10 g"
+        "text": "je 6,022 . 10 23 g"
       }
     ],
     "correctChoices": [
@@ -1018,7 +1018,7 @@
       },
       {
         "key": "B",
-        "text": "vyjadruje sa v kg . dm"
+        "text": "vyjadruje sa v kg . dm 3"
       },
       {
         "key": "C",
@@ -1042,19 +1042,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "1"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "0"
       }
     ],
     "correctChoices": [
@@ -1069,19 +1069,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "5"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "6"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "4"
       }
     ],
     "correctChoices": [
@@ -1096,19 +1096,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "4"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "6"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "8"
       }
     ],
     "correctChoices": [
@@ -1123,19 +1123,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "4"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "5"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "6"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "7"
       }
     ],
     "correctChoices": [
@@ -1242,7 +1242,7 @@
       },
       {
         "key": "C",
-        "text": "celkový počet elektrónov je 2"
+        "text": "celkový počet elektrónov je 2 2"
       },
       {
         "key": "D",
@@ -1477,7 +1477,7 @@
     "id": "chemistry-54",
     "sourceQuestionNumber": 54,
     "subject": "chemistry",
-    "prompt": "Elektrónovú konfiguráciu 1s , 2s , 2px , 2py , 2pz má:",
+    "prompt": "Elektrónovú konfiguráciu 1s 2 , 2s 1 , 2px 1 , 2py 1 , 2pz 1 má:",
     "choices": [
       {
         "key": "A",
@@ -1512,11 +1512,11 @@
       },
       {
         "key": "B",
-        "text": "1s 2s 2p 3s 3p x 3p y 3p z"
+        "text": "1s 2 2s 2 2p 6 3s 2 3p x 2 3p y 2 3p z 3"
       },
       {
         "key": "C",
-        "text": "1s 2s 2p 3s 3p"
+        "text": "1s 2 2s 2 2p 6 3s 2 3p 5"
       },
       {
         "key": "D",
@@ -1562,7 +1562,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "prvkov p je ns np 1-6"
+        "text": "prvkov p je ns 1 np 1-6"
       },
       {
         "key": "B",
@@ -1570,11 +1570,11 @@
       },
       {
         "key": "C",
-        "text": "prvkov p je ns np 1-6"
+        "text": "prvkov p je ns 2 np 1-6"
       },
       {
         "key": "D",
-        "text": "halogénov je np"
+        "text": "halogénov je np 7"
       }
     ],
     "correctChoices": [
@@ -1707,7 +1707,7 @@
       },
       {
         "key": "B",
-        "text": "BaHO – hydrogénperoxid bárnatý (hydroperoxid bárnatý)"
+        "text": "BaHO 2 – hydrogénperoxid bárnatý (hydroperoxid bárnatý)"
       },
       {
         "key": "C",
@@ -1841,7 +1841,7 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "8"
       },
       {
         "key": "B",
@@ -1983,11 +1983,11 @@
       },
       {
         "key": "B",
-        "text": "CO , BaO, SO sú anhydridy kyselín"
+        "text": "CO 2 , BaO, SO 3 sú anhydridy kyselín"
       },
       {
         "key": "C",
-        "text": "ktoré sú nerozpustné vo vode, reagujú s alkalickými hydroxidmi za vzniku solí ako SiO + 2 NaOH → Na SiO + H O"
+        "text": "ktoré sú nerozpustné vo vode, reagujú s alkalickými hydroxidmi za vzniku solí ako SiO 2 + 2 NaOH → Na 2 SiO 3 + H 2 O"
       },
       {
         "key": "D",
@@ -2007,7 +2007,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "sú oxidy len prvkov s a s"
+        "text": "sú oxidy len prvkov s 1 a s 2"
       },
       {
         "key": "B",
@@ -2015,7 +2015,7 @@
       },
       {
         "key": "C",
-        "text": "reagujú podľa rovnice O 2- + H O → 2 OH –"
+        "text": "reagujú podľa rovnice O 2- + H 2 O → 2 OH –"
       },
       {
         "key": "D",
@@ -2047,7 +2047,7 @@
       },
       {
         "key": "D",
-        "text": "iónové hydridy sú hydridy prvkov s a s"
+        "text": "iónové hydridy sú hydridy prvkov s 1 a s 2"
       }
     ],
     "correctChoices": [
@@ -2064,19 +2064,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "NaH + H O → NaOH + H"
+        "text": "NaH + H 2 O → NaOH + H 2"
       },
       {
         "key": "B",
-        "text": "CaH + H O → Ca 2+ + H O +"
+        "text": "CaH + H 2 O → Ca 2+ + H 3 O +"
       },
       {
         "key": "C",
-        "text": "AsH + H O → AsH 4+ + OH -"
+        "text": "AsH 3 + H 2 O → AsH 4+ + OH -"
       },
       {
         "key": "D",
-        "text": "HI + H O → H O + + I -"
+        "text": "HI + H 2 O → H 3 O + + I -"
       }
     ],
     "correctChoices": [
@@ -2120,19 +2120,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "KH + H O → H + KOH"
+        "text": "KH + H 2 O → H 2 + KOH"
       },
       {
         "key": "B",
-        "text": "CH + H O → CO + 3 H"
+        "text": "CH 4 + H 2 O → CO 2 + 3 H 2"
       },
       {
         "key": "C",
-        "text": "HBr + H O → H O + + Br -"
+        "text": "HBr + H 2 O → H 3 O + + Br -"
       },
       {
         "key": "D",
-        "text": "PH + H O → H PO + 4 H"
+        "text": "PH 3 + H 2 O → H 3 PO 4 + 4 H 2"
       }
     ],
     "correctChoices": [
@@ -2240,7 +2240,7 @@
       },
       {
         "key": "C",
-        "text": "reagujú s vodou podľa rovnice: 2 M + + 2 H O = 2 MOH + H"
+        "text": "reagujú s vodou podľa rovnice: 2 M + + 2 H 2 O = 2 MOH + H 2"
       },
       {
         "key": "D",
@@ -2287,7 +2287,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "kobalt patrí medzi biogénne makroprvky; je súčasťou vitamínu B"
+        "text": "kobalt patrí medzi biogénne makroprvky; je súčasťou vitamínu B 12"
       },
       {
         "key": "B",
@@ -2356,7 +2356,7 @@
       },
       {
         "key": "D",
-        "text": "môžu reagovať podľa rovnice Cl + 2 KF → 2 KCl + F"
+        "text": "môžu reagovať podľa rovnice Cl 2 + 2 KF → 2 KCl + F 2"
       }
     ],
     "correctChoices": [
@@ -2372,19 +2372,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "2 KCl + F → Cl + 2 KF"
+        "text": "2 KCl + F 2 → Cl 2 + 2 KF"
       },
       {
         "key": "B",
-        "text": "2 Br - + I → Br + 2 I -"
+        "text": "2 Br - + I 2 → Br 2 + 2 I -"
       },
       {
         "key": "C",
-        "text": "F + I - → I + 2 F -"
+        "text": "F 2 + 2 I - → I 2 + 2 F -"
       },
       {
         "key": "D",
-        "text": "Cl + 2 Br - → Br + 2 Cl -"
+        "text": "Cl 2 + 2 Br - → Br 2 + 2 Cl -"
       }
     ],
     "correctChoices": [
@@ -2401,7 +2401,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "môžu reagovať podľa rovnice F + 2 NaBr → 2 NaF + Br"
+        "text": "môžu reagovať podľa rovnice F 2 + 2 NaBr → 2 NaF + Br 2"
       },
       {
         "key": "B",
@@ -2470,7 +2470,7 @@
       },
       {
         "key": "D",
-        "text": "vznikajú napríklad reakciou CaCO a HCl"
+        "text": "vznikajú napríklad reakciou CaCO 3 a HCl"
       }
     ],
     "correctChoices": [
@@ -2499,7 +2499,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "jodovodíkovej"
       }
     ],
     "correctChoices": [
@@ -2510,7 +2510,7 @@
     "id": "chemistry-91",
     "sourceQuestionNumber": 91,
     "subject": "chemistry",
-    "prompt": "V kyselinách HClO, HClO , HClO , HClO v uvedenom poradí:",
+    "prompt": "V kyselinách HClO, HClO 2 , HClO 3 , HClO 4 v uvedenom poradí:",
     "choices": [
       {
         "key": "A",
@@ -2606,7 +2606,7 @@
       },
       {
         "key": "C",
-        "text": "s vodou tvorí katióny H O +"
+        "text": "s vodou tvorí katióny H 3 O +"
       },
       {
         "key": "D",
@@ -2634,7 +2634,7 @@
       },
       {
         "key": "C",
-        "text": "vzniká rozkladom H O v prítomnosti MnO"
+        "text": "vzniká rozkladom H 2 O 2 v prítomnosti MnO 2"
       },
       {
         "key": "D",
@@ -2708,7 +2708,7 @@
     "id": "chemistry-98",
     "sourceQuestionNumber": 98,
     "subject": "chemistry",
-    "prompt": "Peroxid vodíka H O :",
+    "prompt": "Peroxid vodíka H 2 O 2 :",
     "choices": [
       {
         "key": "A",
@@ -2781,7 +2781,7 @@
       },
       {
         "key": "D",
-        "text": "prechodná sa odstráni varom, pričom dochádza k reakcii Ca(HCO ) → CaCO + H O + CO"
+        "text": "prechodná sa odstráni varom, pričom dochádza k reakcii Ca(HCO 3 ) 2 → CaCO 3 + H 2 O + CO 2"
       }
     ],
     "correctChoices": [
@@ -2802,7 +2802,7 @@
       },
       {
         "key": "B",
-        "text": "spôsobuje prítomnosť Ca(HCO ) a Mg(HCO )"
+        "text": "spôsobuje prítomnosť Ca(HCO 3 ) 2 a Mg(HCO 3 ) 2"
       },
       {
         "key": "C",
@@ -2825,15 +2825,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "sa dá odstrániť pridaním Na CO"
+        "text": "sa dá odstrániť pridaním Na 2 CO 3"
       },
       {
         "key": "B",
-        "text": "je spôsobená prítomnosťou hlavne CaSO a MgSO"
+        "text": "je spôsobená prítomnosťou hlavne CaSO 4 a MgSO 4"
       },
       {
         "key": "C",
-        "text": "sa môže odstrániť pridaním sódy podľa rovnice CaSO + Na CO → Na SO + CaCO"
+        "text": "sa môže odstrániť pridaním sódy podľa rovnice CaSO 4 + Na 2 CO 3 → Na 2 SO 4 + CaCO 3"
       },
       {
         "key": "D",
@@ -2938,11 +2938,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "atómy uhlíka v grafite majú hybridizáciu sp"
+        "text": "atómy uhlíka v grafite majú hybridizáciu sp 2"
       },
       {
         "key": "B",
-        "text": "atómy uhlíka v diamante majú hybridizáciu sp"
+        "text": "atómy uhlíka v diamante majú hybridizáciu sp 3"
       },
       {
         "key": "C",
@@ -3076,7 +3076,7 @@
     "id": "chemistry-111",
     "sourceQuestionNumber": 111,
     "subject": "chemistry",
-    "prompt": "Zlúčenina COCl :",
+    "prompt": "Zlúčenina COCl 2 :",
     "choices": [
       {
         "key": "A",
@@ -3116,7 +3116,7 @@
       },
       {
         "key": "C",
-        "text": "zlučovaním so sírou vzniká sírouhlík CS"
+        "text": "zlučovaním so sírou vzniká sírouhlík CS 2"
       },
       {
         "key": "D",
@@ -3199,7 +3199,7 @@
       },
       {
         "key": "C",
-        "text": "majú všeobecnú konfiguráciu valenčnej vrstvy ns np 1-6"
+        "text": "majú všeobecnú konfiguráciu valenčnej vrstvy ns 2 np 1-6"
       },
       {
         "key": "D",
@@ -3285,7 +3285,7 @@
       },
       {
         "key": "C",
-        "text": "hliník okrem kovalentných zlúčenín tvorí aj hydratovaný katión [Al(H O) ] 3+"
+        "text": "hliník okrem kovalentných zlúčenín tvorí aj hydratovaný katión [Al(H 2 O) 6 ] 3+"
       },
       {
         "key": "D",
@@ -3362,7 +3362,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "vyrába sa reakciou SO s vodou"
+        "text": "vyrába sa reakciou SO 3 s vodou"
       },
       {
         "key": "B",
@@ -3419,19 +3419,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "2 SO + O → 2 SO"
+        "text": "2 SO 2 + O 2 → 2 SO 3"
       },
       {
         "key": "B",
-        "text": "SO + H O → H SO"
+        "text": "SO 2 + H 2 O → H 2 SO 3"
       },
       {
         "key": "C",
-        "text": "SO + H S → 3 S + 2 H O"
+        "text": "SO 2 + H 2 S → 3 S + 2 H 2 O"
       },
       {
         "key": "D",
-        "text": "SO + 2 NaOH → Na SO + H O"
+        "text": "SO 2 + 2 NaOH → Na 2 SO 3 + H 2 O"
       }
     ],
     "correctChoices": [
@@ -3474,7 +3474,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "jeho molekula N je mimoriadne stabilná, čoho prejavom je značná inertnosť dusíka"
+        "text": "jeho molekula N 2 je mimoriadne stabilná, čoho prejavom je značná inertnosť dusíka"
       },
       {
         "key": "B",
@@ -3542,7 +3542,7 @@
       },
       {
         "key": "D",
-        "text": "vznik molekuly N je reakcia exotermická"
+        "text": "vznik molekuly N 2 je reakcia exotermická"
       }
     ],
     "correctChoices": [
@@ -3558,11 +3558,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "má vzorec NH"
+        "text": "má vzorec NH 4"
       },
       {
         "key": "B",
-        "text": "má vzorec NH"
+        "text": "má vzorec NH 3"
       },
       {
         "key": "C",
@@ -3638,7 +3638,7 @@
     "id": "chemistry-131",
     "sourceQuestionNumber": 131,
     "subject": "chemistry",
-    "prompt": "Pri vzniku katiónu NH + :",
+    "prompt": "Pri vzniku katiónu NH 4 + :",
     "choices": [
       {
         "key": "A",
@@ -3670,19 +3670,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "2 NH + 6 HCl → 2 NCl + 3 H"
+        "text": "2 NH 3 + 6 HCl → 2 NCl 3 + 3 H 2"
       },
       {
         "key": "B",
-        "text": "4 NH + 5 O → 4 NO + 6 H O"
+        "text": "4 NH 3 + 5 O 2 → 4 NO + 6 H 2 O"
       },
       {
         "key": "C",
-        "text": "NH + H O → NH - + H O +"
+        "text": "NH 3 + H 2 O → NH 2 - + H 3 O +"
       },
       {
         "key": "D",
-        "text": "NH + HBr → NH Br"
+        "text": "NH 3 + HBr → NH 4 Br"
       }
     ],
     "correctChoices": [
@@ -3702,11 +3702,11 @@
       },
       {
         "key": "B",
-        "text": "všetky okrem N O sú toxické"
+        "text": "všetky okrem N 2 O sú toxické"
       },
       {
         "key": "C",
-        "text": "N O sa nazýva rajský plyn"
+        "text": "N 2 O sa nazýva rajský plyn"
       },
       {
         "key": "D",
@@ -3727,7 +3727,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "má vzorec HNO"
+        "text": "má vzorec HNO 2"
       },
       {
         "key": "B",
@@ -3782,19 +3782,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "Cu + HNO → Cu(NO ) + H"
+        "text": "Cu + HNO 3 → Cu(NO 3 ) 2 + H 2"
       },
       {
         "key": "B",
-        "text": "2 NaOH + HNO → Na NO + H O"
+        "text": "2 NaOH + HNO 3 → Na 2 NO 3 + H 2 O"
       },
       {
         "key": "C",
-        "text": "3 Cu + 8 HNO → 2 NO + 3 Cu(NO ) + 4 H O"
+        "text": "3 Cu + 8 HNO 3 → 2 NO + 3 Cu(NO 3 ) 2 + 4 H 2 O"
       },
       {
         "key": "D",
-        "text": "4 Zn + 10 HNO (aq) → 4 Zn(NO ) + NH NO + 3 H O"
+        "text": "4 Zn + 10 HNO 3 (aq) → 4 Zn(NO 3 ) 2 + NH 4 NO 3 + 3 H 2 O"
       }
     ],
     "correctChoices": [
@@ -3870,15 +3870,15 @@
       },
       {
         "key": "B",
-        "text": "pri horení bieleho fosforu vzniká P O a P O"
+        "text": "pri horení bieleho fosforu vzniká P 4 O 6 a P 4 O 10"
       },
       {
         "key": "C",
-        "text": "tvorí molekuly P"
+        "text": "tvorí molekuly P 2"
       },
       {
         "key": "D",
-        "text": "tvorí molekuly P"
+        "text": "tvorí molekuly P 4"
       }
     ],
     "correctChoices": [
@@ -3982,7 +3982,7 @@
       },
       {
         "key": "B",
-        "text": "reaguje s fluorovodíkom podľa rovnice SiO + 4 HF → SiF + 2 H O"
+        "text": "reaguje s fluorovodíkom podľa rovnice SiO 2 + 4 HF → SiF 4 + 2 H 2 O"
       },
       {
         "key": "C",
@@ -4006,19 +4006,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "Al(OH) + 3 H SO → Al(SO ) + 6 H O"
+        "text": "Al(OH) 3 + 3 H 2 SO 4 → Al(SO 4 ) 3 + 6 H 2 O"
       },
       {
         "key": "B",
-        "text": "Al(OH) + 3 H O + → [Al(H O) ] 3+"
+        "text": "Al(OH) 3 + 3 H 3 O + → [Al(H 2 O) 6 ] 3+"
       },
       {
         "key": "C",
-        "text": "Al(OH) + NaCl → Na[Al(OH) ] + HCl"
+        "text": "Al(OH) 3 + NaCl → Na[Al(OH) 4 ] + HCl"
       },
       {
         "key": "D",
-        "text": "Al(OH) + OH - → [Al(OH) ] -"
+        "text": "Al(OH) 3 + OH - → [Al(OH) 4 ] -"
       }
     ],
     "correctChoices": [
@@ -4117,19 +4117,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "Fe O + 2 CO → 2 CO + 2 Fe"
+        "text": "Fe 2 O 3 + 2 CO → 2 CO 2 + 2 Fe"
       },
       {
         "key": "B",
-        "text": "Fe O + 3 C → 3 CO + 2 Fe"
+        "text": "Fe 2 O 3 + 3 C → 3 CO + 2 Fe"
       },
       {
         "key": "C",
-        "text": "FeO + CO → CO + Fe"
+        "text": "FeO + CO → CO 2 + Fe"
       },
       {
         "key": "D",
-        "text": "FeO + CO → Fe + CO"
+        "text": "FeO + CO 2 → Fe + CO 3"
       }
     ],
     "correctChoices": [
@@ -4269,7 +4269,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "na predposlednej vrstve majú 18 elektrónov"
       }
     ],
     "correctChoices": [
@@ -4284,19 +4284,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "K [Cr(H O) (CN) ]"
+        "text": "K 3 [Cr(H 2 O) 4 (CN) 6 ]"
       },
       {
         "key": "B",
-        "text": "[Pt(NH ) ] [Fe(CN) ]"
+        "text": "[Pt(NH 3 ) 6 ] 3 [Fe(CN) 6 ] 2"
       },
       {
         "key": "C",
-        "text": "[Cu(NH ) ]Cl"
+        "text": "[Cu(NH 3 ) 4 ]Cl 2"
       },
       {
         "key": "D",
-        "text": "[Ni(H O) ](NO )"
+        "text": "[Ni(H 2 O) 3 ](NO 3 ) 2"
       }
     ],
     "correctChoices": [
@@ -4325,7 +4325,7 @@
       },
       {
         "key": "D",
-        "text": "vitamínu B"
+        "text": "vitamínu B 12"
       }
     ],
     "correctChoices": [
@@ -4566,19 +4566,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "NaCl, CH , NH"
+        "text": "NaCl, CH 4 , NH 3"
       },
       {
         "key": "B",
-        "text": "Cl , N , O"
+        "text": "Cl 2 , N 2 , O 2"
       },
       {
         "key": "C",
-        "text": "H O, NH , HCl"
+        "text": "H 2 O, NH 3 , HCl"
       },
       {
         "key": "D",
-        "text": "HCl, H O, CO"
+        "text": "HCl, H 2 O, CO"
       }
     ],
     "correctChoices": [
@@ -4705,19 +4705,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "jód v K [AgI ]"
+        "text": "jód v K 3 [AgI 4 ]"
       },
       {
         "key": "B",
-        "text": "Fe v KFe(SO )"
+        "text": "Fe v KFe(SO 4 ) 2"
       },
       {
         "key": "C",
-        "text": "Ni v [Ni(NH ) ]SO"
+        "text": "Ni v [Ni(NH 3 ) 6 ]SO 4"
       },
       {
         "key": "D",
-        "text": "K v K [Fe(CN) ]"
+        "text": "K v K 3 [Fe(CN) 6 ]"
       }
     ],
     "correctChoices": [
@@ -4816,19 +4816,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH ; CHCl"
+        "text": "CH 4 ; CHCl 3"
       },
       {
         "key": "B",
-        "text": "H O + ; NH +"
+        "text": "H 3 O + ; NH 4 +"
       },
       {
         "key": "C",
-        "text": "[Cu(NH ) ]Cl ; KCr(SO )"
+        "text": "[Cu(NH 3 ) 4 ]Cl 2 ; KCr(SO 4 ) 2"
       },
       {
         "key": "D",
-        "text": "[Ni(H O) ](NO ) ; NH Cl"
+        "text": "[Ni(H 2 O) 3 ](NO 3 ) 2 ; NH 4 Cl"
       }
     ],
     "correctChoices": [
@@ -4852,7 +4852,7 @@
       },
       {
         "key": "C",
-        "text": "väzba π sa nachádza napríklad v molekulách Cl , H , N , O"
+        "text": "väzba π sa nachádza napríklad v molekulách Cl 2 , H 2 , N 2 , O 2"
       },
       {
         "key": "D",
@@ -4876,7 +4876,7 @@
       },
       {
         "key": "B",
-        "text": "molekula CO aj CO sú polárne"
+        "text": "molekula CO aj CO 2 sú polárne"
       },
       {
         "key": "C",
@@ -5013,7 +5013,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "tvoria atómy uhlíka v hybridizácii sp , sp"
+        "text": "tvoria atómy uhlíka v hybridizácii sp 2 , sp 3"
       },
       {
         "key": "B",
@@ -5021,7 +5021,7 @@
       },
       {
         "key": "C",
-        "text": "tvoria aj zlúčeniny SiO , SiC"
+        "text": "tvoria aj zlúčeniny SiO 2 , SiC"
       },
       {
         "key": "D",
@@ -5046,7 +5046,7 @@
       },
       {
         "key": "B",
-        "text": "je tvorená atómami uhlíka v hybridizácii sp , takže každý atóm C tvorí tri pevné kovalentné väzby"
+        "text": "je tvorená atómami uhlíka v hybridizácii sp 2 , takže každý atóm C tvorí tri pevné kovalentné väzby"
       },
       {
         "key": "C",
@@ -5079,7 +5079,7 @@
       },
       {
         "key": "C",
-        "text": "v kryštálovej mriežke sú molekuly CO viazané vodíkovými väzbami"
+        "text": "v kryštálovej mriežke sú molekuly CO 2 viazané vodíkovými väzbami"
       },
       {
         "key": "D",
@@ -5280,7 +5280,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "exotermických reakcií je menšia ako endotermických"
       }
     ],
     "correctChoices": [
@@ -5359,7 +5359,7 @@
       },
       {
         "key": "C",
-        "text": "výmena H O + za OH -"
+        "text": "výmena H 3 O + za OH -"
       },
       {
         "key": "D",
@@ -5378,19 +5378,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "N + 3 H → 2 NH"
+        "text": "N 2 + 3 H 2 → 2 NH 3"
       },
       {
         "key": "B",
-        "text": "HCl + H O → H O + + Cl -"
+        "text": "HCl + H 2 O → H 3 O + + Cl -"
       },
       {
         "key": "C",
-        "text": "H SO + Ca(OH) → CaSO + 2 H O"
+        "text": "H 2 SO 4 + Ca(OH) 2 → CaSO 4 + 2 H 2 O"
       },
       {
         "key": "D",
-        "text": "CaCl + Na SO → CaSO + 2 NaCl"
+        "text": "CaCl 2 + Na 2 SO 4 → CaSO 4 + 2 NaCl"
       }
     ],
     "correctChoices": [
@@ -5406,19 +5406,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "AgNO + KCl → AgCl + KNO"
+        "text": "AgNO 3 + KCl → AgCl + KNO 3"
       },
       {
         "key": "B",
-        "text": "2 Na + 2 H O → 2 NaOH + H"
+        "text": "2 Na + 2 H 2 O → 2 NaOH + H 2"
       },
       {
         "key": "C",
-        "text": "2 KOH + H SO → K SO + 2 H O"
+        "text": "2 KOH + H 2 SO 4 → K 2 SO 4 + 2 H 2 O"
       },
       {
         "key": "D",
-        "text": "NH + HCl → NH Cl"
+        "text": "NH 3 + HCl → NH 4 Cl"
       }
     ],
     "correctChoices": [
@@ -5434,19 +5434,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "NH + + H O → NH + H O +"
+        "text": "NH 4 + + H 2 O → NH 3 + H 3 O +"
       },
       {
         "key": "B",
-        "text": "HCO - + H O → H CO + OH -"
+        "text": "HCO 3 - + H 2 O → H 2 CO 3 + OH -"
       },
       {
         "key": "C",
-        "text": "SO + H O → H SO"
+        "text": "SO 2 + H 2 O → H 2 SO 3"
       },
       {
         "key": "D",
-        "text": "CaO + H O → Ca(OH)"
+        "text": "CaO + H 2 O → Ca(OH) 2"
       }
     ],
     "correctChoices": [
@@ -5543,11 +5543,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "HNO"
+        "text": "HNO 3"
       },
       {
         "key": "B",
-        "text": "H S"
+        "text": "H 2 S"
       },
       {
         "key": "C",
@@ -5820,19 +5820,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "4 NH (g) + 5 O (g) → 4 NO (g) + 6 H O (g) ∆H = -906 kJ/mol"
+        "text": "4 NH 3 (g) + 5 O 2 (g) → 4 NO (g) + 6 H 2 O (g) ∆H = -906 kJ/mol"
       },
       {
         "key": "B",
-        "text": "2 CO + O (g) → 2 CO (g) + 566 kJ"
+        "text": "2 CO + O (g) → 2 CO 2 (g) + 566 kJ"
       },
       {
         "key": "C",
-        "text": "CaCO (g) + 178 kJ → CaO (g) + CO (g)"
+        "text": "CaCO 3 (g) + 178 kJ → CaO (g) + CO 2 (g)"
       },
       {
         "key": "D",
-        "text": "2 H (g) + O (g) → 2 H O (l) + 571,6 kJ"
+        "text": "2 H 2 (g) + O 2 (g) → 2 H 2 O (l) + 571,6 kJ"
       }
     ],
     "correctChoices": [
@@ -6271,15 +6271,15 @@
       },
       {
         "key": "B",
-        "text": ""
+        "text": "bude rovnaká, pretože reagujú rovnaké plyny"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "v guľovitej nádobe bude vyššia ako v úzkej trubici"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "v úzkej trubici bude väčšia ako v guľovitej nádobe"
       }
     ],
     "correctChoices": [
@@ -6290,7 +6290,7 @@
     "id": "chemistry-226",
     "sourceQuestionNumber": 226,
     "subject": "chemistry",
-    "prompt": "Rovnováha chemickej reakcie 2 NO (g) + O (g) ↔ 2 NO (g) s hodnotou reakčného tepla Q = -117 kJ/mol sa posúva na stranu reaktantov:",
+    "prompt": "Rovnováha chemickej reakcie 2 NO (g) + O 2 (g) ↔ 2 NO 2 (g) s hodnotou reakčného tepla Q = -117 kJ/mol sa posúva na stranu reaktantov:",
     "choices": [
       {
         "key": "A",
@@ -6298,7 +6298,7 @@
       },
       {
         "key": "B",
-        "text": "odstraňovaním NO z reakčnej zmesi"
+        "text": "odstraňovaním NO 2 z reakčnej zmesi"
       },
       {
         "key": "C",
@@ -6539,23 +6539,23 @@
     "id": "chemistry-235",
     "sourceQuestionNumber": 235,
     "subject": "chemistry",
-    "prompt": "Hodnota rovnovážnej konštanty reakcie 4 KClO ↔ KCl + 3 KClO je daná vzťahom:",
+    "prompt": "Hodnota rovnovážnej konštanty reakcie 4 KClO 3 ↔ KCl + 3 KClO 4 je daná vzťahom:",
     "choices": [
       {
         "key": "A",
-        "text": "K = 4 [ KClO ] / ( [ KCl ] + 3 [ KClO ] )"
+        "text": "K = 4 [ KClO 3 ] / ( [ KCl ] + 3 [ KClO 4 ] )"
       },
       {
         "key": "B",
-        "text": "K = ( [ KCl ].[ KClO ] ) / [ KClO ]"
+        "text": "K = ( [ KCl ].[ KClO 4 ] 3 ) / [ KClO 3 ] 4"
       },
       {
         "key": "C",
-        "text": "K = ( [ KCl ] + [ KClO ] ) / [ KClO ]"
+        "text": "K = ( [ KCl ] + [ KClO 4 ] 3 ) / [ KClO 3 ]"
       },
       {
         "key": "D",
-        "text": "K = [ KClO ] / ( [ KCl ] . [KClO ] )"
+        "text": "K = [ KClO 3 ] 4 / ( [ KCl ] . [KClO 4 ] 3 )"
       }
     ],
     "correctChoices": [
@@ -6703,7 +6703,7 @@
     "id": "chemistry-241",
     "sourceQuestionNumber": 241,
     "subject": "chemistry",
-    "prompt": "Vyberte faktory, ktoré v reakcii CaCO (s) ↔ CaO (s) + CO (g) ∆Q > 0 posunú rovnovážny stav na stranu produktov:",
+    "prompt": "Vyberte faktory, ktoré v reakcii CaCO 3 (s) ↔ CaO (s) + CO 2 (g) ∆Q > 0 posunú rovnovážny stav na stranu produktov:",
     "choices": [
       {
         "key": "A",
@@ -6813,7 +6813,7 @@
     "id": "chemistry-245",
     "sourceQuestionNumber": 245,
     "subject": "chemistry",
-    "prompt": "Rovnovážny stav reakcie 2 HBr (g) ←→ H (g) + Br (g) ∆H > 0 sa posunie na stranu reaktantov:",
+    "prompt": "Rovnovážny stav reakcie 2 HBr (g) ←→ H 2 (g) + Br 2 (g) ∆H > 0 sa posunie na stranu reaktantov:",
     "choices": [
       {
         "key": "A",
@@ -6840,7 +6840,7 @@
     "id": "chemistry-246",
     "sourceQuestionNumber": 246,
     "subject": "chemistry",
-    "prompt": "Chemická rovnováha v reakčnom systéme 2 SO (g) ←→ 2 SO (g) + O (g) ∆H = +195 kJ/mol sa posunie na stranu produktov:",
+    "prompt": "Chemická rovnováha v reakčnom systéme 2 SO 3 (g) ←→ 2 SO 2 (g) + O 2 (g) ∆H = +195 kJ/mol sa posunie na stranu produktov:",
     "choices": [
       {
         "key": "A",
@@ -6869,7 +6869,7 @@
     "id": "chemistry-247",
     "sourceQuestionNumber": 247,
     "subject": "chemistry",
-    "prompt": "V rovnovážnom systéme N (g) + 3 H (g) ←→ NH (g) ∆H = -92,4 kJ/mol sa posunie rovnováha na stranu produktov, ak:",
+    "prompt": "V rovnovážnom systéme N 2 (g) + 3 H 2 (g) ←→ NH 3 (g) ∆H = -92,4 kJ/mol sa posunie rovnováha na stranu produktov, ak:",
     "choices": [
       {
         "key": "A",
@@ -6897,7 +6897,7 @@
     "id": "chemistry-248",
     "sourceQuestionNumber": 248,
     "subject": "chemistry",
-    "prompt": "Rovnováhu v chemickej reakcii NaOH (aq) + HCl (aq) ↔ NaCl (aq) + H O (l) môžeme na stranu produktov posunúť:",
+    "prompt": "Rovnováhu v chemickej reakcii NaOH (aq) + HCl (aq) ↔ NaCl (aq) + H 2 O (l) môžeme na stranu produktov posunúť:",
     "choices": [
       {
         "key": "A",
@@ -6929,11 +6929,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "kyselina je látka, ktorá vo vodnom prostredí odštiepi atóm vodíka a vytvorí katión H O +"
+        "text": "kyselina je látka, ktorá vo vodnom prostredí odštiepi atóm vodíka a vytvorí katión H 3 O +"
       },
       {
         "key": "B",
-        "text": "kyselina je látka, ktorá vo vodnom prostredí odštiepi katión vodíka a vytvorí katión H O +"
+        "text": "kyselina je látka, ktorá vo vodnom prostredí odštiepi katión vodíka a vytvorí katión H 3 O +"
       },
       {
         "key": "C",
@@ -6941,7 +6941,7 @@
       },
       {
         "key": "D",
-        "text": "zásada je látka, ktorá vo vodnom prostredí vytvorí H O -"
+        "text": "zásada je látka, ktorá vo vodnom prostredí vytvorí H 3 O -"
       }
     ],
     "correctChoices": [
@@ -6965,11 +6965,11 @@
       },
       {
         "key": "C",
-        "text": "kyseliny sú napríklad HCl, H SO , NH + , HNO"
+        "text": "kyseliny sú napríklad HCl, H 2 SO 4 , NH 4 + , HNO 3"
       },
       {
         "key": "D",
-        "text": "zásady sú napríklad NaOH, KOH, Mg(OH)"
+        "text": "zásady sú napríklad NaOH, KOH, Mg(OH) 2"
       }
     ],
     "correctChoices": [
@@ -6993,11 +6993,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "zásady sú akceptormi protónu"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "zásady sú látky schopné vodík prijať"
       }
     ],
     "correctChoices": [
@@ -7040,19 +7040,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "HNO , NH , HCl, H SO"
+        "text": "HNO 3 , NH 3 , HCl, H 2 SO 4"
       },
       {
         "key": "B",
-        "text": "NH + , HCl, H PO -"
+        "text": "NH 4 + , HCl, H 2 PO 4 -"
       },
       {
         "key": "C",
-        "text": "H O + , HClO , H PO"
+        "text": "H 3 O + , HClO 4 , H 3 PO 4"
       },
       {
         "key": "D",
-        "text": "Cl - , H O, H O +"
+        "text": "Cl - , H 2 O, H 3 O +"
       }
     ],
     "correctChoices": [
@@ -7095,19 +7095,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "OH - , HPO 2- , Cl -"
+        "text": "OH - , HPO 4 2- , Cl -"
       },
       {
         "key": "B",
-        "text": "NH , KOH, H S"
+        "text": "NH 3 , KOH, H 2 S"
       },
       {
         "key": "C",
-        "text": "Br - , NH + , NaOH"
+        "text": "Br - , NH 4 + , NaOH"
       },
       {
         "key": "D",
-        "text": "Cl - , PO 3- , OH -"
+        "text": "Cl - , PO 4 3- , OH -"
       }
     ],
     "correctChoices": [
@@ -7131,7 +7131,7 @@
       },
       {
         "key": "C",
-        "text": "ktoré sa môžu tvoriť aj v organizme, napr. HCO -"
+        "text": "ktoré sa môžu tvoriť aj v organizme, napr. HCO 3 -"
       },
       {
         "key": "D",
@@ -7151,19 +7151,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "H PO - , HCO - , H O"
+        "text": "H 2 PO 4 - , HCO 3 - , H 2 O"
       },
       {
         "key": "B",
-        "text": "HClO , H PO - , Cl -"
+        "text": "HClO 4 , H 2 PO 4 - , Cl -"
       },
       {
         "key": "C",
-        "text": "H O, OH - , H O +"
+        "text": "H 2 O, OH - , H 3 O +"
       },
       {
         "key": "D",
-        "text": "NH , H O, CO"
+        "text": "NH 3 , H 2 O, CO 2"
       }
     ],
     "correctChoices": [
@@ -7174,15 +7174,15 @@
     "id": "chemistry-258",
     "sourceQuestionNumber": 258,
     "subject": "chemistry",
-    "prompt": "V rovnici NH + HCl → NH + + Cl - určte konjugované páry:",
+    "prompt": "V rovnici NH 3 + HCl → NH 4 + + Cl - určte konjugované páry:",
     "choices": [
       {
         "key": "A",
-        "text": "NH , Cl -"
+        "text": "NH 3 , Cl -"
       },
       {
         "key": "B",
-        "text": "NH , NH +"
+        "text": "NH 3 , NH 4 +"
       },
       {
         "key": "C",
@@ -7190,7 +7190,7 @@
       },
       {
         "key": "D",
-        "text": "H O, OH -"
+        "text": "H 2 O, OH -"
       }
     ],
     "correctChoices": [
@@ -7210,7 +7210,7 @@
       },
       {
         "key": "B",
-        "text": "rovnica, ktorú môžeme zapísať rovnicou H O + + OH - → 2 H O"
+        "text": "rovnica, ktorú môžeme zapísať rovnicou H 3 O + + OH - → 2 H 2 O"
       },
       {
         "key": "C",
@@ -7483,7 +7483,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "je látka, ktorá sa skladá z katiónu kovu alebo NH + a aniónu kyseliny"
+        "text": "je látka, ktorá sa skladá z katiónu kovu alebo NH 4 + a aniónu kyseliny"
       },
       {
         "key": "B",
@@ -7568,19 +7568,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "NaNO , K MnO"
+        "text": "NaNO 3 , K 2 MnO 4"
       },
       {
         "key": "B",
-        "text": "K CO , (CH COO) Mg"
+        "text": "K 2 CO 3 , (CH 3 COO) 2 Mg"
       },
       {
         "key": "C",
-        "text": "NH Cl, NaNO"
+        "text": "NH 4 Cl, NaNO 2"
       },
       {
         "key": "D",
-        "text": "K SO , Na S"
+        "text": "K 2 SO 3 , Na 2 S"
       }
     ],
     "correctChoices": [
@@ -7596,19 +7596,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "Fe SO , NH I"
+        "text": "Fe 2 SO 4 , NH 4 I"
       },
       {
         "key": "B",
-        "text": "CH COOK, RbCl"
+        "text": "CH 3 COOK, RbCl"
       },
       {
         "key": "C",
-        "text": "(NH ) SO , Al(NO )"
+        "text": "(NH 4 ) 2 SO 4 , Al(NO 3 ) 3"
       },
       {
         "key": "D",
-        "text": "H CO , CH COOH"
+        "text": "H 2 CO 3 , CH 3 COOH"
       }
     ],
     "correctChoices": [
@@ -7625,19 +7625,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "FeSO , SO"
+        "text": "FeSO 4 , SO 2"
       },
       {
         "key": "B",
-        "text": "glukóza, NH Br"
+        "text": "glukóza, NH 4 Br"
       },
       {
         "key": "C",
-        "text": "Cl , CO"
+        "text": "Cl 2 , CO 2"
       },
       {
         "key": "D",
-        "text": "CaCl , NaNO"
+        "text": "CaCl 2 , NaNO 3"
       }
     ],
     "correctChoices": [
@@ -7653,11 +7653,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Li SO"
+        "text": "Li 2 SO 4"
       },
       {
         "key": "B",
-        "text": "NH NO"
+        "text": "NH 4 NO 3"
       },
       {
         "key": "C",
@@ -7665,7 +7665,7 @@
       },
       {
         "key": "D",
-        "text": "FeCl"
+        "text": "FeCl 3"
       }
     ],
     "correctChoices": [
@@ -7718,7 +7718,7 @@
       },
       {
         "key": "C",
-        "text": "ak rozpustíme SO vo vode"
+        "text": "ak rozpustíme SO 2 vo vode"
       },
       {
         "key": "D",
@@ -7768,7 +7768,7 @@
       },
       {
         "key": "B",
-        "text": "N O"
+        "text": "N 2 O 5"
       },
       {
         "key": "C",
@@ -7776,7 +7776,7 @@
       },
       {
         "key": "D",
-        "text": "P O"
+        "text": "P 2 O 5"
       }
     ],
     "correctChoices": [
@@ -7855,7 +7855,7 @@
       },
       {
         "key": "C",
-        "text": "v zriedenej HNO"
+        "text": "v zriedenej HNO 3"
       },
       {
         "key": "D",
@@ -7878,7 +7878,7 @@
       },
       {
         "key": "B",
-        "text": "je daný súčinom rovnovážnych molárnych koncentrácií H O + a OH -"
+        "text": "je daný súčinom rovnovážnych molárnych koncentrácií H 3 O + a OH -"
       },
       {
         "key": "C",
@@ -7956,11 +7956,11 @@
     "id": "chemistry-286",
     "sourceQuestionNumber": 286,
     "subject": "chemistry",
-    "prompt": "Podľa koncentrácií H O + a OH - vyberte zásadité roztoky:",
+    "prompt": "Podľa koncentrácií H 3 O + a OH - vyberte zásadité roztoky:",
     "choices": [
       {
         "key": "A",
-        "text": "c(H O + ) = 1,5 . 10 -5 mol . dm –3"
+        "text": "c(H 3 O + ) = 1,5 . 10 -5 mol . dm –3"
       },
       {
         "key": "B",
@@ -7972,7 +7972,7 @@
       },
       {
         "key": "D",
-        "text": "c(H O + ) = 4,4 . 10 -11 mol . dm –3"
+        "text": "c(H 3 O + ) = 4,4 . 10 -11 mol . dm –3"
       }
     ],
     "correctChoices": [
@@ -7992,15 +7992,15 @@
       },
       {
         "key": "B",
-        "text": "2 mol Ca(OH)"
+        "text": "2 mol Ca(OH) 2"
       },
       {
         "key": "C",
-        "text": "1/3 mol Ba(OH)"
+        "text": "1/3 mol Ba(OH) 3"
       },
       {
         "key": "D",
-        "text": "1 mol Mg(OH)"
+        "text": "1 mol Mg(OH) 2"
       }
     ],
     "correctChoices": [
@@ -8019,15 +8019,15 @@
       },
       {
         "key": "B",
-        "text": "1 mol Bi(OH)"
+        "text": "1 mol Bi(OH) 3"
       },
       {
         "key": "C",
-        "text": "2 mol Ca(OH)"
+        "text": "2 mol Ca(OH) 2"
       },
       {
         "key": "D",
-        "text": "3 mol Fe(OH)"
+        "text": "3 mol Fe(OH) 3"
       }
     ],
     "correctChoices": [
@@ -8039,7 +8039,7 @@
     "id": "chemistry-289",
     "sourceQuestionNumber": 289,
     "subject": "chemistry",
-    "prompt": "Pre redoxnú reakciu KMnO + FeSO + H SO → MnSO + K SO + Fe (SO ) + H O platí:",
+    "prompt": "Pre redoxnú reakciu KMnO 4 + FeSO 4 + H 2 SO 4 → MnSO 4 + K 2 SO 4 + Fe 2 (SO 4 ) 3 + H 2 O platí:",
     "choices": [
       {
         "key": "A",
@@ -8051,7 +8051,7 @@
       },
       {
         "key": "C",
-        "text": "2Fe II - 2e → Fe III"
+        "text": "2Fe II - 2e → Fe 2 III"
       },
       {
         "key": "D",
@@ -8067,11 +8067,11 @@
     "id": "chemistry-290",
     "sourceQuestionNumber": 290,
     "subject": "chemistry",
-    "prompt": "Pre redoxnú reakciu HCl + KMnO → Cl + MnCl + KCl + H O platí:",
+    "prompt": "Pre redoxnú reakciu HCl + KMnO 4 → Cl 2 + MnCl 2 + KCl + H 2 O platí:",
     "choices": [
       {
         "key": "A",
-        "text": "2Cl -I + 2e → Cl"
+        "text": "2Cl -I + 2e → Cl 0"
       },
       {
         "key": "B",
@@ -8095,11 +8095,11 @@
     "id": "chemistry-291",
     "sourceQuestionNumber": 291,
     "subject": "chemistry",
-    "prompt": "Pre redoxnú reakciu H S + K Cr O + H SO → S + Cr (SO ) + K SO + H O platí:",
+    "prompt": "Pre redoxnú reakciu H 2 S + K 2 Cr 2 O 7 + H 2 SO 4 → S + Cr 2 (SO 4 ) 3 + K 2 SO 4 + H 2 O platí:",
     "choices": [
       {
         "key": "A",
-        "text": "H S pôsobí ako oxidačné činidlo"
+        "text": "H 2 S pôsobí ako oxidačné činidlo"
       },
       {
         "key": "B",
@@ -8107,7 +8107,7 @@
       },
       {
         "key": "C",
-        "text": "Cr VI + 6e → Cr III"
+        "text": "Cr 2 VI + 6e → Cr 2 III"
       },
       {
         "key": "D",
@@ -8123,7 +8123,7 @@
     "id": "chemistry-292",
     "sourceQuestionNumber": 292,
     "subject": "chemistry",
-    "prompt": "V chemickej reakcii Fe + MgSO ↔ FeSO + Mg :",
+    "prompt": "V chemickej reakcii Fe + MgSO 4 ↔ FeSO 4 + Mg :",
     "choices": [
       {
         "key": "A",
@@ -8152,11 +8152,11 @@
     "id": "chemistry-293",
     "sourceQuestionNumber": 293,
     "subject": "chemistry",
-    "prompt": "Pre redoxnú reakciu NH + O → HNO + H O platí:",
+    "prompt": "Pre redoxnú reakciu NH 3 + O 2 → HNO 3 + H 2 O platí:",
     "choices": [
       {
         "key": "A",
-        "text": "dusík sa v NH nachádza v oxidačnom čísle -III"
+        "text": "dusík sa v NH 3 nachádza v oxidačnom čísle -III"
       },
       {
         "key": "B",
@@ -8181,7 +8181,7 @@
     "id": "chemistry-294",
     "sourceQuestionNumber": 294,
     "subject": "chemistry",
-    "prompt": "Atóm draslíka v reakcii 2 K + 2 H O → 2 KOH + H :",
+    "prompt": "Atóm draslíka v reakcii 2 K + 2 H 2 O → 2 KOH + H 2 :",
     "choices": [
       {
         "key": "A",
@@ -8208,7 +8208,7 @@
     "id": "chemistry-295",
     "sourceQuestionNumber": 295,
     "subject": "chemistry",
-    "prompt": "Pre redoxnú reakciu Zn + NaNO + NaOH → Na ZnO + NH + H O platí:",
+    "prompt": "Pre redoxnú reakciu Zn + NaNO 3 + NaOH → Na 2 ZnO 2 + NH 3 + H 2 O platí:",
     "choices": [
       {
         "key": "A",
@@ -8220,7 +8220,7 @@
       },
       {
         "key": "C",
-        "text": "oxidačné číslo Zn v Na ZnO je II"
+        "text": "oxidačné číslo Zn v Na 2 ZnO 2 je II"
       },
       {
         "key": "D",
@@ -8237,7 +8237,7 @@
     "id": "chemistry-296",
     "sourceQuestionNumber": 296,
     "subject": "chemistry",
-    "prompt": "V reakcii Zn + NiSO ↔ ZnSO + Ni :",
+    "prompt": "V reakcii Zn + NiSO 4 ↔ ZnSO 4 + Ni :",
     "choices": [
       {
         "key": "A",
@@ -8266,7 +8266,7 @@
     "id": "chemistry-297",
     "sourceQuestionNumber": 297,
     "subject": "chemistry",
-    "prompt": "Reakcia Cl + 2 NaI ↔ 2 NaCl + I :",
+    "prompt": "Reakcia Cl 2 + 2 NaI ↔ 2 NaCl + I 2 :",
     "choices": [
       {
         "key": "A",
@@ -8294,7 +8294,7 @@
     "id": "chemistry-298",
     "sourceQuestionNumber": 298,
     "subject": "chemistry",
-    "prompt": "Pre redoxnú reakciu H O + KMnO + H SO → O + MnSO + K SO + H O platí",
+    "prompt": "Pre redoxnú reakciu H 2 O 2 + KMnO 4 + H 2 SO 4 → O 2 + MnSO 4 + K 2 SO 4 + H 2 O platí",
     "choices": [
       {
         "key": "A",
@@ -8302,7 +8302,7 @@
       },
       {
         "key": "B",
-        "text": "O –I - 2e → O"
+        "text": "O 2 –I - 2e → O 2 0"
       },
       {
         "key": "C",
@@ -8321,15 +8321,15 @@
     "id": "chemistry-299",
     "sourceQuestionNumber": 299,
     "subject": "chemistry",
-    "prompt": "Pre redoxnú reakciu H O + KI + H SO → I + K SO + H O platí:",
+    "prompt": "Pre redoxnú reakciu H 2 O 2 + KI + H 2 SO 4 → I 2 + K 2 SO 4 + H 2 O platí:",
     "choices": [
       {
         "key": "A",
-        "text": "O -I + 2e → 2O -II"
+        "text": "O 2 -I + 2e → 2O -II"
       },
       {
         "key": "B",
-        "text": "2 I -I - 2e → I"
+        "text": "2 I -I - 2e → I 2 0"
       },
       {
         "key": "C",
@@ -8349,7 +8349,7 @@
     "id": "chemistry-300",
     "sourceQuestionNumber": 300,
     "subject": "chemistry",
-    "prompt": "Reakcia Cu + 2 HCl ↔ CuCl + H :",
+    "prompt": "Reakcia Cu + 2 HCl ↔ CuCl 2 + H 2 :",
     "choices": [
       {
         "key": "A",
@@ -8376,23 +8376,23 @@
     "id": "chemistry-301",
     "sourceQuestionNumber": 301,
     "subject": "chemistry",
-    "prompt": "Peroxid vodíka H O je oxidovadlom v reakciách:",
+    "prompt": "Peroxid vodíka H 2 O 2 je oxidovadlom v reakciách:",
     "choices": [
       {
         "key": "A",
-        "text": "H O + KI + H SO → I + K SO + H O"
+        "text": "H 2 O 2 + KI + H 2 SO 4 → I 2 + K 2 SO 4 + H 2 O"
       },
       {
         "key": "B",
-        "text": "Ag O + H O → 2 Ag + H O + O"
+        "text": "Ag 2 O + H 2 O 2 → 2 Ag + H 2 O + O 2"
       },
       {
         "key": "C",
-        "text": "H O + 2 FeSO + H SO → Fe (SO ) + 2 H O"
+        "text": "H 2 O 2 + 2 FeSO 4 + H 2 SO 4 → Fe 2 (SO 4 ) 3 + 2 H 2 O"
       },
       {
         "key": "D",
-        "text": "5 H O + 2 KMnO + 3 H SO → 5 O + 2 MnSO + K SO + 8 H O"
+        "text": "5 H 2 O 2 + 2 KMnO 4 + 3 H 2 SO 4 → 5 O 2 + 2 MnSO 4 + K 2 SO 4 + 8 H 2 O"
       }
     ],
     "correctChoices": [
@@ -8404,11 +8404,11 @@
     "id": "chemistry-302",
     "sourceQuestionNumber": 302,
     "subject": "chemistry",
-    "prompt": "Pre H O platí:",
+    "prompt": "Pre H 2 O 2 platí:",
     "choices": [
       {
         "key": "A",
-        "text": "v reakcii s KMnO sa kyslík peroxidu oxiduje aj redukuje"
+        "text": "v reakcii s KMnO 4 sa kyslík peroxidu oxiduje aj redukuje"
       },
       {
         "key": "B",
@@ -8436,15 +8436,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "MnO"
+        "text": "MnO 2"
       },
       {
         "key": "B",
-        "text": "HNO"
+        "text": "HNO 3"
       },
       {
         "key": "C",
-        "text": "H S"
+        "text": "H 2 S"
       },
       {
         "key": "D",
@@ -8464,19 +8464,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "H S"
+        "text": "H 2 S"
       },
       {
         "key": "B",
-        "text": "KClO"
+        "text": "KClO 4"
       },
       {
         "key": "C",
-        "text": "SO"
+        "text": "SO 2"
       },
       {
         "key": "D",
-        "text": "CO"
+        "text": "CO 2"
       }
     ],
     "correctChoices": [
@@ -8496,7 +8496,7 @@
       },
       {
         "key": "B",
-        "text": "4 KClO → 3 KClO + KCl"
+        "text": "4 KClO 3 → 3 KClO 4 + KCl"
       },
       {
         "key": "C",
@@ -8504,7 +8504,7 @@
       },
       {
         "key": "D",
-        "text": "3 HNO → HNO + 2 NO + H O"
+        "text": "3 HNO 2 → HNO 3 + 2 NO + H 2 O"
       }
     ],
     "correctChoices": [
@@ -8571,7 +8571,7 @@
     "id": "chemistry-308",
     "sourceQuestionNumber": 308,
     "subject": "chemistry",
-    "prompt": "Pre reakciu Zn + HNO → Zn(NO ) + H platí:",
+    "prompt": "Pre reakciu Zn + HNO 3 → Zn(NO 3 ) 2 + H 2 platí:",
     "choices": [
       {
         "key": "A",
@@ -8861,7 +8861,7 @@
       },
       {
         "key": "D",
-        "text": "Ag(NO )"
+        "text": "Ag(NO 3 ) 2"
       }
     ],
     "correctChoices": [
@@ -8876,19 +8876,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "NaOH + HCl → NaCl + H O"
+        "text": "NaOH + HCl → NaCl + H 2 O"
       },
       {
         "key": "B",
-        "text": "Pb(NO ) + 2 KI → PbI + 2 KNO"
+        "text": "Pb(NO 3 ) 2 + 2 KI → PbI 2 + 2 KNO 3"
       },
       {
         "key": "C",
-        "text": "Zn + CuSO → ZnSO + Cu"
+        "text": "Zn + CuSO 4 → ZnSO 4 + Cu"
       },
       {
         "key": "D",
-        "text": "2 NaHCO → Na CO + H O + CO"
+        "text": "2 NaHCO 3 → Na 2 CO 3 + H 2 O + CO 2"
       }
     ],
     "correctChoices": [
@@ -8932,7 +8932,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "CaF : Ks = 3,4.10 -11"
+        "text": "CaF 2 : Ks = 3,4.10 -11"
       },
       {
         "key": "B",
@@ -8940,11 +8940,11 @@
       },
       {
         "key": "C",
-        "text": "CaCO : Ks = 4,5.10 -9"
+        "text": "CaCO 3 : Ks = 4,5.10 -9"
       },
       {
         "key": "D",
-        "text": "BaSO : Ks = 1,4.10 -10"
+        "text": "BaSO 4 : Ks = 1,4.10 -10"
       }
     ],
     "correctChoices": [
@@ -8991,15 +8991,15 @@
       },
       {
         "key": "B",
-        "text": "Ag CrO : ak za daných podmienok je jeho rozpustnosť 3,32 . 10 -2 g/l"
+        "text": "Ag 2 CrO 4 : ak za daných podmienok je jeho rozpustnosť 3,32 . 10 -2 g/l"
       },
       {
         "key": "C",
-        "text": "Ag SO : ak Ks = 7 . 10 -5"
+        "text": "Ag 2 SO 4 : ak Ks = 7 . 10 -5"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "AgOH: ak za daných podmienok je jeho rozpustnosť 3,95 . 10 -3 g/l"
       }
     ],
     "correctChoices": [
@@ -9100,7 +9100,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "žiarenie alfa je prúd atómových jadier hélia He"
+        "text": "žiarenie alfa je prúd atómových jadier hélia 4 2 He"
       },
       {
         "key": "B",
@@ -9157,19 +9157,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "2"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "1"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "0"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "3"
       }
     ],
     "correctChoices": [
@@ -9184,19 +9184,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "5"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "6"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "4"
       }
     ],
     "correctChoices": [
@@ -9211,19 +9211,19 @@
     "choices": [
       {
         "key": "A",
-        "text": ""
+        "text": "3"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "4"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "6"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "8"
       }
     ],
     "correctChoices": [
@@ -9238,19 +9238,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "KCr(SO )"
+        "text": "KCr(SO 4 ) 2"
       },
       {
         "key": "B",
-        "text": "Cr (SO )"
+        "text": "Cr 2 (SO 3 ) 3"
       },
       {
         "key": "C",
-        "text": "[Cr(NH ) ]Cl"
+        "text": "[Cr(NH 3 ) 6 ]Cl 6"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "K 2 CrO 4"
       }
     ],
     "correctChoices": [
@@ -9266,19 +9266,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "Mg(H AtO )"
+        "text": "Mg(H 2 AtO 4 ) 2"
       },
       {
         "key": "B",
-        "text": "Mg(H AsO )"
+        "text": "Mg(H 2 AsO 3 ) 2"
       },
       {
         "key": "C",
-        "text": "Mg(H AsO )"
+        "text": "Mg(H 2 AsO 4 ) 2"
       },
       {
         "key": "D",
-        "text": "Mg(H AsO )"
+        "text": "Mg(H 2 AsO 4 )"
       }
     ],
     "correctChoices": [
@@ -9293,19 +9293,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "Ca(IO )"
+        "text": "Ca(IO 3 ) 2"
       },
       {
         "key": "B",
-        "text": "Ca(IO )"
+        "text": "Ca(IO 4 ) 2"
       },
       {
         "key": "C",
-        "text": "CaIO"
+        "text": "CaIO 4"
       },
       {
         "key": "D",
-        "text": "CaI O"
+        "text": "CaI 2 O 7"
       }
     ],
     "correctChoices": [
@@ -9320,19 +9320,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "AgVO"
+        "text": "AgVO 3"
       },
       {
         "key": "B",
-        "text": "Mg(VO )"
+        "text": "Mg(VO 2 ) 2"
       },
       {
         "key": "C",
-        "text": "Na VO"
+        "text": "Na 2 VO 3"
       },
       {
         "key": "D",
-        "text": "K[VCl ]"
+        "text": "K[VCl 6 ]"
       }
     ],
     "correctChoices": [
@@ -9348,11 +9348,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Na PO"
+        "text": "Na 3 PO 4"
       },
       {
         "key": "B",
-        "text": "Ca (PO )"
+        "text": "Ca 3 (PO 3 ) 2"
       },
       {
         "key": "C",
@@ -9360,7 +9360,7 @@
       },
       {
         "key": "D",
-        "text": "P O"
+        "text": "P 4 O 10"
       }
     ],
     "correctChoices": [
@@ -9377,19 +9377,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "K MnO"
+        "text": "K 2 MnO 4"
       },
       {
         "key": "B",
-        "text": "KMnO"
+        "text": "KMnO 4"
       },
       {
         "key": "C",
-        "text": "Al (MnO )"
+        "text": "Al 2 (MnO 4 ) 3"
       },
       {
         "key": "D",
-        "text": "MnO"
+        "text": "MnO 2"
       }
     ],
     "correctChoices": [
@@ -9405,19 +9405,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "[Cr(H O) ]Cl"
+        "text": "[Cr(H 2 O) 6 ]Cl 3"
       },
       {
         "key": "B",
-        "text": "Li[AlH ]"
+        "text": "Li[AlH 4 ]"
       },
       {
         "key": "C",
-        "text": "[Ag(NH ) ]Cl"
+        "text": "[Ag(NH 3 ) 2 ]Cl"
       },
       {
         "key": "D",
-        "text": "Na [CoF ]"
+        "text": "Na 3 [CoF 6 ]"
       }
     ],
     "correctChoices": [
@@ -9434,19 +9434,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "Na[Pb(OH) ]"
+        "text": "Na[Pb(OH) 3 ]"
       },
       {
         "key": "B",
-        "text": "[Co(H O) ]SO"
+        "text": "[Co(H 2 O) 6 ]SO 4"
       },
       {
         "key": "C",
-        "text": "K [Fe(CN) ]"
+        "text": "K 3 [Fe(CN) 6 ]"
       },
       {
         "key": "D",
-        "text": "Li[BF ]"
+        "text": "Li[BF 4 ]"
       }
     ],
     "correctChoices": [
@@ -9462,19 +9462,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "[Cu(NH ) ]SO"
+        "text": "[Cu(NH 3 ) 4 ]SO 4"
       },
       {
         "key": "B",
-        "text": "K [Fe(CN) ]"
+        "text": "K 4 [Fe(CN) 6 ]"
       },
       {
         "key": "C",
-        "text": "[Fe(H O) ]Cl"
+        "text": "[Fe(H 2 O) 6 ]Cl 3"
       },
       {
         "key": "D",
-        "text": "H [PtCl ]"
+        "text": "H 2 [PtCl 6 ]"
       }
     ],
     "correctChoices": [
@@ -9490,19 +9490,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "CaCl"
+        "text": "CaCl 2"
       },
       {
         "key": "B",
-        "text": "C H O"
+        "text": "C 6 H 12 O 6"
       },
       {
         "key": "C",
-        "text": "HNO"
+        "text": "HNO 2"
       },
       {
         "key": "D",
-        "text": "NH OH"
+        "text": "NH 4 OH"
       }
     ],
     "correctChoices": [
@@ -9517,19 +9517,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "NH OH"
+        "text": "NH 4 OH"
       },
       {
         "key": "B",
-        "text": "CH COOH"
+        "text": "CH 3 COOH"
       },
       {
         "key": "C",
-        "text": "CuSO"
+        "text": "CuSO 4"
       },
       {
         "key": "D",
-        "text": "Ni(NO )"
+        "text": "Ni(NO 3 ) 2"
       }
     ],
     "correctChoices": [
@@ -9545,15 +9545,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "H O"
+        "text": "H 2 O"
       },
       {
         "key": "B",
-        "text": "C H"
+        "text": "C 6 H 6"
       },
       {
         "key": "C",
-        "text": "C H O"
+        "text": "C 6 H 12 O 6"
       },
       {
         "key": "D",
@@ -9751,7 +9751,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "aktívny transport, čo je prechod látky pomocou prenášačov proti koncentračnému spádu, ktorý vyžaduje dodávanie energie"
       }
     ],
     "correctChoices": [
@@ -9803,7 +9803,7 @@
       },
       {
         "key": "C",
-        "text": "nastane napríklad pri rozpúšťaní kryštalického KMnO vo vode"
+        "text": "nastane napríklad pri rozpúšťaní kryštalického KMnO 4 vo vode"
       },
       {
         "key": "D",
@@ -9962,11 +9962,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "môže byť len v hybridizácii sp"
+        "text": "môže byť len v hybridizácii sp 3"
       },
       {
         "key": "B",
-        "text": "môže byť v hybridizácii sp , sp , sp"
+        "text": "môže byť v hybridizácii sp 3 , sp 2 , sp"
       },
       {
         "key": "C",
@@ -9990,19 +9990,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "1s 2s 2p"
+        "text": "1s 2 2s 1 2p 3"
       },
       {
         "key": "B",
-        "text": "1s 2s 2p"
+        "text": "1s 2 2s 2 2p 2"
       },
       {
         "key": "C",
-        "text": "1s 2s 2p x 2p y 2p"
+        "text": "1s 2 2s 2 2p x 1 2p y 1 2p 1"
       },
       {
         "key": "D",
-        "text": "[He] 2s 2p"
+        "text": "[He] 2s 2 2p 2"
       }
     ],
     "correctChoices": [
@@ -10101,7 +10101,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "tvorí 4 jednoduché väzby, ak sa nachádza v hybridizácii sp"
+        "text": "tvorí 4 jednoduché väzby, ak sa nachádza v hybridizácii sp 2"
       },
       {
         "key": "B",
@@ -10169,7 +10169,7 @@
       },
       {
         "key": "D",
-        "text": "sú horľavé a pri ich spaľovaní vzniká CO a voda"
+        "text": "sú horľavé a pri ich spaľovaní vzniká CO 2 a voda"
       }
     ],
     "correctChoices": [
@@ -10198,7 +10198,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "aromatický uhľovodík"
       }
     ],
     "correctChoices": [
@@ -10251,11 +10251,11 @@
       },
       {
         "key": "C",
-        "text": "je napríklad CH -CH -OH, C H OH"
+        "text": "je napríklad CH 3 -CH 2 -OH, C 2 H 5 OH"
       },
       {
         "key": "D",
-        "text": "je napríklad C H O , C H Cl"
+        "text": "je napríklad C 6 H 12 O 6 , C 3 H 7 Cl"
       }
     ],
     "correctChoices": [
@@ -10555,11 +10555,11 @@
       },
       {
         "key": "B",
-        "text": "môže byť Br v prítomnosti UV žiarenia"
+        "text": "môže byť Br 2 v prítomnosti UV žiarenia"
       },
       {
         "key": "C",
-        "text": "je aj Cl v prítomnosti FeCl"
+        "text": "je aj Cl 2 v prítomnosti FeCl 3"
       },
       {
         "key": "D",
@@ -10615,7 +10615,7 @@
       },
       {
         "key": "C",
-        "text": "C-NO"
+        "text": "C-NO 2"
       },
       {
         "key": "D",
@@ -10666,7 +10666,7 @@
       },
       {
         "key": "B",
-        "text": "H + , NO +"
+        "text": "H + , NO 2 +"
       },
       {
         "key": "C",
@@ -10674,7 +10674,7 @@
       },
       {
         "key": "D",
-        "text": "H O, NH"
+        "text": "H 2 O, NH 3"
       }
     ],
     "correctChoices": [
@@ -10730,7 +10730,7 @@
       },
       {
         "key": "D",
-        "text": "H O alebo NH"
+        "text": "H 2 O alebo NH 3"
       }
     ],
     "correctChoices": [
@@ -10803,7 +10803,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "-CH"
+        "text": "-CH 3"
       },
       {
         "key": "B",
@@ -10815,7 +10815,7 @@
       },
       {
         "key": "D",
-        "text": "-SO H"
+        "text": "-SO 3 H"
       }
     ],
     "correctChoices": [
@@ -10839,7 +10839,7 @@
       },
       {
         "key": "C",
-        "text": "-NH"
+        "text": "-NH 2"
       },
       {
         "key": "D",
@@ -10929,7 +10929,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "podľa typu činidla môže byť elektrofilná, nukleofilná, radikálová"
       }
     ],
     "correctChoices": [
@@ -11181,7 +11181,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "alkánov sú radikálové"
       }
     ],
     "correctChoices": [
@@ -11441,34 +11441,6 @@
     ]
   },
   {
-    "id": "chemistry-411",
-    "sourceQuestionNumber": 411,
-    "subject": "chemistry",
-    "prompt": "Vyberte konštitučné izoméry :",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": "o-krezol a p-xylén"
-      }
-    ],
-    "correctChoices": [
-      "B",
-      "C"
-    ]
-  },
-  {
     "id": "chemistry-412",
     "sourceQuestionNumber": 412,
     "subject": "chemistry",
@@ -11559,11 +11531,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "je uhlík v hybridizácii sp"
+        "text": "je uhlík v hybridizácii sp 2"
       },
       {
         "key": "B",
-        "text": "je uhlík v hybridizácii sp"
+        "text": "je uhlík v hybridizácii sp 3"
       },
       {
         "key": "C",
@@ -11643,19 +11615,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH -CH -COOH a CH -O-CH"
+        "text": "CH 3 -CH 2 -COOH a CH 3 -O-CH 3"
       },
       {
         "key": "B",
-        "text": "CH =CH-OH a CH -CHO"
+        "text": "CH 2 =CH-OH a CH 3 -CHO"
       },
       {
         "key": "C",
-        "text": "CH -O-CH a (CH -CH ) O"
+        "text": "CH 3 -O-CH 3 a (CH 3 -CH 2 ) 2 O"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "CH 2 =C(OH)-CH 3 a CH 3 -CO-CH 3"
       }
     ],
     "correctChoices": [
@@ -11921,15 +11893,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH =CH-CH -"
+        "text": "CH 2 =CH-CH 2 -"
       },
       {
         "key": "B",
-        "text": "CH -CH=CH-CH -"
+        "text": "CH 3 -CH=CH-CH 2 -"
       },
       {
         "key": "C",
-        "text": "CH =CH-"
+        "text": "CH 2 =CH-"
       },
       {
         "key": "D",
@@ -12051,33 +12023,6 @@
     ]
   },
   {
-    "id": "chemistry-433",
-    "sourceQuestionNumber": 433,
-    "subject": "chemistry",
-    "prompt": "Asymetrický uhlík sa nachádza v molekule:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "C"
-    ]
-  },
-  {
     "id": "chemistry-434",
     "sourceQuestionNumber": 434,
     "subject": "chemistry",
@@ -12122,11 +12067,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "naftalén"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "2-etylhexán"
       }
     ],
     "correctChoices": [
@@ -12170,7 +12115,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "môže byť v hybridizácii sp , sp , sp"
+        "text": "môže byť v hybridizácii sp 3 , sp 2 , sp"
       },
       {
         "key": "B",
@@ -12281,7 +12226,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "kyslíkom vzniká CO a voda"
+        "text": "kyslíkom vzniká CO 2 a voda"
       },
       {
         "key": "B",
@@ -12570,7 +12515,7 @@
       },
       {
         "key": "D",
-        "text": "reakciou s roztokom KMnO"
+        "text": "reakciou s roztokom KMnO 4"
       }
     ],
     "correctChoices": [
@@ -12691,60 +12636,6 @@
     ]
   },
   {
-    "id": "chemistry-456",
-    "sourceQuestionNumber": 456,
-    "subject": "chemistry",
-    "prompt": "Vyberte reakcie, v ktorých prevažne vzniká daný produkt:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "C"
-    ]
-  },
-  {
-    "id": "chemistry-457",
-    "sourceQuestionNumber": 457,
-    "subject": "chemistry",
-    "prompt": "Vyberte reakciu prípravy 1,2-dichlórbutánu:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "B"
-    ]
-  },
-  {
     "id": "chemistry-458",
     "sourceQuestionNumber": 458,
     "subject": "chemistry",
@@ -12812,7 +12703,7 @@
       },
       {
         "key": "B",
-        "text": "halogénmi v prítomnosti katalyzátora typu AIX"
+        "text": "halogénmi v prítomnosti katalyzátora typu AIX 3"
       },
       {
         "key": "C",
@@ -12887,33 +12778,6 @@
     ]
   },
   {
-    "id": "chemistry-463",
-    "sourceQuestionNumber": 463,
-    "subject": "chemistry",
-    "prompt": "Alkíny reagujú podľa reakčnej schémy:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "C"
-    ]
-  },
-  {
     "id": "chemistry-464",
     "sourceQuestionNumber": 464,
     "subject": "chemistry",
@@ -12981,15 +12845,15 @@
       },
       {
         "key": "B",
-        "text": ""
+        "text": "majú v molekule elektróny π -väzieb delokalizované v dôsledku konjugácie π- elektrónov"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "ľahko prešmykujú na alkány"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "sú napríklad izoprén a 1,3-butadién"
       }
     ],
     "correctChoices": [
@@ -13058,7 +12922,7 @@
     "id": "chemistry-469",
     "sourceQuestionNumber": 469,
     "subject": "chemistry",
-    "prompt": "Roztok KMnO pri reakcii s nenasýtenými alkénmi mení farbu:",
+    "prompt": "Roztok KMnO 4 pri reakcii s nenasýtenými alkénmi mení farbu:",
     "choices": [
       {
         "key": "A",
@@ -13243,7 +13107,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "ide o nukleofilnú substitúciu"
       }
     ],
     "correctChoices": [
@@ -13271,7 +13135,7 @@
       },
       {
         "key": "D",
-        "text": "tým, že fialový roztok KMnO pri reakcii s cyklohexénom sa odfarbí a vznikne hnedá zrazenina"
+        "text": "tým, že fialový roztok KMnO 4 pri reakcii s cyklohexénom sa odfarbí a vznikne hnedá zrazenina"
       }
     ],
     "correctChoices": [
@@ -13299,7 +13163,7 @@
       },
       {
         "key": "D",
-        "text": "elektrofilnou adíciou chlóru na but-2-ín v prítomnosti napr. AlCl"
+        "text": "elektrofilnou adíciou chlóru na but-2-ín v prítomnosti napr. AlCl 3"
       }
     ],
     "correctChoices": [
@@ -13547,7 +13411,7 @@
       },
       {
         "key": "D",
-        "text": "je pravidelný šesťuholník, ktorého uhlíky v cykle majú hybridizáciu sp"
+        "text": "je pravidelný šesťuholník, ktorého uhlíky v cykle majú hybridizáciu sp 2"
       }
     ],
     "correctChoices": [
@@ -13817,7 +13681,7 @@
       },
       {
         "key": "B",
-        "text": "reakciou benzénu s HNO v prítomnosti kyseliny sírovej"
+        "text": "reakciou benzénu s HNO 3 v prítomnosti kyseliny sírovej"
       },
       {
         "key": "C",
@@ -13924,7 +13788,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "chlorácia benzénu v prítomnosti FeCl"
+        "text": "chlorácia benzénu v prítomnosti FeCl 3"
       },
       {
         "key": "B",
@@ -14055,35 +13919,6 @@
     ]
   },
   {
-    "id": "chemistry-505",
-    "sourceQuestionNumber": 505,
-    "subject": "chemistry",
-    "prompt": "Benzén reaguje podľa reakčnej schémy:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "C",
-      "D"
-    ]
-  },
-  {
     "id": "chemistry-506",
     "sourceQuestionNumber": 506,
     "subject": "chemistry",
@@ -14091,11 +13926,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "-NH"
+        "text": "-NH 2"
       },
       {
         "key": "B",
-        "text": "-NO"
+        "text": "-NO 2"
       },
       {
         "key": "C",
@@ -14123,11 +13958,11 @@
       },
       {
         "key": "B",
-        "text": "-SO H"
+        "text": "-SO 3 H"
       },
       {
         "key": "C",
-        "text": "-NO"
+        "text": "-NO 2"
       },
       {
         "key": "D",
@@ -14182,11 +14017,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "anilíne"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "aminobenzéne"
       }
     ],
     "correctChoices": [
@@ -14277,35 +14112,6 @@
     ]
   },
   {
-    "id": "chemistry-513",
-    "sourceQuestionNumber": 513,
-    "subject": "chemistry",
-    "prompt": "Vyberte správne reakcie:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "B",
-      "C"
-    ]
-  },
-  {
     "id": "chemistry-514",
     "sourceQuestionNumber": 514,
     "subject": "chemistry",
@@ -14377,11 +14183,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "metyláciou benzénu a jeho následnou nitráciou"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "nitráciou benzénu a jeho následnou metyláciou"
       }
     ],
     "correctChoices": [
@@ -14539,7 +14345,7 @@
       },
       {
         "key": "B",
-        "text": "reakcia benzénu s H SO je elektrofilná substitúcia"
+        "text": "reakcia benzénu s H 2 SO 4 je elektrofilná substitúcia"
       },
       {
         "key": "C",
@@ -14547,7 +14353,7 @@
       },
       {
         "key": "D",
-        "text": "reakcia benzénu s Cl za katalýzy FeCl je radikálová adícia"
+        "text": "reakcia benzénu s Cl 2 za katalýzy FeCl 3 je radikálová adícia"
       }
     ],
     "correctChoices": [
@@ -14575,35 +14381,6 @@
       {
         "key": "D",
         "text": "redukciou hydrochinónu vzniká p-benzochinón"
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "B",
-      "C"
-    ]
-  },
-  {
-    "id": "chemistry-524",
-    "sourceQuestionNumber": 524,
-    "subject": "chemistry",
-    "prompt": "Vyberte správne reakčné schémy:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
       }
     ],
     "correctChoices": [
@@ -14766,7 +14543,7 @@
       },
       {
         "key": "B",
-        "text": "CCl F je dobrým rozpúšťadlom najmä tukov"
+        "text": "CCl 2 F 2 je dobrým rozpúšťadlom najmä tukov"
       },
       {
         "key": "C",
@@ -15017,11 +14794,11 @@
       },
       {
         "key": "C",
-        "text": "CH CH OK a C H Cl"
+        "text": "CH 3 CH 2 OK a C 2 H 5 Cl"
       },
       {
         "key": "D",
-        "text": "NaOH a C H Cl"
+        "text": "NaOH a C 2 H 5 Cl"
       }
     ],
     "correctChoices": [
@@ -15182,7 +14959,7 @@
       },
       {
         "key": "B",
-        "text": "alkén + Br → dibrómalkán"
+        "text": "alkén + Br 2 → dibrómalkán"
       },
       {
         "key": "C",
@@ -15190,7 +14967,7 @@
       },
       {
         "key": "D",
-        "text": "alkén + H O → ketón"
+        "text": "alkén + H 2 O → ketón"
       }
     ],
     "correctChoices": [
@@ -15241,72 +15018,15 @@
       },
       {
         "key": "C",
-        "text": "CH CH OK a C H Cl"
+        "text": "CH 3 CH 2 OK a C 2 H 5 Cl"
       },
       {
         "key": "D",
-        "text": "C H OH a C H Cl"
+        "text": "C 2 H 5 OH a C 2 H 5 Cl"
       }
     ],
     "correctChoices": [
       "C",
-      "D"
-    ]
-  },
-  {
-    "id": "chemistry-548",
-    "sourceQuestionNumber": 548,
-    "subject": "chemistry",
-    "prompt": "Medzi nukleofilné substitúcie patrí reakcia:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "B",
-      "D"
-    ]
-  },
-  {
-    "id": "chemistry-549",
-    "sourceQuestionNumber": 549,
-    "subject": "chemistry",
-    "prompt": "Vyberte správne reakčné schémy:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
       "D"
     ]
   },
@@ -15346,7 +15066,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "majú atóm vodíka v molekule uhľovodíka nahradený -NO"
+        "text": "majú atóm vodíka v molekule uhľovodíka nahradený -NO 2"
       },
       {
         "key": "B",
@@ -15430,11 +15150,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "skupina –NO je silným nukleofilom"
+        "text": "skupina –NO 2 je silným nukleofilom"
       },
       {
         "key": "B",
-        "text": "skupina –NO vyvoláva záporný indukčný a záporný mezomérny efekt"
+        "text": "skupina –NO 2 vyvoláva záporný indukčný a záporný mezomérny efekt"
       },
       {
         "key": "C",
@@ -15442,7 +15162,7 @@
       },
       {
         "key": "D",
-        "text": "skupina –NO sa ľahko oxiduje"
+        "text": "skupina –NO 2 sa ľahko oxiduje"
       }
     ],
     "correctChoices": [
@@ -15486,7 +15206,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "v kyslom prostredí amíny s charakteristickou skupinou –NH"
+        "text": "v kyslom prostredí amíny s charakteristickou skupinou –NH 2"
       },
       {
         "key": "B",
@@ -15515,7 +15235,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "delíme na primárne, sekundárne a terciárne podľa typu uhlíka, na ktorom je naviazaná –NH skupina"
+        "text": "delíme na primárne, sekundárne a terciárne podľa typu uhlíka, na ktorom je naviazaná –NH 2 skupina"
       },
       {
         "key": "B",
@@ -15571,15 +15291,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "(CH )N"
+        "text": "(CH 3 )N"
       },
       {
         "key": "B",
-        "text": "NH -(CH ) -NH"
+        "text": "NH 2 -(CH 2 ) 6 -NH 2"
       },
       {
         "key": "C",
-        "text": "CH -CH(CH )-NH"
+        "text": "CH 3 -CH(CH 3 )-NH 2"
       },
       {
         "key": "D",
@@ -15800,7 +15520,7 @@
       },
       {
         "key": "C",
-        "text": "má vzhľadom na kladný mezomérny efekt –NH skupiny slabo kyslý charakter"
+        "text": "má vzhľadom na kladný mezomérny efekt –NH 2 skupiny slabo kyslý charakter"
       },
       {
         "key": "D",
@@ -15986,7 +15706,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "reakciou primárnych aromatických alebo alifatických amínov s NaNO v prostredí HCl"
+        "text": "reakciou primárnych aromatických alebo alifatických amínov s NaNO 2 v prostredí HCl"
       },
       {
         "key": "B",
@@ -16353,7 +16073,7 @@
       },
       {
         "key": "B",
-        "text": "pripravíme podľa rovnice: CO + 2 H → CH -OH pri zvýšenej teplote za prítomnosti katalyzátora"
+        "text": "pripravíme podľa rovnice: CO + 2 H 2 → CH 3 -OH pri zvýšenej teplote za prítomnosti katalyzátora"
       },
       {
         "key": "C",
@@ -16476,7 +16196,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "môžu mať na jednom atóme uhlíka maximálne tri –OH skupiny"
       }
     ],
     "correctChoices": [
@@ -16566,91 +16286,6 @@
     "correctChoices": [
       "A",
       "B"
-    ]
-  },
-  {
-    "id": "chemistry-595",
-    "sourceQuestionNumber": 595,
-    "subject": "chemistry",
-    "prompt": "Vyberte aromatické alkoholy:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "C"
-    ]
-  },
-  {
-    "id": "chemistry-596",
-    "sourceQuestionNumber": 596,
-    "subject": "chemistry",
-    "prompt": "Vyberte sekundárne alkoholy:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "B"
-    ]
-  },
-  {
-    "id": "chemistry-597",
-    "sourceQuestionNumber": 597,
-    "subject": "chemistry",
-    "prompt": "Vyberte viacsýtne stabilné hydroxyderiváty:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "C",
-      "D"
     ]
   },
   {
@@ -17019,7 +16654,7 @@
     "id": "chemistry-611",
     "sourceQuestionNumber": 611,
     "subject": "chemistry",
-    "prompt": "Zlúčenina CH CH OK :",
+    "prompt": "Zlúčenina CH 3 CH 2 OK :",
     "choices": [
       {
         "key": "A",
@@ -17139,11 +16774,11 @@
       },
       {
         "key": "B",
-        "text": "reakciou s KMnO"
+        "text": "reakciou s KMnO 4"
       },
       {
         "key": "C",
-        "text": "reakciou s I v prostredí alkalického hydroxidu"
+        "text": "reakciou s I 2 v prostredí alkalického hydroxidu"
       },
       {
         "key": "D",
@@ -17248,7 +16883,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "fenoly s FeCl dávajú farebné reakcie"
+        "text": "fenoly s FeCl 3 dávajú farebné reakcie"
       },
       {
         "key": "B",
@@ -17358,19 +16993,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH – CH – CH –O–CH – CH – CH – CH –CH"
+        "text": "CH 3 – CH 2 – CH 2 –O–CH 2 – CH 2 – CH 2 – CH 2 –CH 3"
       },
       {
         "key": "B",
-        "text": "CH – CH – CH – CH – CH – CH –CH –O–CH"
+        "text": "CH 3 – CH 2 – CH 2 – CH 2 – CH 2 – CH 2 –CH 2 –O–CH 3"
       },
       {
         "key": "C",
-        "text": "CH – CH – CH –O–CH – CH –CH"
+        "text": "CH 3 – CH 2 – CH 2 –O–CH 2 – CH 2 –CH 3"
       },
       {
         "key": "D",
-        "text": "CH – CH – CH – CH – CH – CH – CH –CHO"
+        "text": "CH 3 – CH 2 – CH 2 – CH 2 – CH 2 – CH 2 – CH 2 –CHO"
       }
     ],
     "correctChoices": [
@@ -17804,7 +17439,7 @@
     "id": "chemistry-639",
     "sourceQuestionNumber": 639,
     "subject": "chemistry",
-    "prompt": "Reakciou etanolu s H SO vzniká:",
+    "prompt": "Reakciou etanolu s H 2 SO 4 vzniká:",
     "choices": [
       {
         "key": "A",
@@ -17816,11 +17451,11 @@
       },
       {
         "key": "C",
-        "text": "CH -CH -O-SO H pri nízkej teplote"
+        "text": "CH 3 -CH 2 -O-SO 3 H pri nízkej teplote"
       },
       {
         "key": "D",
-        "text": "CH -CH -O-O-SO H pri nízkej teplote"
+        "text": "CH 3 -CH 2 -O-O-SO 3 H pri nízkej teplote"
       }
     ],
     "correctChoices": [
@@ -17922,7 +17557,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "reakciou s Cl v prítomnosti FeCl vzniká o-chlórfenol alebo p-chlórfenol"
+        "text": "reakciou s Cl 2 v prítomnosti FeCl 3 vzniká o-chlórfenol alebo p-chlórfenol"
       },
       {
         "key": "B",
@@ -17951,7 +17586,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH -CO-C H"
+        "text": "CH 3 -CO-C 6 H 5"
       },
       {
         "key": "B",
@@ -17979,19 +17614,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH O"
+        "text": "CH 2 O"
       },
       {
         "key": "B",
-        "text": "NH -CO-NH"
+        "text": "NH 2 -CO-NH 2"
       },
       {
         "key": "C",
-        "text": "CH -O-CH"
+        "text": "CH 3 -O-CH 3"
       },
       {
         "key": "D",
-        "text": "CH -CO-CH"
+        "text": "CH 3 -CO-CH 3"
       }
     ],
     "correctChoices": [
@@ -18011,7 +17646,7 @@
       },
       {
         "key": "B",
-        "text": "karbonylový uhlík je v hybridizácii sp , preto má karbonylová skupina rovinnú štruktúru"
+        "text": "karbonylový uhlík je v hybridizácii sp 2 , preto má karbonylová skupina rovinnú štruktúru"
       },
       {
         "key": "C",
@@ -18072,11 +17707,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "aldehydy sú pri nukleofilných adíciách reaktívnejšie ako ketóny"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "reaktivita karbonylových zlúčenín závisí od pozitívneho čiastkového kladného náboja na karbonylovom uhlíku"
       }
     ],
     "correctChoices": [
@@ -18275,89 +17910,6 @@
     "correctChoices": [
       "A",
       "B",
-      "D"
-    ]
-  },
-  {
-    "id": "chemistry-656",
-    "sourceQuestionNumber": 656,
-    "subject": "chemistry",
-    "prompt": "Z uvedených zlúčenín vyberte acetály :",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "C"
-    ]
-  },
-  {
-    "id": "chemistry-657",
-    "sourceQuestionNumber": 657,
-    "subject": "chemistry",
-    "prompt": "Poloacetál alebo acetál vzniká podľa reakčnej schémy:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "D"
-    ]
-  },
-  {
-    "id": "chemistry-658",
-    "sourceQuestionNumber": 658,
-    "subject": "chemistry",
-    "prompt": "Vyberte reakcie, v ktorých ketóny reagujú podľa reakčnej schémy:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
       "D"
     ]
   },
@@ -18607,7 +18159,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "na rozdiel od formaldehydu nie je pre človeka toxický"
       }
     ],
     "correctChoices": [
@@ -18670,33 +18222,6 @@
     "correctChoices": [
       "A",
       "C"
-    ]
-  },
-  {
-    "id": "chemistry-670",
-    "sourceQuestionNumber": 670,
-    "subject": "chemistry",
-    "prompt": "Vyberte správnu aldolovú reakciu:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "B"
     ]
   },
   {
@@ -18790,7 +18315,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "je reakcia halogénu v zásaditom prostredí s karbonylovou zlúčeninou typu CH –CO–R"
+        "text": "je reakcia halogénu v zásaditom prostredí s karbonylovou zlúčeninou typu CH 3 –CO–R"
       },
       {
         "key": "B",
@@ -18839,34 +18364,6 @@
     ]
   },
   {
-    "id": "chemistry-676",
-    "sourceQuestionNumber": 676,
-    "subject": "chemistry",
-    "prompt": "Vyberte zlúčeninu, ktorá je vhodná na prípravu aldolu:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "D"
-    ]
-  },
-  {
     "id": "chemistry-677",
     "sourceQuestionNumber": 677,
     "subject": "chemistry",
@@ -18878,104 +18375,19 @@
       },
       {
         "key": "B",
-        "text": "je dôkazová reakcia prítomnosti skupiny –CO–CH"
+        "text": "je dôkazová reakcia prítomnosti skupiny –CO–CH 3"
       },
       {
         "key": "C",
-        "text": "ak je pozitívna, vzniká červená kryštalická látka CHI"
+        "text": "ak je pozitívna, vzniká červená kryštalická látka CHI 3"
       },
       {
         "key": "D",
-        "text": "ak je pozitívna, vzniká žltá kryštalická látka, jodoform CHI"
+        "text": "ak je pozitívna, vzniká žltá kryštalická látka, jodoform CHI 3"
       }
     ],
     "correctChoices": [
       "B",
-      "D"
-    ]
-  },
-  {
-    "id": "chemistry-678",
-    "sourceQuestionNumber": 678,
-    "subject": "chemistry",
-    "prompt": "Vyberte reakcie, ktorými sa dokazuje prítomnosť aldehydu:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "C"
-    ]
-  },
-  {
-    "id": "chemistry-679",
-    "sourceQuestionNumber": 679,
-    "subject": "chemistry",
-    "prompt": "Priebeh jodoformovej reakcie vyjadruje reakčná schéma:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "B",
-      "C"
-    ]
-  },
-  {
-    "id": "chemistry-680",
-    "sourceQuestionNumber": 680,
-    "subject": "chemistry",
-    "prompt": "Vyberte zlúčeninu, ktorá dáva pozitívnu jodoformovú reakciu:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "C",
       "D"
     ]
   },
@@ -19106,7 +18518,7 @@
       },
       {
         "key": "C",
-        "text": "s HNO"
+        "text": "s HNO 3"
       },
       {
         "key": "D",
@@ -19373,7 +18785,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "karboxylový uhlík je v hybridizácii sp"
+        "text": "karboxylový uhlík je v hybridizácii sp 2"
       },
       {
         "key": "B",
@@ -19524,7 +18936,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "kyselina mravčia < kyselina benzoová"
       }
     ],
     "correctChoices": [
@@ -19931,23 +19343,23 @@
     "id": "chemistry-715",
     "sourceQuestionNumber": 715,
     "subject": "chemistry",
-    "prompt": "Zlúčenina CH —CH –O–CO–CH –CH –CH vznikne reakciou:",
+    "prompt": "Zlúčenina CH 3 —CH 2 –O–CO–CH 2 –CH 2 –CH 3 vznikne reakciou:",
     "choices": [
       {
         "key": "A",
-        "text": "CH —CH –CO–O–CO–CH –CH –CH s metanolom"
+        "text": "CH 3 —CH 2 –CO–O–CO–CH 2 –CH 2 –CH 3 s metanolom"
       },
       {
         "key": "B",
-        "text": "CH —CH –CH –CO– O–CO–CH –CH –CH s etanolom"
+        "text": "CH 3 —CH 2 –CH 2 –CO– O–CO–CH 2 –CH 2 –CH 3 s etanolom"
       },
       {
         "key": "C",
-        "text": "CH —CH –CH –COCl s etanolom"
+        "text": "CH 3 —CH 2 –CH 2 –COCl s etanolom"
       },
       {
         "key": "D",
-        "text": "CH —CH –COOCl s propanolom"
+        "text": "CH 3 —CH 2 –COOCl s propanolom"
       }
     ],
     "correctChoices": [
@@ -19963,15 +19375,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH CONa"
+        "text": "CH 3 CONa"
       },
       {
         "key": "B",
-        "text": "CH CONH"
+        "text": "CH 3 CONH 2"
       },
       {
         "key": "C",
-        "text": "CH CH CH(Cl)COOH"
+        "text": "CH 3 CH 2 CH(Cl)COOH"
       },
       {
         "key": "D",
@@ -20326,7 +19738,7 @@
       },
       {
         "key": "B",
-        "text": "všetky majú len zásadité vlastnosti, lebo obsahujú zásaditú skupinu –NH"
+        "text": "všetky majú len zásadité vlastnosti, lebo obsahujú zásaditú skupinu –NH 2"
       },
       {
         "key": "C",
@@ -20656,7 +20068,7 @@
     "id": "chemistry-741",
     "sourceQuestionNumber": 741,
     "subject": "chemistry",
-    "prompt": "Anión CH -COO - je:",
+    "prompt": "Anión CH 3 -COO - je:",
     "choices": [
       {
         "key": "A",
@@ -20715,7 +20127,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "karboxylovej kyseliny s PCl alebo s PCl"
+        "text": "karboxylovej kyseliny s PCl 3 alebo s PCl 5"
       },
       {
         "key": "B",
@@ -20822,34 +20234,6 @@
     ]
   },
   {
-    "id": "chemistry-747",
-    "sourceQuestionNumber": 747,
-    "subject": "chemistry",
-    "prompt": "Vyberte správne reakcie, pri ktorých vznikajú funkčné deriváty karboxylových kyselín:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "C"
-    ]
-  },
-  {
     "id": "chemistry-748",
     "sourceQuestionNumber": 748,
     "subject": "chemistry",
@@ -20875,35 +20259,6 @@
     "correctChoices": [
       "A",
       "B"
-    ]
-  },
-  {
-    "id": "chemistry-749",
-    "sourceQuestionNumber": 749,
-    "subject": "chemistry",
-    "prompt": "Opticky aktívna zlúčenina je:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "B",
-      "D"
     ]
   },
   {
@@ -21027,7 +20382,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "má vzorec (COOH) Ca"
+        "text": "má vzorec (COOH) 2 Ca"
       },
       {
         "key": "B",
@@ -21035,7 +20390,7 @@
       },
       {
         "key": "C",
-        "text": "má vzorec Ca(COO)"
+        "text": "má vzorec Ca(COO) 2"
       },
       {
         "key": "D",
@@ -21277,15 +20632,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "PCl za vzniku chloridov karboxylových kyselín, resp. acylchloridov"
+        "text": "PCl 5 za vzniku chloridov karboxylových kyselín, resp. acylchloridov"
       },
       {
         "key": "B",
-        "text": "NH za vzniku amóniových solí"
+        "text": "NH 3 za vzniku amóniových solí"
       },
       {
         "key": "C",
-        "text": "NH za vzniku amidov"
+        "text": "NH 3 za vzniku amidov"
       },
       {
         "key": "D",
@@ -21305,15 +20660,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH COOH + CH COOH"
+        "text": "CH 3 COOH + CH 3 COOH"
       },
       {
         "key": "B",
-        "text": "HOOC-CH -CH -COOH + CH -OH"
+        "text": "HOOC-CH 2 -CH 2 -COOH + CH 3 -OH"
       },
       {
         "key": "C",
-        "text": "redukcia HOOC-CH -CH -COOH na HOOC-CH -CH -CH -OH"
+        "text": "redukcia HOOC-CH 2 -CH 2 -COOH na HOOC-CH 2 -CH 2 -CH 2 -OH"
       },
       {
         "key": "D",
@@ -21402,7 +20757,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "závisia od charakteru heteroatómu, veľkosti a charakteru cyklu"
       }
     ],
     "correctChoices": [
@@ -21515,7 +20870,7 @@
       },
       {
         "key": "D",
-        "text": "vitamínu B"
+        "text": "vitamínu B 12"
       }
     ],
     "correctChoices": [
@@ -21645,7 +21000,7 @@
       },
       {
         "key": "B",
-        "text": "vitamínu B"
+        "text": "vitamínu B 12"
       },
       {
         "key": "C",
@@ -21849,7 +21204,7 @@
       },
       {
         "key": "D",
-        "text": "môže vznikať v organizme aj z tryptofánu, ak je dostatok vitamínu B , B a B"
+        "text": "môže vznikať v organizme aj z tryptofánu, ak je dostatok vitamínu B 1 , B 2 a B 6"
       }
     ],
     "correctChoices": [
@@ -22115,11 +21470,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "majú v molekule atómy uhlíka v hybridizácii sp alebo sp"
+        "text": "majú v molekule atómy uhlíka v hybridizácii sp 2 alebo sp 3"
       },
       {
         "key": "B",
-        "text": "majú v molekule len atómy uhlíka v hybridizácii sp preto sú rovinnými útvarmi s väzbovými uhlami 120°"
+        "text": "majú v molekule len atómy uhlíka v hybridizácii sp 2 preto sú rovinnými útvarmi s väzbovými uhlami 120°"
       },
       {
         "key": "C",
@@ -22211,7 +21566,7 @@
       },
       {
         "key": "D",
-        "text": "väčšina má v molekule atómy uhlíka v hybridizácii sp"
+        "text": "väčšina má v molekule atómy uhlíka v hybridizácii sp 2"
       }
     ],
     "correctChoices": [
@@ -22506,11 +21861,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "polypropylénu je -[CH -CH(CH )]-"
+        "text": "polypropylénu je -[CH 2 -CH(CH 3 )]-"
       },
       {
         "key": "B",
-        "text": "polyterpénu je -[CH -C(CH )=CH-CH ]-"
+        "text": "polyterpénu je -[CH 2 -C(CH 3 )=CH-CH 2 ]-"
       },
       {
         "key": "C",
@@ -22518,7 +21873,7 @@
       },
       {
         "key": "D",
-        "text": "polyetylénu je -[CH -CH ]-"
+        "text": "polyetylénu je -[CH 3 -CH 2 ]-"
       }
     ],
     "correctChoices": [
@@ -22856,7 +22211,7 @@
       },
       {
         "key": "D",
-        "text": "pri zvýšenej teplote v prostredí minerálnej kyseliny hydrolyzujú na CO a H O"
+        "text": "pri zvýšenej teplote v prostredí minerálnej kyseliny hydrolyzujú na CO 2 a H 2 O"
       }
     ],
     "correctChoices": [
@@ -23321,7 +22676,7 @@
       },
       {
         "key": "B",
-        "text": "zmesou kyseliny HNO a K CrO"
+        "text": "zmesou kyseliny HNO 3 a K 2 CrO 4"
       },
       {
         "key": "C",
@@ -23384,7 +22739,7 @@
       },
       {
         "key": "D",
-        "text": "roztokom KMnO"
+        "text": "roztokom KMnO 4"
       }
     ],
     "correctChoices": [
@@ -23606,7 +22961,7 @@
       },
       {
         "key": "D",
-        "text": "vzniká esterifikáciou primárnej –OH skupiny na šiestom atóme uhlíka fruktózy kyselinou H PO"
+        "text": "vzniká esterifikáciou primárnej –OH skupiny na šiestom atóme uhlíka fruktózy kyselinou H 3 PO 4"
       }
     ],
     "correctChoices": [
@@ -23880,7 +23235,7 @@
       },
       {
         "key": "C",
-        "text": "vzniká červená zrazenina Cu O"
+        "text": "vzniká červená zrazenina Cu 2 O"
       },
       {
         "key": "D",
@@ -24611,7 +23966,7 @@
       },
       {
         "key": "C",
-        "text": "môžu obsahovať zvyšok H PO"
+        "text": "môžu obsahovať zvyšok H 3 PO 4"
       },
       {
         "key": "D",
@@ -24801,19 +24156,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "C H COOH"
+        "text": "C 17 H 31 COOH"
       },
       {
         "key": "B",
-        "text": "C H COOH"
+        "text": "C 17 H 29 COOH"
       },
       {
         "key": "C",
-        "text": "C H COOH"
+        "text": "C 15 H 31 COOH"
       },
       {
         "key": "D",
-        "text": "C H O"
+        "text": "C 18 H 30 O 2"
       }
     ],
     "correctChoices": [
@@ -24858,19 +24213,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH –(CH ) –CH=CH–(CH ) –COOH"
+        "text": "CH 3 –(CH 2 ) 7 –CH=CH–(CH 2 ) 7 –COOH"
       },
       {
         "key": "B",
-        "text": "CH –(CH ) –CH=CH–CH –CH=CH–(CH ) –COOH"
+        "text": "CH 3 –(CH 2 ) 4 –CH=CH–CH 2 –CH=CH–(CH 2 ) 7 –COOH"
       },
       {
         "key": "C",
-        "text": "CH –CH –CH=CH–CH –CH=CH–CH –CH=CH–(CH ) –COOH"
+        "text": "CH 3 –CH 2 –CH=CH–CH 2 –CH=CH–CH 2 –CH=CH–(CH 2 ) 7 –COOH"
       },
       {
         "key": "D",
-        "text": "CH –CH –CH=CH–CH(CH )–CH=C(CH )–CH(CH )–CH=CH–(CH ) –COOH"
+        "text": "CH 3 –CH 2 –CH=CH–CH(CH 3 )–CH=C(CH 3 )–CH(CH 3 )–CH=CH–(CH 2 ) 7 –COOH"
       }
     ],
     "correctChoices": [
@@ -25022,7 +24377,7 @@
     "id": "chemistry-897",
     "sourceQuestionNumber": 897,
     "subject": "chemistry",
-    "prompt": "Úplnou hydrogenáciou kyseliny C H COOH vznikne:",
+    "prompt": "Úplnou hydrogenáciou kyseliny C 19 H 31 COOH vznikne:",
     "choices": [
       {
         "key": "A",
@@ -25049,7 +24404,7 @@
     "id": "chemistry-898",
     "sourceQuestionNumber": 898,
     "subject": "chemistry",
-    "prompt": "Reakciou C H COOH + 2 H vzniká:",
+    "prompt": "Reakciou C 17 H 29 COOH + 2 H 2 vzniká:",
     "choices": [
       {
         "key": "A",
@@ -25177,7 +24532,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "je 1,2,3-propántriol"
       }
     ],
     "correctChoices": [
@@ -25383,34 +24738,6 @@
     ]
   },
   {
-    "id": "chemistry-910",
-    "sourceQuestionNumber": 910,
-    "subject": "chemistry",
-    "prompt": "Označte zmiešané acylglyceroly mastných kyselín:",
-    "choices": [
-      {
-        "key": "A",
-        "text": ""
-      },
-      {
-        "key": "B",
-        "text": ""
-      },
-      {
-        "key": "C",
-        "text": ""
-      },
-      {
-        "key": "D",
-        "text": ""
-      }
-    ],
-    "correctChoices": [
-      "A",
-      "B"
-    ]
-  },
-  {
     "id": "chemistry-911",
     "sourceQuestionNumber": 911,
     "subject": "chemistry",
@@ -25487,7 +24814,7 @@
       },
       {
         "key": "D",
-        "text": "CH -(CH ) -COONa"
+        "text": "CH 3 -(CH 2 ) 16 -COONa"
       }
     ],
     "correctChoices": [
@@ -25824,7 +25151,7 @@
       },
       {
         "key": "D",
-        "text": "môžu obsahovať 3 zvyšky H PO"
+        "text": "môžu obsahovať 3 zvyšky H 3 PO 4"
       }
     ],
     "correctChoices": [
@@ -26212,11 +25539,11 @@
       },
       {
         "key": "C",
-        "text": "ožiarením ergosterolu UV žiarením vzniká vitamín B"
+        "text": "ožiarením ergosterolu UV žiarením vzniká vitamín B 12"
       },
       {
         "key": "D",
-        "text": "ožiarením ergosterolu UV žiarením vzniká ergokalciferol - vitamín D"
+        "text": "ožiarením ergosterolu UV žiarením vzniká ergokalciferol - vitamín D 2"
       }
     ],
     "correctChoices": [
@@ -26327,7 +25654,7 @@
       },
       {
         "key": "D",
-        "text": "z aminokyselín, ktoré majú v molekule vždy jednu –COOH skupinu a jednu skupinu –NH"
+        "text": "z aminokyselín, ktoré majú v molekule vždy jednu –COOH skupinu a jednu skupinu –NH 2"
       }
     ],
     "correctChoices": [
@@ -26354,7 +25681,7 @@
       },
       {
         "key": "D",
-        "text": "okrem skupín –NH a –COOH už neobsahujú inú charakteristickú skupinu"
+        "text": "okrem skupín –NH 2 a –COOH už neobsahujú inú charakteristickú skupinu"
       }
     ],
     "correctChoices": [
@@ -26374,7 +25701,7 @@
       },
       {
         "key": "B",
-        "text": "majú jednu –NH skupinu naviazanú na β-uhlíku"
+        "text": "majú jednu –NH 2 skupinu naviazanú na β-uhlíku"
       },
       {
         "key": "C",
@@ -26514,15 +25841,15 @@
       },
       {
         "key": "B",
-        "text": ""
+        "text": "v organizme môže vzniknúť z fenylalanínu"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "je hydroxyderivát fenylalanínu"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "nemá aromatický charakter"
       }
     ],
     "correctChoices": [
@@ -26578,7 +25905,7 @@
       },
       {
         "key": "D",
-        "text": "ktorá má v molekule viac skupín –NH ako skupín –COOH"
+        "text": "ktorá má v molekule viac skupín –NH 2 ako skupín –COOH"
       }
     ],
     "correctChoices": [
@@ -26626,7 +25953,7 @@
       },
       {
         "key": "B",
-        "text": "prebieha v prítomnosti derivátu vitamínu B ako koenzýmu transaminázy"
+        "text": "prebieha v prítomnosti derivátu vitamínu B 6 ako koenzýmu transaminázy"
       },
       {
         "key": "C",
@@ -26662,7 +25989,7 @@
       },
       {
         "key": "D",
-        "text": "vzniká reakciou skupiny –NH jednej aminokyseliny a skupiny –COOH druhej aminokyseliny"
+        "text": "vzniká reakciou skupiny –NH 2 jednej aminokyseliny a skupiny –COOH druhej aminokyseliny"
       }
     ],
     "correctChoices": [
@@ -26735,11 +26062,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "(CH ) CHCH(NH + )COOH"
+        "text": "(CH 3 ) 2 CHCH(NH 3 + )COOH"
       },
       {
         "key": "B",
-        "text": "(CH ) CHCH(NH )COO –"
+        "text": "(CH 3 ) 2 CHCH(NH 2 )COO –"
       },
       {
         "key": "C",
@@ -26747,7 +26074,7 @@
       },
       {
         "key": "D",
-        "text": "(CH ) CHCH(NH + )COO –"
+        "text": "(CH 3 ) 2 CHCH(NH 3 + )COO –"
       }
     ],
     "correctChoices": [
@@ -26762,19 +26089,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "CH (OH + )CH(NH )COOH"
+        "text": "CH 2 (OH 2 + )CH(NH 2 )COOH"
       },
       {
         "key": "B",
-        "text": "CH (O – )CH(NH )COOH"
+        "text": "CH 2 (O – )CH(NH 2 )COOH"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "CH 2 (OH)CH(NH 2 )COO –"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "amfión"
       }
     ],
     "correctChoices": [
@@ -26991,7 +26318,7 @@
       },
       {
         "key": "C",
-        "text": "sekundárna štruktúra môže byť tvorená nielen vodíkovými väzbami ale aj N-glykozidovou väzbou medzi skupinami –NH a –COOH"
+        "text": "sekundárna štruktúra môže byť tvorená nielen vodíkovými väzbami ale aj N-glykozidovou väzbou medzi skupinami –NH 2 a –COOH"
       },
       {
         "key": "D",
@@ -27249,7 +26576,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "pôsobí iba aktívnym centrom, nie celým povrchom ako anorganický katalyzátor"
       }
     ],
     "correctChoices": [
@@ -27498,11 +26825,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "prebiehajú väčšinou v prostredí s nízkou koncentráciou substrátu ale pri zvýšenom tlaku"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "prebiehajú pomalšie ako reakcie katalyzované anorganickým katalyzátorom"
       }
     ],
     "correctChoices": [
@@ -28049,7 +27376,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "obsahuje H PO naviazanú fosfoesterovou väzbou na purínovú alebo pyrimidínovú bázu"
+        "text": "obsahuje H 3 PO 4 naviazanú fosfoesterovou väzbou na purínovú alebo pyrimidínovú bázu"
       },
       {
         "key": "B",
@@ -28141,7 +27468,7 @@
       },
       {
         "key": "C",
-        "text": "uvoľňuje energiu podľa schémy ATP → ADP → AMP, pričom sa odštiepia dve molekuly H PO"
+        "text": "uvoľňuje energiu podľa schémy ATP → ADP → AMP, pričom sa odštiepia dve molekuly H 3 PO 4"
       },
       {
         "key": "D",
@@ -28157,7 +27484,7 @@
     "id": "chemistry-1009",
     "sourceQuestionNumber": 1009,
     "subject": "chemistry",
-    "prompt": "Kyselina H PO :",
+    "prompt": "Kyselina H 3 PO 4 :",
     "choices": [
       {
         "key": "A",
@@ -28231,7 +27558,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "má podobnú primárnu, sekundárnu, terciárnu a kvartérnu štruktúru ako proteíny"
       }
     ],
     "correctChoices": [
@@ -28478,11 +27805,11 @@
       },
       {
         "key": "C",
-        "text": ""
+        "text": "pri translácii má aminokyselinu naviazanú esterovou väzbou na antikodón"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "pri translácii má aminokyselinu naviazanú esterovou väzbou na prvom uhlíku ribózy adenínového nukleotidu koncového tripletu CCA"
       }
     ],
     "correctChoices": [
@@ -29057,7 +28384,7 @@
       },
       {
         "key": "B",
-        "text": "vznikajú redukované koenzýmy NADH a FADH"
+        "text": "vznikajú redukované koenzýmy NADH a FADH 2"
       },
       {
         "key": "C",
@@ -29260,7 +28587,7 @@
       },
       {
         "key": "D",
-        "text": "redukované koenzýmy NAD + a FAD sa oxidujú v koncovom oxidačnom reťazci na NADP + a FADH"
+        "text": "redukované koenzýmy NAD + a FAD sa oxidujú v koncovom oxidačnom reťazci na NADP + a FADH 2"
       }
     ],
     "correctChoices": [
@@ -29276,7 +28603,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "fosforylácii glukózy v prítomnosti voľnej kyseliny H PO"
+        "text": "fosforylácii glukózy v prítomnosti voľnej kyseliny H 3 PO 4"
       },
       {
         "key": "B",
@@ -29339,7 +28666,7 @@
       },
       {
         "key": "C",
-        "text": "fruktóza-1,6-bisfosfát vzniká pôsobením H PO na fruktózu v pentózovom cykle"
+        "text": "fruktóza-1,6-bisfosfát vzniká pôsobením H 3 PO 4 na fruktózu v pentózovom cykle"
       },
       {
         "key": "D",
@@ -29931,7 +29258,7 @@
       },
       {
         "key": "D",
-        "text": ""
+        "text": "kyselinu cholovú"
       }
     ],
     "correctChoices": [
@@ -30150,7 +29477,7 @@
       },
       {
         "key": "C",
-        "text": "vitamín D"
+        "text": "vitamín D 2"
       },
       {
         "key": "D",
@@ -30170,11 +29497,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "B – tiamín"
+        "text": "B 3 – tiamín"
       },
       {
         "key": "B",
-        "text": "B – riboflavín"
+        "text": "B 2 – riboflavín"
       },
       {
         "key": "C",
@@ -30334,7 +29661,7 @@
     "id": "chemistry-1087",
     "sourceQuestionNumber": 1087,
     "subject": "chemistry",
-    "prompt": "Vitamín B :",
+    "prompt": "Vitamín B 1 :",
     "choices": [
       {
         "key": "A",
@@ -30362,7 +29689,7 @@
     "id": "chemistry-1088",
     "sourceQuestionNumber": 1088,
     "subject": "chemistry",
-    "prompt": "Vitamín B :",
+    "prompt": "Vitamín B 6 :",
     "choices": [
       {
         "key": "A",
@@ -30506,19 +29833,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "0,20 mol CaHCO v 1 litri roztoku"
+        "text": "0,20 mol CaHCO 3 v 1 litri roztoku"
       },
       {
         "key": "B",
-        "text": "32,4 g Ca(HCO ) v 1 litri roztoku"
+        "text": "32,4 g Ca(HCO 3 ) 2 v 1 litri roztoku"
       },
       {
         "key": "C",
-        "text": "64,8 g Ca(HCO ) v 2 litroch rozpúšťadla"
+        "text": "64,8 g Ca(HCO 3 ) 2 v 2 litroch rozpúšťadla"
       },
       {
         "key": "D",
-        "text": "0,20 mol Ca(HCO ) v 2 litroch roztoku"
+        "text": "0,20 mol Ca(HCO 3 ) 2 v 2 litroch roztoku"
       }
     ],
     "correctChoices": [
