@@ -1,5 +1,252 @@
 [
   {
+    "id": "biology-1",
+    "sourceQuestionNumber": 1,
+    "subject": "biology",
+    "prompt": "Stavbou tela živočíchov sa zaoberá:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "antropológia"
+      },
+      {
+        "key": "B",
+        "text": "fyziológia"
+      },
+      {
+        "key": "C",
+        "text": "anatómia"
+      },
+      {
+        "key": "D",
+        "text": "organológia"
+      }
+    ],
+    "correctChoices": [
+      "C"
+    ]
+  },
+  {
+    "id": "biology-2",
+    "sourceQuestionNumber": 2,
+    "subject": "biology",
+    "prompt": "Anatómia je biologická disciplína, ktorá sa zaoberá:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "stavbou orgánov, sústav a organizmu ako celku"
+      },
+      {
+        "key": "B",
+        "text": "štúdiom pavúkov"
+      },
+      {
+        "key": "C",
+        "text": "biológiou človeka"
+      },
+      {
+        "key": "D",
+        "text": "vonkajšou stavbou tela rastlín"
+      }
+    ],
+    "correctChoices": [
+      "A"
+    ]
+  },
+  {
+    "id": "biology-3",
+    "sourceQuestionNumber": 3,
+    "subject": "biology",
+    "prompt": "Mikroskopickú stavbu živočíšnych tkanív a rastlinných pletív skúma:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "anatómia"
+      },
+      {
+        "key": "B",
+        "text": "cytológia"
+      },
+      {
+        "key": "C",
+        "text": "histológia"
+      },
+      {
+        "key": "D",
+        "text": "fyziológia"
+      }
+    ],
+    "correctChoices": [
+      "C"
+    ]
+  },
+  {
+    "id": "biology-4",
+    "sourceQuestionNumber": 4,
+    "subject": "biology",
+    "prompt": "Histológia je biologická disciplína, ktorá sa zaoberá štúdiom:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "štruktúry rastlinných a živočíšnych buniek"
+      },
+      {
+        "key": "B",
+        "text": "živočíšnych tkanív"
+      },
+      {
+        "key": "C",
+        "text": "rastlinných pletív"
+      },
+      {
+        "key": "D",
+        "text": "životnými procesmi na úrovni bunky"
+      }
+    ],
+    "correctChoices": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "biology-5",
+    "sourceQuestionNumber": 5,
+    "subject": "biology",
+    "prompt": "Životné procesy organizmov skúma:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "fyziografia"
+      },
+      {
+        "key": "B",
+        "text": "fyziológia"
+      },
+      {
+        "key": "C",
+        "text": "fyziognómia"
+      },
+      {
+        "key": "D",
+        "text": "etológia"
+      }
+    ],
+    "correctChoices": [
+      "B"
+    ]
+  },
+  {
+    "id": "biology-6",
+    "sourceQuestionNumber": 6,
+    "subject": "biology",
+    "prompt": "Fyziologické vedy sa zaoberajú:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "vývojovými zmenami organizmov"
+      },
+      {
+        "key": "B",
+        "text": "vzťahom organizmov k ich prostrediu"
+      },
+      {
+        "key": "C",
+        "text": "životnými procesmi prebiehajúcimi v organizmoch"
+      },
+      {
+        "key": "D",
+        "text": "funkciami jednotlivých orgánov"
+      }
+    ],
+    "correctChoices": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "biology-7",
+    "sourceQuestionNumber": 7,
+    "subject": "biology",
+    "prompt": "Paleontológia sa zaoberá:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ontogenézou organizmov"
+      },
+      {
+        "key": "B",
+        "text": "vyhynutými organizmami"
+      },
+      {
+        "key": "C",
+        "text": "fosíliami"
+      },
+      {
+        "key": "D",
+        "text": "dinosaurami"
+      }
+    ],
+    "correctChoices": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "biology-8",
+    "sourceQuestionNumber": 8,
+    "subject": "biology",
+    "prompt": "Antropológia sa zaoberá štúdiom:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "človeka"
+      },
+      {
+        "key": "B",
+        "text": "pavúkov"
+      },
+      {
+        "key": "C",
+        "text": "vyhynutých rastlín"
+      },
+      {
+        "key": "D",
+        "text": "individuálneho vývinu organizmov"
+      }
+    ],
+    "correctChoices": [
+      "A"
+    ]
+  },
+  {
+    "id": "biology-9",
+    "sourceQuestionNumber": 9,
+    "subject": "biology",
+    "prompt": "Etológia je biologická disciplína, ktorá skúma:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "životné procesy živočíchov"
+      },
+      {
+        "key": "B",
+        "text": "vývin živočíchov"
+      },
+      {
+        "key": "C",
+        "text": "správanie živočíchov"
+      },
+      {
+        "key": "D",
+        "text": "vplyv živočíchov na prostredie"
+      }
+    ],
+    "correctChoices": [
+      "C"
+    ]
+  },
+  {
     "id": "biology-10",
     "sourceQuestionNumber": 10,
     "subject": "biology",

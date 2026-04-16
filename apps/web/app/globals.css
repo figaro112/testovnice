@@ -120,7 +120,8 @@ button {
 .subjectGrid,
 .featureList,
 .subjectStats,
-.homeStats {
+.homeStats,
+.sectionGrid {
   display: grid;
   gap: 18px;
 }
@@ -134,8 +135,13 @@ button {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.sectionGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .subjectCard,
 .featureCard,
+.sectionCard,
 .statCard,
 .questionSurface {
   border: 1px solid var(--line);
@@ -175,14 +181,18 @@ button {
 }
 
 .subjectContent,
-.featureContent {
+.featureContent,
+.subjectHeaderContent,
+.sectionCard {
   display: grid;
   gap: 6px;
 }
 
 .subjectContent strong,
 .featureContent strong,
+.sectionCard strong,
 .subjectHeader h2,
+.sectionPanelHeader h3,
 .sessionHeader h2,
 .resultsView h2,
 .questionSurface h3 {
@@ -190,12 +200,15 @@ button {
 }
 
 .subjectContent strong,
-.featureContent strong {
+.featureContent strong,
+.sectionCard strong {
   font-size: 1.1rem;
 }
 
 .subjectContent span,
 .featureContent span,
+.sectionPanelHeader p,
+.sectionCard span,
 .subjectHeader p,
 .heroBlock p,
 .sessionMeta,
@@ -241,8 +254,56 @@ button {
   align-items: flex-start;
 }
 
+.subjectHeaderContent {
+  flex: 1;
+}
+
 .sessionHeader {
   margin-bottom: -8px;
+}
+
+.sectionPanel {
+  display: grid;
+  gap: 18px;
+}
+
+.sectionPanelHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.sectionPanelHeader > div {
+  display: grid;
+  gap: 6px;
+}
+
+.sectionCard {
+  width: 100%;
+  padding: 22px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sectionCard.active {
+  border-color: #b6e8da;
+  background: var(--accent-soft);
+}
+
+.sectionRange,
+.sectionCount {
+  font-size: 0.92rem;
+}
+
+.sectionRange {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.sectionCard small {
+  color: var(--muted);
 }
 
 .progressTrack {
@@ -401,7 +462,8 @@ button {
 @media (max-width: 900px) {
   .subjectGrid,
   .homeStats,
-  .subjectStats {
+  .subjectStats,
+  .sectionGrid {
     grid-template-columns: 1fr;
   }
 
@@ -418,7 +480,8 @@ button {
   .sessionHeader,
   .questionTop,
   .sessionActions,
-  .bottomActions {
+  .bottomActions,
+  .sectionPanelHeader {
     align-items: flex-start;
   }
 }

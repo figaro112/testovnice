@@ -1,11 +1,12 @@
 "use client";
 
 import { startTransition, useEffect, useMemo, useState } from "react";
+import { biologyQuestionSections, questionIsInSection, type QuestionSection } from "@testovnice/question-bank/src/sections";
 import type { ChoiceKey, QuestionItem, SubjectCode } from "@testovnice/question-bank/src/types";
 
 type Subject = SubjectCode;
-type Mode = "practice" | "exam50" | "mistakes" | "favorites";
-type View = "home" | "subject" | "session" | "results";
+type Mode = "sequence" | "practice" | "exam50" | "mistakes" | "favorites";
+type View = "home" | "subject" | "pdfSections" | "session" | "results";
 
 type Question = QuestionItem;
 
@@ -27,6 +28,7 @@ type SessionState = {
   questionIds: string[];
   index: number;
   answers: Record<string, SessionAnswer>;
+  sectionId?: string | null;
 };
 
 type StudyState = {
@@ -40,8 +42,10 @@ type Props = {
 };
 
 const STORAGE_KEY = "testovnice.study.v3";
-const SESSION_KEY = "testovnice.session.v3";
-const UI_KEY = "testovnice.ui.v3";
+const SESSION_KEY = "testovnice.session.v5";
+const UI_KEY = "testovnice.ui.v5";
+
+const biologySectionsById = new Map(biologyQuestionSections.map((section) => [section.id, section]));
 
 function shuffle<T>(values: T[]) {
   const next = [...values];
@@ -77,6 +81,22 @@ function getStats(state: StudyState, questionId: string): QuestionStats {
   );
 }
 
+function getBiologySection(sectionId?: string | null) {
+  if (!sectionId) {
+    return null;
+  }
+
+  return biologySectionsById.get(sectionId) ?? null;
+}
+
+function getBiologySectionForQuestion(questionNumber: number) {
+  return biologyQuestionSections.find((section) => questionIsInSection(questionNumber, section)) ?? null;
+}
+
+function formatQuestionRange(section: QuestionSection) {
+  return `${section.fromQuestion}-${section.toQuestion}`;
+}
+
 function subjectLabel(subject: Subject) {
   return subject === "biology" ? "Biológia" : "Chémia";
 }
@@ -92,10 +112,45 @@ function subjectEmoji(subject: Subject) {
 }
 
 function modeLabel(mode: Mode) {
+  if (mode === "sequence") return "Okruhy";
   if (mode === "practice") return "Denný tréning";
   if (mode === "exam50") return "Náhodný test 50";
   if (mode === "mistakes") return "Opakovanie chýb";
   return "Obľúbené otázky";
+}
+
+function buildQuestionIds(mode: Mode, questionPool: Question[], study: StudyState) {
+  if (mode === "sequence") {
+    return [...questionPool]
+      .sort((left, right) => left.sourceQuestionNumber - right.sourceQuestionNumber)
+      .map((item) => item.id);
+  }
+
+  if (mode === "practice") {
+    return shuffle(questionPool)
+      .slice(0, Math.min(20, questionPool.length))
+      .map((item) => item.id);
+  }
+
+  if (mode === "exam50") {
+    return shuffle(questionPool)
+      .slice(0, Math.min(50, questionPool.length))
+      .map((item) => item.id);
+  }
+
+  if (mode === "mistakes") {
+    const mistakePool = questionPool.filter((question) => getStats(study, question.id).lastResult === "wrong");
+    const pool = mistakePool.length > 0 ? mistakePool : questionPool;
+    return shuffle(pool)
+      .slice(0, Math.min(25, pool.length))
+      .map((item) => item.id);
+  }
+
+  const favoritePool = questionPool.filter((question) => getStats(study, question.id).starred);
+  const pool = favoritePool.length > 0 ? favoritePool : questionPool;
+  return shuffle(pool)
+    .slice(0, Math.min(25, pool.length))
+    .map((item) => item.id);
 }
 
 export default function QuizClient({ biologyQuestions, chemistryQuestions }: Props) {
@@ -111,9 +166,18 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
     [questions],
   );
 
+  const biologyStudyQuestions = useMemo(
+    () => biologyQuestions.filter((question) => question.correctChoices.length > 0),
+    [biologyQuestions],
+  );
+  const chemistryStudyQuestions = useMemo(
+    () => chemistryQuestions.filter((question) => question.correctChoices.length > 0),
+    [chemistryQuestions],
+  );
+
   const subjectQuestions = useMemo(
-    () => (subject === "biology" ? biologyQuestions : chemistryQuestions).filter((question) => question.correctChoices.length > 0),
-    [biologyQuestions, chemistryQuestions, subject],
+    () => (subject === "biology" ? biologyStudyQuestions : chemistryStudyQuestions),
+    [biologyStudyQuestions, chemistryStudyQuestions, subject],
   );
 
   useEffect(() => {
@@ -158,6 +222,9 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
   const currentAnswer =
     currentQuestion && session ? session.answers[currentQuestion.id] ?? { selected: [], checked: false } : null;
   const currentStats = currentQuestion ? getStats(study, currentQuestion.id) : getStats(study, "");
+  const sessionSection = session?.subject === "biology" ? getBiologySection(session.sectionId ?? null) : null;
+  const currentQuestionSection =
+    currentQuestion?.subject === "biology" ? getBiologySectionForQuestion(currentQuestion.sourceQuestionNumber) : null;
 
   const overallStats = useMemo(() => {
     const allStats = Object.values(study.stats);
@@ -192,6 +259,7 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
     if (!session) {
       return { checked: 0, correct: 0, wrong: 0 };
     }
+
     const answers = session.questionIds.map((id) => {
       const answer = session.answers[id];
       const question = questionsById[id];
@@ -200,39 +268,40 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
         correct: answer && question ? isCorrectAnswer(answer.selected, question.correctChoices) : false,
       };
     });
+
     const checked = answers.filter((item) => item.checked).length;
     const correct = answers.filter((item) => item.checked && item.correct).length;
     return { checked, correct, wrong: checked - correct };
   }, [questionsById, session]);
-
-  function buildQuestionIds(mode: Mode) {
-    if (mode === "practice") {
-      return shuffle(subjectQuestions).slice(0, Math.min(20, subjectQuestions.length)).map((item) => item.id);
-    }
-    if (mode === "exam50") {
-      return shuffle(subjectQuestions).slice(0, Math.min(50, subjectQuestions.length)).map((item) => item.id);
-    }
-    if (mode === "mistakes") {
-      const mistakePool = subjectQuestions.filter((question) => getStats(study, question.id).lastResult === "wrong");
-      const pool = mistakePool.length > 0 ? mistakePool : subjectQuestions;
-      return shuffle(pool).slice(0, Math.min(25, pool.length)).map((item) => item.id);
-    }
-    const favoritePool = subjectQuestions.filter((question) => getStats(study, question.id).starred);
-    const pool = favoritePool.length > 0 ? favoritePool : subjectQuestions;
-    return shuffle(pool).slice(0, Math.min(25, pool.length)).map((item) => item.id);
-  }
 
   function openSubject(nextSubject: Subject) {
     setSubject(nextSubject);
     setView("subject");
   }
 
-  function startSession(mode: Mode) {
+  function getQuestionPool(nextSubject: Subject, sectionId?: string | null) {
+    const basePool = nextSubject === "biology" ? biologyStudyQuestions : chemistryStudyQuestions;
+    const section = nextSubject === "biology" ? getBiologySection(sectionId ?? null) : null;
+
+    if (!section) {
+      return basePool;
+    }
+
+    return basePool.filter((question) => questionIsInSection(question.sourceQuestionNumber, section));
+  }
+
+  function startSession(mode: Mode, options?: { subject?: Subject; sectionId?: string | null }) {
+    const nextSubject = options?.subject ?? subject;
+    const nextSectionId = nextSubject === "biology" ? (options?.sectionId ?? null) : null;
+    const pool = getQuestionPool(nextSubject, nextSectionId);
+
     startTransition(() => {
+      setSubject(nextSubject);
       setSession({
-        subject,
+        subject: nextSubject,
         mode,
-        questionIds: buildQuestionIds(mode),
+        sectionId: nextSectionId,
+        questionIds: buildQuestionIds(mode, pool, study),
         index: 0,
         answers: {},
       });
@@ -318,6 +387,27 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
     setView("results");
   }
 
+  function goBack() {
+    if (view === "subject") {
+      setView("home");
+      return;
+    }
+
+    if (view === "pdfSections") {
+      setView("subject");
+      return;
+    }
+
+    if (view === "session" || view === "results") {
+      if (session?.mode === "sequence" && session.subject === "biology") {
+        setView("pdfSections");
+        return;
+      }
+
+      setView("subject");
+    }
+  }
+
   const selectedCorrect =
     currentQuestion && currentAnswer ? isCorrectAnswer(currentAnswer.selected, currentQuestion.correctChoices) : false;
 
@@ -325,25 +415,13 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
     <main className="appShell">
       <header className="topbar">
         <div className="topbarInner">
-          <button
-            className="brandButton"
-            onClick={() => setView(session ? "subject" : "home")}
-            type="button"
-          >
+          <button className="brandButton" onClick={() => setView("home")} type="button">
             <span className="brandIcon">🎓</span>
             <span className="brandName">MedTest</span>
           </button>
 
           {view !== "home" ? (
-            <button
-              className="backButton"
-              onClick={() => {
-                if (view === "subject") setView("home");
-                if (view === "session") setView("subject");
-                if (view === "results") setView("subject");
-              }}
-              type="button"
-            >
+            <button className="backButton" onClick={goBack} type="button">
               ← Späť
             </button>
           ) : null}
@@ -405,7 +483,7 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
           <section className="subjectView">
             <div className="subjectHeader">
               <div className="subjectHeaderIcon">{subjectEmoji(subject)}</div>
-              <div>
+              <div className="subjectHeaderContent">
                 <h2>{subjectLabel(subject)}</h2>
                 <p>{subjectDescription(subject)}</p>
               </div>
@@ -431,6 +509,17 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
             </div>
 
             <div className="featureList">
+              {subject === "biology" ? (
+                <button className="featureCard" onClick={() => setView("pdfSections")} type="button">
+                  <div className="featureIcon">🧭</div>
+                  <div className="featureContent">
+                    <strong>Okruhy</strong>
+                    <span>Rozklikni si biologické okruhy a prejdi otázky presne v poradí, ako sú v PDF.</span>
+                  </div>
+                  <span className="featureArrow">›</span>
+                </button>
+              ) : null}
+
               <button className="featureCard" onClick={() => startSession("practice")} type="button">
                 <div className="featureIcon">📘</div>
                 <div className="featureContent">
@@ -470,14 +559,62 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
           </section>
         ) : null}
 
+        {view === "pdfSections" ? (
+          <section className="subjectView">
+            <div className="subjectHeader">
+              <div className="subjectHeaderIcon">{subjectEmoji("biology")}</div>
+              <div className="subjectHeaderContent">
+                <h2>Biológia - Okruhy</h2>
+                <p>Vyber si typ otázok a spustí sa tréning zaradom presne podľa poradia v PDF.</p>
+              </div>
+            </div>
+
+            <section className="sectionPanel">
+              <div className="sectionPanelHeader">
+                <div>
+                  <h3>Typy otázok</h3>
+                  <p>Každá karta zodpovedá jednému biologickému okruhu. Po kliknutí pôjdu otázky zaradom podľa PDF.</p>
+                </div>
+                <button
+                  className="ghostAction"
+                  onClick={() => startSession("sequence", { subject: "biology" })}
+                  type="button"
+                >
+                  Spustiť celú biológiu zaradom
+                </button>
+              </div>
+
+              <div className="sectionGrid">
+                {biologyQuestionSections.map((section) => (
+                  <button
+                    key={section.id}
+                    className="sectionCard"
+                    onClick={() => startSession("sequence", { subject: "biology", sectionId: section.id })}
+                    type="button"
+                  >
+                    <span className="sectionRange">Otázky {formatQuestionRange(section)}</span>
+                    <strong>{section.label}</strong>
+                    <small>Prejsť otázky zaradom podľa PDF</small>
+                  </button>
+                ))}
+              </div>
+            </section>
+          </section>
+        ) : null}
+
         {view === "session" && session && currentQuestion && currentAnswer ? (
           <section className="sessionView">
             <div className="sessionHeader">
               <div>
                 <p className="sessionEyebrow">
-                  {subjectLabel(session.subject)} · {modeLabel(session.mode)}
+                  {subjectLabel(session.subject)}
+                  {sessionSection ? ` · ${sessionSection.label}` : ""}
+                  {" · "}
+                  {modeLabel(session.mode)}
                 </p>
-                <h2>Otázka {session.index + 1} z {session.questionIds.length}</h2>
+                <h2>
+                  Otázka {session.index + 1} z {session.questionIds.length}
+                </h2>
               </div>
               <div className="sessionMeta">
                 <span>{sessionStats.checked} vyhodnotených</span>
@@ -497,6 +634,7 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
               <div className="questionTop">
                 <div className="pillRow">
                   <span className="pill">{subjectLabel(currentQuestion.subject)}</span>
+                  {currentQuestionSection ? <span className="pill mutedPill">{currentQuestionSection.label}</span> : null}
                   <span className="pill mutedPill">#{currentQuestion.sourceQuestionNumber}</span>
                 </div>
                 <button
@@ -583,7 +721,12 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
         {view === "results" && session ? (
           <section className="resultsView">
             <div className="resultHero">
-              <p>{subjectLabel(session.subject)} · {modeLabel(session.mode)}</p>
+              <p>
+                {subjectLabel(session.subject)}
+                {sessionSection ? ` · ${sessionSection.label}` : ""}
+                {" · "}
+                {modeLabel(session.mode)}
+              </p>
               <h2>Výsledok testu</h2>
             </div>
 
@@ -608,11 +751,20 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
             </div>
 
             <div className="bottomActions">
-              <button className="primaryAction" onClick={() => startSession(session.mode)} type="button">
+              <button
+                className="primaryAction"
+                onClick={() =>
+                  startSession(session.mode, {
+                    subject: session.subject,
+                    sectionId: session.sectionId ?? null,
+                  })
+                }
+                type="button"
+              >
                 Spustiť podobný blok znovu
               </button>
-              <button className="secondaryAction" onClick={() => setView("subject")} type="button">
-                Späť na predmet
+              <button className="secondaryAction" onClick={goBack} type="button">
+                Späť
               </button>
             </div>
           </section>

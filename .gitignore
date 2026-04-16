@@ -8,4 +8,8 @@ build/
 coverage/
 .turbo/
 *.log
+*.tsbuildinfo
+.edge-headless/
+.pdf-pages/
+.tmp-page64*.png
 
