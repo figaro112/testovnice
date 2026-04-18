@@ -2,7 +2,7 @@
 
 import { startTransition, useEffect, useMemo, useState } from "react";
 import { biologyQuestionSections, questionIsInSection, type QuestionSection } from "@testovnice/question-bank/src/sections";
-import type { ChoiceKey, QuestionItem, SubjectCode } from "@testovnice/question-bank/src/types";
+import type { ChoiceKey, QuestionChoice, QuestionItem, SubjectCode } from "@testovnice/question-bank/src/types";
 
 type Subject = SubjectCode;
 type Mode = "sequence" | "practice" | "exam50" | "mistakes" | "favorites";
@@ -26,6 +26,7 @@ type SessionState = {
   subject: Subject;
   mode: Mode;
   questionIds: string[];
+  choiceOrders?: Record<string, ChoiceKey[]>;
   index: number;
   answers: Record<string, SessionAnswer>;
   sectionId?: string | null;
@@ -153,6 +154,44 @@ function buildQuestionIds(mode: Mode, questionPool: Question[], study: StudyStat
     .map((item) => item.id);
 }
 
+function buildChoiceOrders(questionIds: string[], questionsById: Record<string, Question>) {
+  return questionIds.reduce<Record<string, ChoiceKey[]>>((result, questionId) => {
+    const question = questionsById[questionId];
+    result[questionId] = question ? shuffle(question.choices.map((choice) => choice.key)) : [];
+    return result;
+  }, {});
+}
+
+function hydrateSessionState(value: SessionState, questionsById: Record<string, Question>) {
+  const choiceOrders = { ...(value.choiceOrders ?? {}) };
+  let changed = false;
+
+  for (const questionId of value.questionIds) {
+    if (choiceOrders[questionId]?.length) {
+      continue;
+    }
+
+    const question = questionsById[questionId];
+    choiceOrders[questionId] = question ? shuffle(question.choices.map((choice) => choice.key)) : [];
+    changed = true;
+  }
+
+  return changed ? { ...value, choiceOrders } : value;
+}
+
+function orderQuestionChoices(question: Question, choiceOrder?: ChoiceKey[]) {
+  if (!choiceOrder || choiceOrder.length === 0) {
+    return question.choices;
+  }
+
+  const choicesByKey = new Map(question.choices.map((choice) => [choice.key, choice] as const));
+  const orderedChoices = choiceOrder
+    .map((key) => choicesByKey.get(key))
+    .filter((choice): choice is QuestionChoice => Boolean(choice));
+
+  return orderedChoices.length === question.choices.length ? orderedChoices : question.choices;
+}
+
 export default function QuizClient({ biologyQuestions, chemistryQuestions }: Props) {
   const [subject, setSubject] = useState<Subject>("biology");
   const [view, setView] = useState<View>("home");
@@ -190,14 +229,14 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
       setStudy(JSON.parse(stored) as StudyState);
     }
     if (storedSession) {
-      setSession(JSON.parse(storedSession) as SessionState);
+      setSession(hydrateSessionState(JSON.parse(storedSession) as SessionState, questionsById));
     }
     if (storedUi) {
       const parsed = JSON.parse(storedUi) as { subject?: Subject; view?: View };
       if (parsed.subject) setSubject(parsed.subject);
       if (parsed.view) setView(parsed.view);
     }
-  }, []);
+  }, [questionsById]);
 
   useEffect(() => {
     if (!ready) return;
@@ -225,6 +264,8 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
   const sessionSection = session?.subject === "biology" ? getBiologySection(session.sectionId ?? null) : null;
   const currentQuestionSection =
     currentQuestion?.subject === "biology" ? getBiologySectionForQuestion(currentQuestion.sourceQuestionNumber) : null;
+  const currentQuestionChoices =
+    currentQuestion && session ? orderQuestionChoices(currentQuestion, session.choiceOrders?.[currentQuestion.id]) : [];
 
   const overallStats = useMemo(() => {
     const allStats = Object.values(study.stats);
@@ -294,6 +335,7 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
     const nextSubject = options?.subject ?? subject;
     const nextSectionId = nextSubject === "biology" ? (options?.sectionId ?? null) : null;
     const pool = getQuestionPool(nextSubject, nextSectionId);
+    const questionIds = buildQuestionIds(mode, pool, study);
 
     startTransition(() => {
       setSubject(nextSubject);
@@ -301,7 +343,8 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
         subject: nextSubject,
         mode,
         sectionId: nextSectionId,
-        questionIds: buildQuestionIds(mode, pool, study),
+        questionIds,
+        choiceOrders: buildChoiceOrders(questionIds, questionsById),
         index: 0,
         answers: {},
       });
@@ -649,7 +692,7 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
               <h3>{currentQuestion.prompt}</h3>
 
               <div className="answersList">
-                {currentQuestion.choices.map((choice) => (
+                {currentQuestionChoices.map((choice) => (
                   <button
                     key={choice.key}
                     className={`answerCard ${
