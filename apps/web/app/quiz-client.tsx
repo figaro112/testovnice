@@ -115,7 +115,7 @@ function subjectEmoji(subject: Subject) {
 function modeLabel(mode: Mode) {
   if (mode === "sequence") return "Okruhy";
   if (mode === "practice") return "Denný tréning";
-  if (mode === "exam50") return "Náhodný test 50";
+  if (mode === "exam50") return "Náhodný test 100";
   if (mode === "mistakes") return "Opakovanie chýb";
   return "Obľúbené otázky";
 }
@@ -135,7 +135,7 @@ function buildQuestionIds(mode: Mode, questionPool: Question[], study: StudyStat
 
   if (mode === "exam50") {
     return shuffle(questionPool)
-      .slice(0, Math.min(50, questionPool.length))
+      .slice(0, Math.min(100, questionPool.length))
       .map((item) => item.id);
   }
 
@@ -575,7 +575,7 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
               <button className="featureCard" onClick={() => startSession("exam50")} type="button">
                 <div className="featureIcon">📝</div>
                 <div className="featureContent">
-                  <strong>Náhodný test 50</strong>
+                  <strong>Náhodný test 100</strong>
                   <span>Ostrý blok z náhodne vybraných otázok daného predmetu.</span>
                 </div>
                 <span className="featureArrow">›</span>
