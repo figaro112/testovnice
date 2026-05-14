@@ -1,7 +1,12 @@
 "use client";
 
 import { startTransition, useEffect, useMemo, useState } from "react";
-import { biologyQuestionSections, questionIsInSection, type QuestionSection } from "@testovnice/question-bank/src/sections";
+import {
+  biologyQuestionSections,
+  chemistryQuestionSections,
+  questionIsInSection,
+  type QuestionSection,
+} from "@testovnice/question-bank/src/sections";
 import type { ChoiceKey, QuestionChoice, QuestionItem, SubjectCode } from "@testovnice/question-bank/src/types";
 
 type Subject = SubjectCode;
@@ -46,7 +51,14 @@ const STORAGE_KEY = "testovnice.study.v3";
 const SESSION_KEY = "testovnice.session.v5";
 const UI_KEY = "testovnice.ui.v5";
 
-const biologySectionsById = new Map(biologyQuestionSections.map((section) => [section.id, section]));
+const questionSectionsBySubject: Record<SubjectCode, QuestionSection[]> = {
+  biology: biologyQuestionSections,
+  chemistry: chemistryQuestionSections,
+};
+
+const questionSectionsById = new Map(
+  [...biologyQuestionSections, ...chemistryQuestionSections].map((section) => [section.id, section] as const),
+);
 
 function shuffle<T>(values: T[]) {
   const next = [...values];
@@ -82,16 +94,20 @@ function getStats(state: StudyState, questionId: string): QuestionStats {
   );
 }
 
-function getBiologySection(sectionId?: string | null) {
+function getQuestionSections(subject: Subject) {
+  return questionSectionsBySubject[subject];
+}
+
+function getQuestionSection(sectionId?: string | null) {
   if (!sectionId) {
     return null;
   }
 
-  return biologySectionsById.get(sectionId) ?? null;
+  return questionSectionsById.get(sectionId) ?? null;
 }
 
-function getBiologySectionForQuestion(questionNumber: number) {
-  return biologyQuestionSections.find((section) => questionIsInSection(questionNumber, section)) ?? null;
+function getQuestionSectionForQuestion(subject: Subject, questionNumber: number) {
+  return getQuestionSections(subject).find((section) => questionIsInSection(questionNumber, section)) ?? null;
 }
 
 function formatQuestionRange(section: QuestionSection) {
@@ -218,6 +234,7 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
     () => (subject === "biology" ? biologyStudyQuestions : chemistryStudyQuestions),
     [biologyStudyQuestions, chemistryStudyQuestions, subject],
   );
+  const subjectQuestionSections = useMemo(() => getQuestionSections(subject), [subject]);
 
   useEffect(() => {
     setReady(true);
@@ -261,9 +278,15 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
   const currentAnswer =
     currentQuestion && session ? session.answers[currentQuestion.id] ?? { selected: [], checked: false } : null;
   const currentStats = currentQuestion ? getStats(study, currentQuestion.id) : getStats(study, "");
-  const sessionSection = session?.subject === "biology" ? getBiologySection(session.sectionId ?? null) : null;
+  const sessionSection =
+    session && session.sectionId
+      ? (() => {
+          const section = getQuestionSection(session.sectionId);
+          return section?.subject === session.subject ? section : null;
+        })()
+      : null;
   const currentQuestionSection =
-    currentQuestion?.subject === "biology" ? getBiologySectionForQuestion(currentQuestion.sourceQuestionNumber) : null;
+    currentQuestion ? getQuestionSectionForQuestion(currentQuestion.subject, currentQuestion.sourceQuestionNumber) : null;
   const currentQuestionChoices =
     currentQuestion && session ? orderQuestionChoices(currentQuestion, session.choiceOrders?.[currentQuestion.id]) : [];
 
@@ -322,9 +345,9 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
 
   function getQuestionPool(nextSubject: Subject, sectionId?: string | null) {
     const basePool = nextSubject === "biology" ? biologyStudyQuestions : chemistryStudyQuestions;
-    const section = nextSubject === "biology" ? getBiologySection(sectionId ?? null) : null;
+    const section = getQuestionSection(sectionId ?? null);
 
-    if (!section) {
+    if (!section || section.subject !== nextSubject) {
       return basePool;
     }
 
@@ -333,7 +356,7 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
 
   function startSession(mode: Mode, options?: { subject?: Subject; sectionId?: string | null }) {
     const nextSubject = options?.subject ?? subject;
-    const nextSectionId = nextSubject === "biology" ? (options?.sectionId ?? null) : null;
+    const nextSectionId = options?.sectionId ?? null;
     const pool = getQuestionPool(nextSubject, nextSectionId);
     const questionIds = buildQuestionIds(mode, pool, study);
 
@@ -442,7 +465,8 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
     }
 
     if (view === "session" || view === "results") {
-      if (session?.mode === "sequence" && session.subject === "biology") {
+      if (session?.mode === "sequence" && getQuestionSections(session.subject).length > 0) {
+        setSubject(session.subject);
         setView("pdfSections");
         return;
       }
@@ -552,12 +576,12 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
             </div>
 
             <div className="featureList">
-              {subject === "biology" ? (
+              {subjectQuestionSections.length > 0 ? (
                 <button className="featureCard" onClick={() => setView("pdfSections")} type="button">
                   <div className="featureIcon">🧭</div>
                   <div className="featureContent">
                     <strong>Okruhy</strong>
-                    <span>Rozklikni si biologické okruhy a prejdi otázky presne v poradí, ako sú v PDF.</span>
+                    <span>Rozklikni si okruhy predmetu a prejdi otázky presne v poradí, ako sú v PDF.</span>
                   </div>
                   <span className="featureArrow">›</span>
                 </button>
@@ -605,34 +629,34 @@ export default function QuizClient({ biologyQuestions, chemistryQuestions }: Pro
         {view === "pdfSections" ? (
           <section className="subjectView">
             <div className="subjectHeader">
-              <div className="subjectHeaderIcon">{subjectEmoji("biology")}</div>
+              <div className="subjectHeaderIcon">{subjectEmoji(subject)}</div>
               <div className="subjectHeaderContent">
-                <h2>Biológia - Okruhy</h2>
-                <p>Vyber si typ otázok a spustí sa tréning zaradom presne podľa poradia v PDF.</p>
+                <h2>{subjectLabel(subject)} - Okruhy</h2>
+                <p>Vyber si celok a spustí sa tréning zaradom presne podľa poradia v PDF.</p>
               </div>
             </div>
 
             <section className="sectionPanel">
               <div className="sectionPanelHeader">
                 <div>
-                  <h3>Typy otázok</h3>
-                  <p>Každá karta zodpovedá jednému biologickému okruhu. Po kliknutí pôjdu otázky zaradom podľa PDF.</p>
+                  <h3>Celky</h3>
+                  <p>Každá karta zodpovedá jednému okruhu v PDF. Po kliknutí pôjdu otázky zaradom podľa PDF.</p>
                 </div>
                 <button
                   className="ghostAction"
-                  onClick={() => startSession("sequence", { subject: "biology" })}
+                  onClick={() => startSession("sequence")}
                   type="button"
                 >
-                  Spustiť celú biológiu zaradom
+                  Spustiť všetky otázky zaradom
                 </button>
               </div>
 
               <div className="sectionGrid">
-                {biologyQuestionSections.map((section) => (
+                {subjectQuestionSections.map((section) => (
                   <button
                     key={section.id}
                     className="sectionCard"
-                    onClick={() => startSession("sequence", { subject: "biology", sectionId: section.id })}
+                    onClick={() => startSession("sequence", { sectionId: section.id })}
                     type="button"
                   >
                     <span className="sectionRange">Otázky {formatQuestionRange(section)}</span>

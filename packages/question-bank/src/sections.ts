@@ -53,6 +53,16 @@ export const biologyQuestionSections: QuestionSection[] = [
   },
 ];
 
+export const chemistryQuestionSections: QuestionSection[] = [
+  {
+    id: "biochemistry",
+    subject: "chemistry",
+    label: "Biochémia",
+    fromQuestion: 815,
+    toQuestion: 1092,
+  },
+];
+
 export function questionIsInSection(questionNumber: number, section: QuestionSection) {
   return questionNumber >= section.fromQuestion && questionNumber <= section.toQuestion;
 }
