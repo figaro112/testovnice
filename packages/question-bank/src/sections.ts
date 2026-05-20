@@ -55,6 +55,13 @@ export const biologyQuestionSections: QuestionSection[] = [
 
 export const chemistryQuestionSections: QuestionSection[] = [
   {
+    id: "anorganics",
+    subject: "chemistry",
+    label: "Anorganika",
+    fromQuestion: 1,
+    toQuestion: 354,
+  },
+  {
     id: "biochemistry",
     subject: "chemistry",
     label: "Biochémia",
