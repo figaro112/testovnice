@@ -69,6 +69,20 @@ export const chemistryQuestionSections: QuestionSection[] = [
     toQuestion: 583,
   },
   {
+    id: "organics-2",
+    subject: "chemistry",
+    label: "Organika 2",
+    fromQuestion: 584,
+    toQuestion: 692,
+  },
+  {
+    id: "organics-3",
+    subject: "chemistry",
+    label: "Organika 3",
+    fromQuestion: 693,
+    toQuestion: 814,
+  },
+  {
     id: "biochemistry",
     subject: "chemistry",
     label: "Biochémia",
