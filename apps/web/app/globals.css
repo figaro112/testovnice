@@ -203,6 +203,11 @@ button:focus-visible {
   color: rgba(255, 255, 255, 0.72);
 }
 
+.allMode {
+  border-color: var(--forest-soft);
+  background: var(--forest-soft);
+}
+
 .statsRail {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -606,6 +611,11 @@ button:focus-visible {
 
   .modeCard {
     min-height: 108px;
+  }
+
+  .allMode {
+    grid-column: 1 / -1;
+    min-height: 82px;
   }
 }
 

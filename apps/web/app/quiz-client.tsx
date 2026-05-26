@@ -9,7 +9,7 @@ import {
   type TopicId,
 } from "../lib/psychology-questions";
 
-type Mode = "quick" | "exam" | "mistakes" | "topic";
+type Mode = "quick" | "exam" | "all" | "mistakes" | "topic";
 type View = "home" | "session" | "results";
 
 type QuestionProgress = {
@@ -52,6 +52,7 @@ function shuffle<T>(values: T[]) {
 function modeLabel(mode: Mode) {
   if (mode === "quick") return "Rýchly tréning";
   if (mode === "exam") return "Skúšobný test";
+  if (mode === "all") return "Všetky otázky";
   if (mode === "mistakes") return "Opakovanie chýb";
   return "Vybraný okruh";
 }
@@ -121,9 +122,8 @@ export default function QuizClient({ questions }: Props) {
     const mistakePool = basePool.filter((question) => study[question.id]?.lastResult === "wrong");
     const pool = mode === "mistakes" && mistakePool.length ? mistakePool : basePool;
     const amount = mode === "quick" ? 15 : mode === "exam" ? 25 : pool.length;
-    const questionIds = shuffle(pool)
-      .slice(0, Math.min(amount, pool.length))
-      .map((question) => question.id);
+    const orderedPool = mode === "all" ? pool : shuffle(pool);
+    const questionIds = orderedPool.slice(0, Math.min(amount, pool.length)).map((question) => question.id);
 
     startTransition(() => {
       setSession({ mode, topicId, questionIds, index: 0, answers: {} });
@@ -235,6 +235,10 @@ export default function QuizClient({ questions }: Props) {
               <strong>Opakovanie chýb</strong>
               <span>{progress.mistakes ? `${progress.mistakes} otázok na opravu` : "Aktivuje sa po prvej chybe"}</span>
             </button>
+            <button className="modeCard allMode" onClick={() => startSession("all")} type="button">
+              <strong>Všetky otázky za radom</strong>
+              <span>{questions.length} otázok v poradí od začiatku po koniec</span>
+            </button>
           </section>
 
           <section className="statsRail" aria-label="Pokrok">
@@ -271,7 +275,7 @@ export default function QuizClient({ questions }: Props) {
           </section>
 
           <p className="sourceNote">
-            Obsah: prezentácie 1, 2, 3, 5, 6, 7, 8 a 9 plus zaslané fotografie príkladových testov. Harmonogram a
+            Obsah: prezentácie, Word poznámky k témam 1 až 9 a zaslané fotografie príkladových testov. Harmonogram a
             úvodné stretnutie neobsahovali skúškové učivo pre otázky.
           </p>
         </div>
