@@ -1,12 +1,12 @@
 {
-  "name": "MedTest",
-  "short_name": "MedTest",
-  "description": "Testovnice z mediciny pre iPhone a web.",
+  "name": "PsychoTest - Kvantitatívna analýza",
+  "short_name": "PsychoTest",
+  "description": "Klikací tréningový test z kvantitatívnej analýzy v psychológii.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f5faf8",
-  "theme_color": "#1d9b7c",
+  "background_color": "#f7f4ee",
+  "theme_color": "#184d40",
   "lang": "sk",
   "icons": [
     {
