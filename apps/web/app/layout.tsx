@@ -3,13 +3,13 @@ import type { Metadata, Viewport } from "next";
 import { withBasePath } from "../lib/site";
 
 export const metadata: Metadata = {
-  title: "PsychoTest | Kvantitatívna analýza",
-  description: "Mobilný klikací test z kvantitatívnej analýzy v psychológii.",
+  title: "MedTest",
+  description: "Testovnice z mediciny pre web a iPhone.",
   manifest: withBasePath("/manifest.webmanifest"),
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "PsychoTest",
+    title: "MedTest",
   },
   icons: {
     icon: withBasePath("/icon.svg"),
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#184d40",
+  themeColor: "#1d9b7c",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
